@@ -5,8 +5,9 @@ import { Provider } from 'react-redux';
 import { Router, Route, IndexRoute, browserHistory, hashHistory } from 'react-router';
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
 
-import * as reducers from './reducers';
-import { App, Home, Foo, Bar } from './components';
+import * as reducers from './reducer';
+import { App, About } from './component';
+import Home from './container/Home';
 
 const reducer = combineReducers({
   ...reducers,
@@ -25,10 +26,9 @@ ReactDOM.render(
       <Router history={history}>
         <Route path="/" component={App}>
           <IndexRoute component={Home} />
-          <Route path="/foo" component={Foo}/>
-          <Route path="/bar" component={Bar}/>
+          <Route path="/about" component={About}/>
         </Route>
       </Router>
   </Provider>,
-  document.body
+  document.querySelector('.js-app-wrapper')
 );

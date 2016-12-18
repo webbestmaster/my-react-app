@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, browserHistory } from 'react-router'
+import { Link, hashHistory } from 'react-router'
 
 export default function App({ children }) {
   return (
@@ -9,12 +9,10 @@ export default function App({ children }) {
         {' '}
         <Link to="/">Home</Link>
         {' '}
-        <Link to="/foo">Foo</Link>
-        {' '}
-        <Link to="/bar">Bar</Link>
+        <Link to="/about">About</Link>
       </header>
       <div>
-        <button onClick={() => browserHistory.push('/foo')}>Go to /foo</button>
+        <button onClick={() => hashHistory.push('/about')}>Go to /about</button>
       </div>
       <div style={{ marginTop: '1.5em' }}>{children}</div>
     </div>
