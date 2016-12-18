@@ -7,11 +7,11 @@ export default function App({ children }) {
       <header>
         Links:
         {' '}
-        <Link to="/my-react-app/basic/dist/">Home</Link>
+        <Link to="/my-react-app/app/dist/">Home</Link>
         {' '}
-        <Link to="/my-react-app/basic/dist/foo">Foo</Link>
+        <Link to="/my-react-app/app/dist/foo">Foo</Link>
         {' '}
-        <Link to="/my-react-app/basic/dist/bar">Bar</Link>
+        <Link to="/my-react-app/app/dist/bar">Bar</Link>
       </header>
       <div>
         <button onClick={() => browserHistory.push('/foo')}>Go to /foo</button>
