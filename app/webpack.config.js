@@ -18,6 +18,7 @@ module.exports = {
 
     context: path.join(CWD, 'www'),
     entry: {
+        'common': './common',
         'main': ['./app.js']
     },
     output: {
@@ -64,6 +65,9 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: 'index.html'
+        }),
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'common'
         })
     ]
 
