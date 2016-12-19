@@ -1,38 +1,14 @@
 import React, {Component} from 'react'
-import {connect} from 'react-redux'
-import {increase, decrease} from '../actions/count'
+// import {connect} from 'react-redux'
+// import {increase, decrease} from '../actions/count'
+import { Link, browserHistory } from 'react-router'
 
-class Home extends Component {
-
-    componentWillUnmount() {
-        console.log('componentWillUnmount');
-
-        // setTimeout(function () {
-        //     console.log(cb)
-        // }, 2000);
-
-    }
-
-    componentWillReceiveProps(nextProps) {
-        console.log(nextProps);
-        debugger;
-    }
-
+export default class Home extends Component {
     render() {
-        let props = this.props;
-        return (
-            <div>
-                Some state changes:
-                {props.number}
-                <button onClick={() => props.increase(1)}>Increase</button>
-                <button onClick={() => props.decrease(1)}>Decrease</button>
-            </div>
-        )
+        return <div>
+            <Link to="/demotivators">demotivators</Link>
+            <br/>
+            <Link to="/about">about</Link>
+        </div>;
     }
-
 }
-
-export default connect(
-    state => ({number: state.count.number}),
-    {increase, decrease}
-)(Home)
