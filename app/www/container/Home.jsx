@@ -4,11 +4,29 @@ import React, {Component} from 'react'
 import { Link, browserHistory } from 'react-router'
 
 export default class Home extends Component {
+
     render() {
+
         return <div>
-            <Link to="/demotivators">demotivators</Link>
+
+            <form action="#">
+                <input type="text" placeholder="Search..."/>
+            </form>
+
+            <Link to="/continent/asia">Asia</Link>
             <br/>
-            <Link to="/about">about</Link>
+            <Link to="/continent/europe">Europe</Link>
+            <br/>
+            <Link to="/continent/sa">South America</Link>
+
+            {/*<p>Links below is not used</p>*/}
+
+            {/*<Link to="/demotivators">demotivators</Link>*/}
+            {/*<br/>*/}
+            {/*<Link to="/about">about</Link>*/}
+
         </div>;
+
     }
+
 }
