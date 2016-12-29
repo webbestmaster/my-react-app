@@ -56,7 +56,7 @@ $('.district').each(function () {
 
 });
 
-globalData;
+JSON.stringify(globalData);
 
 
 

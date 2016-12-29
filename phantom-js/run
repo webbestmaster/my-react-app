@@ -1,0 +1,6 @@
+npm i node-phantom
+
+https://github.com/amir20/phantomjs-node
+
+node --harmony-async-await hello2.js
+sudo n -v 7.*

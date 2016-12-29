@@ -1,0 +1,2939 @@
+[
+  {
+    "district-ru": "Австралия и Океания",
+    "country": [
+      {
+        "id": "australia",
+        "name-ru": "Австралия",
+        "currency": [
+          {
+            "abbreviation": "AUD",
+            "name-ru": "Австралийский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/aud"
+          }
+        ],
+        "flagBgP": "0px -180px"
+      },
+      {
+        "id": "american-samoa",
+        "name-ru": "Американское Самоа",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-330px -180px"
+      },
+      {
+        "id": "vanuatu",
+        "name-ru": "Вануату",
+        "currency": [
+          {
+            "abbreviation": "VUV",
+            "name-ru": "Вануатский вату",
+            "link": "http://banknotes.finance.ua/ru/currency/view/vuv"
+          }
+        ],
+        "flagBgP": "-30px -180px"
+      },
+      {
+        "id": "guam",
+        "name-ru": "Гуам",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-510px -180px"
+      },
+      {
+        "id": "kiribati",
+        "name-ru": "Кирибати",
+        "currency": [
+          {
+            "abbreviation": "AUD",
+            "name-ru": "Австралийский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/aud"
+          }
+        ],
+        "flagBgP": "-60px -180px"
+      },
+      {
+        "id": "cocos-islands",
+        "name-ru": "Кокосовые острова",
+        "currency": [
+          {
+            "abbreviation": "AUD",
+            "name-ru": "Австралийский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/aud"
+          }
+        ],
+        "flagBgP": "-240px -330px"
+      },
+      {
+        "id": "marshall-islands",
+        "name-ru": "Маршалловы острова",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-120px -180px"
+      },
+      {
+        "id": "micronesia",
+        "name-ru": "Микронезия",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-150px -180px"
+      },
+      {
+        "id": "nauru",
+        "name-ru": "Науру",
+        "currency": [
+          {
+            "abbreviation": "AUD",
+            "name-ru": "Австралийский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/aud"
+          }
+        ],
+        "flagBgP": "-180px -180px"
+      },
+      {
+        "id": "niue",
+        "name-ru": "Ниуэ",
+        "currency": [
+          {
+            "abbreviation": "NZD",
+            "name-ru": "Новозеландский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/nzd"
+          }
+        ],
+        "flagBgP": "-540px -180px"
+      },
+      {
+        "id": "new-zealand",
+        "name-ru": "Новая Зеландия",
+        "currency": [
+          {
+            "abbreviation": "NZD",
+            "name-ru": "Новозеландский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/nzd"
+          }
+        ],
+        "flagBgP": "-210px -180px"
+      },
+      {
+        "id": "nova-kaledoniya",
+        "name-ru": "Новая Каледония",
+        "currency": [
+          {
+            "abbreviation": "XPF",
+            "name-ru": "Французский тихоокеанский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xpf"
+          }
+        ],
+        "flagBgP": "-570px -180px"
+      },
+      {
+        "id": "norfolk-island",
+        "name-ru": "Норфолк остров",
+        "currency": [
+          {
+            "abbreviation": "AUD",
+            "name-ru": "Австралийский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/aud"
+          }
+        ],
+        "flagBgP": "0px -210px"
+      },
+      {
+        "id": "christmas-island",
+        "name-ru": "Остров Рождества",
+        "currency": [
+          {
+            "abbreviation": "AUD",
+            "name-ru": "Австралийский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/aud"
+          }
+        ],
+        "flagBgP": "-330px -330px"
+      },
+      {
+        "id": "cook-islands",
+        "name-ru": "Острова Кука",
+        "currency": [
+          {
+            "abbreviation": "COK",
+            "name-ru": "Доллар Островов Кука",
+            "link": "http://banknotes.finance.ua/ru/currency/view/cok"
+          },
+          {
+            "abbreviation": "NZD",
+            "name-ru": "Новозеландский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/nzd"
+          }
+        ],
+        "flagBgP": "-480px -180px"
+      },
+      {
+        "id": "pitcairn-islands",
+        "name-ru": "Острова Питкэрн",
+        "currency": [
+          {
+            "abbreviation": "NZD",
+            "name-ru": "Новозеландский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/nzd"
+          }
+        ],
+        "flagBgP": "-60px -210px"
+      },
+      {
+        "id": "palau",
+        "name-ru": "Палау",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-30px -210px"
+      },
+      {
+        "id": "papua-new-guinea",
+        "name-ru": "Папуа Новая Гвинея",
+        "currency": [
+          {
+            "abbreviation": "PGK",
+            "name-ru": "Кина Новой Гвинеи",
+            "link": "http://banknotes.finance.ua/ru/currency/view/pgk"
+          }
+        ],
+        "flagBgP": "-270px -180px"
+      },
+      {
+        "id": "samoa",
+        "name-ru": "Самоа",
+        "currency": [
+          {
+            "abbreviation": "WST",
+            "name-ru": "Самоанская тала",
+            "link": "http://banknotes.finance.ua/ru/currency/view/wst"
+          }
+        ],
+        "flagBgP": "-300px -180px"
+      },
+      {
+        "id": "northern-mariana-islands",
+        "name-ru": "Северные Марианские острова",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-90px -180px"
+      },
+      {
+        "id": "solomon-islands",
+        "name-ru": "Соломоновы острова",
+        "currency": [
+          {
+            "abbreviation": "SBD",
+            "name-ru": "Доллар Соломоновых Островов",
+            "link": "http://banknotes.finance.ua/ru/currency/view/sbd"
+          }
+        ],
+        "flagBgP": "-360px -180px"
+      },
+      {
+        "id": "tokelau",
+        "name-ru": "Токелау",
+        "currency": [
+          {
+            "abbreviation": "NZD",
+            "name-ru": "Новозеландский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/nzd"
+          }
+        ],
+        "flagBgP": "-120px -210px"
+      },
+      {
+        "id": "tonga",
+        "name-ru": "Тонга",
+        "currency": [
+          {
+            "abbreviation": "TOP",
+            "name-ru": "Тонганская паанга",
+            "link": "http://banknotes.finance.ua/ru/currency/view/top"
+          }
+        ],
+        "flagBgP": "-390px -180px"
+      },
+      {
+        "id": "tuvalu",
+        "name-ru": "Тувалу",
+        "currency": [
+          {
+            "abbreviation": "AUD",
+            "name-ru": "Австралийский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/aud"
+          }
+        ],
+        "flagBgP": "-420px -180px"
+      },
+      {
+        "id": "wallis-and-futuna",
+        "name-ru": "Уоллис и Футуна",
+        "currency": [
+          {
+            "abbreviation": "XPF",
+            "name-ru": "Французский тихоокеанский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xpf"
+          }
+        ],
+        "flagBgP": "-150px -210px"
+      },
+      {
+        "id": "fijian",
+        "name-ru": "Фиджи",
+        "currency": [
+          {
+            "abbreviation": "FJD",
+            "name-ru": "Доллар Фиджи",
+            "link": "http://banknotes.finance.ua/ru/currency/view/fjd"
+          }
+        ],
+        "flagBgP": "-450px -180px"
+      },
+      {
+        "id": "french-polynesia",
+        "name-ru": "Французская Полинезия",
+        "currency": [
+          {
+            "abbreviation": "XPF",
+            "name-ru": "Французский тихоокеанский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xpf"
+          }
+        ],
+        "flagBgP": "-90px -210px"
+      }
+    ]
+  },
+  {
+    "district-ru": "Европа",
+    "country": [
+      {
+        "id": "austria",
+        "name-ru": "Австрия",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "0px -30px"
+      },
+      {
+        "id": "aland-islands",
+        "name-ru": "Аландские острова",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-300px -90px"
+      },
+      {
+        "id": "albania",
+        "name-ru": "Албания",
+        "currency": [
+          {
+            "abbreviation": "ALL",
+            "name-ru": "Албанский лек",
+            "link": "http://banknotes.finance.ua/ru/currency/view/all"
+          }
+        ],
+        "flagBgP": "-30px -30px"
+      },
+      {
+        "id": "andorra",
+        "name-ru": "Андорра",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-60px -30px"
+      },
+      {
+        "id": "belarus",
+        "name-ru": "Беларусь",
+        "currency": [
+          {
+            "abbreviation": "BYR",
+            "name-ru": "Беларуский рубль",
+            "link": "http://banknotes.finance.ua/ru/currency/view/byr"
+          },
+          {
+            "abbreviation": "BYN",
+            "name-ru": "Беларуский рубль",
+            "link": "http://banknotes.finance.ua/ru/currency/view/byn"
+          }
+        ],
+        "flagBgP": "-90px -30px"
+      },
+      {
+        "id": "belgium",
+        "name-ru": "Бельгия",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-120px -30px"
+      },
+      {
+        "id": "bulgaria",
+        "name-ru": "Болгария",
+        "currency": [
+          {
+            "abbreviation": "BGN",
+            "name-ru": "Болгарский лев",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bgn"
+          }
+        ],
+        "flagBgP": "-150px -30px"
+      },
+      {
+        "id": "bosnia-and-herzegovina",
+        "name-ru": "Босния и Герцеговина",
+        "currency": [
+          {
+            "abbreviation": "BAM",
+            "name-ru": "Конвертируемая марка",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bam"
+          }
+        ],
+        "flagBgP": "-180px -30px"
+      },
+      {
+        "id": "vatican",
+        "name-ru": "Ватикан",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-210px -30px"
+      },
+      {
+        "id": "uk",
+        "name-ru": "Великобритания",
+        "currency": [
+          {
+            "abbreviation": "GBP",
+            "name-ru": "Английский фунт стерлингов",
+            "link": "http://banknotes.finance.ua/ru/currency/view/gbp"
+          }
+        ],
+        "flagBgP": "-240px -30px"
+      },
+      {
+        "id": "hungary",
+        "name-ru": "Венгрия",
+        "currency": [
+          {
+            "abbreviation": "HUF",
+            "name-ru": "Венгерский Форинт",
+            "link": "http://banknotes.finance.ua/ru/currency/view/huf"
+          }
+        ],
+        "flagBgP": "-270px -30px"
+      },
+      {
+        "id": "germany",
+        "name-ru": "Германия",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-300px -30px"
+      },
+      {
+        "id": "guernsey",
+        "name-ru": "Гернси",
+        "currency": [
+          {
+            "abbreviation": "GGP",
+            "name-ru": "Гернсийский фунт",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ggp"
+          }
+        ],
+        "flagBgP": "-210px -90px"
+      },
+      {
+        "id": "gibraltar",
+        "name-ru": "Гибралтар",
+        "currency": [
+          {
+            "abbreviation": "GIP",
+            "name-ru": "Гибралтарский фунт",
+            "link": "http://banknotes.finance.ua/ru/currency/view/gip"
+          }
+        ],
+        "flagBgP": "-240px -90px"
+      },
+      {
+        "id": "greece",
+        "name-ru": "Греция",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-330px -30px"
+      },
+      {
+        "id": "georgia",
+        "name-ru": "Грузия",
+        "currency": [
+          {
+            "abbreviation": "GEL",
+            "name-ru": "Грузинский лари",
+            "link": "http://banknotes.finance.ua/ru/currency/view/gel"
+          }
+        ],
+        "flagBgP": "-30px -300px"
+      },
+      {
+        "id": "denmark",
+        "name-ru": "Дания",
+        "currency": [
+          {
+            "abbreviation": "DKK",
+            "name-ru": "Датская крона",
+            "link": "http://banknotes.finance.ua/ru/currency/view/dkk"
+          }
+        ],
+        "flagBgP": "-360px -30px"
+      },
+      {
+        "id": "jersey",
+        "name-ru": "Джерси",
+        "currency": [
+          {
+            "abbreviation": "JEP",
+            "name-ru": "Джерсийский фунт",
+            "link": "http://banknotes.finance.ua/ru/currency/view/jep"
+          }
+        ],
+        "flagBgP": "-270px -90px"
+      },
+      {
+        "id": "ireland",
+        "name-ru": "Ирландия",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-390px -30px"
+      },
+      {
+        "id": "iceland",
+        "name-ru": "Исландия",
+        "currency": [
+          {
+            "abbreviation": "ISK",
+            "name-ru": "Исландская крона",
+            "link": "http://banknotes.finance.ua/ru/currency/view/isk"
+          }
+        ],
+        "flagBgP": "-420px -30px"
+      },
+      {
+        "id": "spain",
+        "name-ru": "Испания",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-450px -30px"
+      },
+      {
+        "id": "italy",
+        "name-ru": "Италия",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-480px -30px"
+      },
+      {
+        "id": "latvia",
+        "name-ru": "Латвия",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-540px -30px"
+      },
+      {
+        "id": "lithuania",
+        "name-ru": "Литва",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-570px -30px"
+      },
+      {
+        "id": "liechtenstein",
+        "name-ru": "Лихтенштейн",
+        "currency": [
+          {
+            "abbreviation": "CHF",
+            "name-ru": "Швейцарский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/chf"
+          }
+        ],
+        "flagBgP": "0px -60px"
+      },
+      {
+        "id": "luxembourg",
+        "name-ru": "Люксембург",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-30px -60px"
+      },
+      {
+        "id": "macedonia",
+        "name-ru": "Македония",
+        "currency": [
+          {
+            "abbreviation": "MKD",
+            "name-ru": "Македонский денар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mkd"
+          }
+        ],
+        "flagBgP": "-60px -60px"
+      },
+      {
+        "id": "moldova",
+        "name-ru": "Молдавия",
+        "currency": [
+          {
+            "abbreviation": "MDL",
+            "name-ru": "Молдавский лей",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mdl"
+          }
+        ],
+        "flagBgP": "-120px -60px"
+      },
+      {
+        "id": "netherlands",
+        "name-ru": "Нидерланды",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-180px -60px"
+      },
+      {
+        "id": "norway",
+        "name-ru": "Норвегия",
+        "currency": [
+          {
+            "abbreviation": "NOK",
+            "name-ru": "Норвежская крона",
+            "link": "http://banknotes.finance.ua/ru/currency/view/nok"
+          }
+        ],
+        "flagBgP": "-210px -60px"
+      },
+      {
+        "id": "isle-man",
+        "name-ru": "Остров Мэн",
+        "currency": [
+          {
+            "abbreviation": "GBP",
+            "name-ru": "Английский фунт стерлингов",
+            "link": "http://banknotes.finance.ua/ru/currency/view/gbp"
+          }
+        ],
+        "flagBgP": "-390px -90px"
+      },
+      {
+        "id": "poland",
+        "name-ru": "Польша",
+        "currency": [
+          {
+            "abbreviation": "PLN",
+            "name-ru": "Польский злотый",
+            "link": "http://banknotes.finance.ua/ru/currency/view/pln"
+          }
+        ],
+        "flagBgP": "-240px -60px"
+      },
+      {
+        "id": "portugal",
+        "name-ru": "Португалия",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-270px -60px"
+      },
+      {
+        "id": "cyprus-republic",
+        "name-ru": "Республика Кипр",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-510px -30px"
+      },
+      {
+        "id": "republic-kosova",
+        "name-ru": "Республика Косово",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-360px -90px"
+      },
+      {
+        "id": "russia",
+        "name-ru": "Россия",
+        "currency": [
+          {
+            "abbreviation": "RUB",
+            "name-ru": "Российский рубль",
+            "link": "http://banknotes.finance.ua/ru/currency/view/rub"
+          }
+        ],
+        "flagBgP": "-300px -60px"
+      },
+      {
+        "id": "romania",
+        "name-ru": "Румыния",
+        "currency": [
+          {
+            "abbreviation": "RON",
+            "name-ru": "Новый румынский лей",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ron"
+          }
+        ],
+        "flagBgP": "-330px -60px"
+      },
+      {
+        "id": "san-marino",
+        "name-ru": "Сан-Марино",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-360px -60px"
+      },
+      {
+        "id": "serbia",
+        "name-ru": "Сербия",
+        "currency": [
+          {
+            "abbreviation": "RSD",
+            "name-ru": "Сербский динар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/rsd"
+          }
+        ],
+        "flagBgP": "-390px -60px"
+      },
+      {
+        "id": "slovakia",
+        "name-ru": "Словакия",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-420px -60px"
+      },
+      {
+        "id": "slovenia",
+        "name-ru": "Словения",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-450px -60px"
+      },
+      {
+        "id": "ukraine",
+        "name-ru": "Украина",
+        "currency": [
+          {
+            "abbreviation": "UAH",
+            "name-ru": "Украинская гривна",
+            "link": "http://banknotes.finance.ua/ru/currency/view/uah"
+          }
+        ],
+        "flagBgP": "-510px -60px"
+      },
+      {
+        "id": "faroe-islands",
+        "name-ru": "Фарерские острова",
+        "currency": [
+          {
+            "abbreviation": "DKK",
+            "name-ru": "Датская крона",
+            "link": "http://banknotes.finance.ua/ru/currency/view/dkk"
+          }
+        ],
+        "flagBgP": "-420px -90px"
+      },
+      {
+        "id": "finland",
+        "name-ru": "Финляндия",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-540px -60px"
+      },
+      {
+        "id": "france",
+        "name-ru": "Франция",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-570px -60px"
+      },
+      {
+        "id": "croatia",
+        "name-ru": "Хорватия",
+        "currency": [
+          {
+            "abbreviation": "HRK",
+            "name-ru": "Хорватская куна",
+            "link": "http://banknotes.finance.ua/ru/currency/view/hrk"
+          }
+        ],
+        "flagBgP": "0px -90px"
+      },
+      {
+        "id": "czech",
+        "name-ru": "Чехия",
+        "currency": [
+          {
+            "abbreviation": "CZK",
+            "name-ru": "Чешская крона",
+            "link": "http://banknotes.finance.ua/ru/currency/view/czk"
+          }
+        ],
+        "flagBgP": "-60px -90px"
+      },
+      {
+        "id": "switzerland",
+        "name-ru": "Швейцария",
+        "currency": [
+          {
+            "abbreviation": "CHF",
+            "name-ru": "Швейцарский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/chf"
+          }
+        ],
+        "flagBgP": "-90px -90px"
+      },
+      {
+        "id": "sweden",
+        "name-ru": "Швеция",
+        "currency": [
+          {
+            "abbreviation": "SEK",
+            "name-ru": "Шведская крона",
+            "link": "http://banknotes.finance.ua/ru/currency/view/sek"
+          }
+        ],
+        "flagBgP": "-120px -90px"
+      },
+      {
+        "id": "estonia",
+        "name-ru": "Эстония",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-150px -90px"
+      }
+    ]
+  },
+  {
+    "district-ru": "Азия",
+    "country": [
+      {
+        "id": "azerbaijan",
+        "name-ru": "Азербайджан",
+        "currency": [
+          {
+            "abbreviation": "AZN",
+            "name-ru": "Азербайджанский манат",
+            "link": "http://banknotes.finance.ua/ru/currency/view/azn"
+          }
+        ],
+        "flagBgP": "0px -270px"
+      },
+      {
+        "id": "armenia",
+        "name-ru": "Армения",
+        "currency": [
+          {
+            "abbreviation": "AMD",
+            "name-ru": "Армянский драм",
+            "link": "http://banknotes.finance.ua/ru/currency/view/amd"
+          }
+        ],
+        "flagBgP": "-30px -270px"
+      },
+      {
+        "id": "afghanistan",
+        "name-ru": "Афганистан",
+        "currency": [
+          {
+            "abbreviation": "AFN",
+            "name-ru": "Афганский афгани",
+            "link": "http://banknotes.finance.ua/ru/currency/view/afn"
+          }
+        ],
+        "flagBgP": "-150px -300px"
+      },
+      {
+        "id": "bangladesh",
+        "name-ru": "Бангладеш",
+        "currency": [
+          {
+            "abbreviation": "BDT",
+            "name-ru": "Бангладешская така",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bdt"
+          }
+        ],
+        "flagBgP": "-210px -300px"
+      },
+      {
+        "id": "bahrain",
+        "name-ru": "Бахрейн",
+        "currency": [
+          {
+            "abbreviation": "BHD",
+            "name-ru": "Бахрейнский динар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bhd"
+          }
+        ],
+        "flagBgP": "-240px -300px"
+      },
+      {
+        "id": "brunei",
+        "name-ru": "Бруней",
+        "currency": [
+          {
+            "abbreviation": "BND",
+            "name-ru": "Брунейский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bnd"
+          }
+        ],
+        "flagBgP": "-270px -300px"
+      },
+      {
+        "id": "butane",
+        "name-ru": "Бутан",
+        "currency": [
+          {
+            "abbreviation": "BTN",
+            "name-ru": "Рупия Бутана",
+            "link": "http://banknotes.finance.ua/ru/currency/view/btn"
+          }
+        ],
+        "flagBgP": "-300px -300px"
+      },
+      {
+        "id": "east-timor",
+        "name-ru": "Восточный Тимор",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-120px -330px"
+      },
+      {
+        "id": "vietnam",
+        "name-ru": "Вьетнам",
+        "currency": [
+          {
+            "abbreviation": "VND",
+            "name-ru": "Вьетнамский донг",
+            "link": "http://banknotes.finance.ua/ru/currency/view/vnd"
+          }
+        ],
+        "flagBgP": "-120px -300px"
+      },
+      {
+        "id": "hong-kong",
+        "name-ru": "Гонконг",
+        "currency": [
+          {
+            "abbreviation": "HKD",
+            "name-ru": "Гонконгский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/hkd"
+          }
+        ],
+        "flagBgP": "-240px -270px"
+      },
+      {
+        "id": "israel",
+        "name-ru": "Израиль",
+        "currency": [
+          {
+            "abbreviation": "ILS",
+            "name-ru": "Новый израильский шекель",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ils"
+          }
+        ],
+        "flagBgP": "-270px -270px"
+      },
+      {
+        "id": "india",
+        "name-ru": "Индия",
+        "currency": [
+          {
+            "abbreviation": "INR",
+            "name-ru": "Индийская рупия",
+            "link": "http://banknotes.finance.ua/ru/currency/view/inr"
+          }
+        ],
+        "flagBgP": "-300px -270px"
+      },
+      {
+        "id": "indonesia",
+        "name-ru": "Индонезия",
+        "currency": [
+          {
+            "abbreviation": "IDR",
+            "name-ru": "Индонезийская рупия",
+            "link": "http://banknotes.finance.ua/ru/currency/view/idr"
+          }
+        ],
+        "flagBgP": "-180px -300px"
+      },
+      {
+        "id": "jordan",
+        "name-ru": "Иордания",
+        "currency": [
+          {
+            "abbreviation": "JOD",
+            "name-ru": "Иорданский динар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/jod"
+          }
+        ],
+        "flagBgP": "-330px -300px"
+      },
+      {
+        "id": "iraq",
+        "name-ru": "Ирак",
+        "currency": [
+          {
+            "abbreviation": "IQD",
+            "name-ru": "Иракский динар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/iqd"
+          }
+        ],
+        "flagBgP": "-330px -270px"
+      },
+      {
+        "id": "iran",
+        "name-ru": "Иран",
+        "currency": [
+          {
+            "abbreviation": "IRR",
+            "name-ru": "Иранский риал",
+            "link": "http://banknotes.finance.ua/ru/currency/view/irr"
+          }
+        ],
+        "flagBgP": "-360px -270px"
+      },
+      {
+        "id": "yemen",
+        "name-ru": "Йемена",
+        "currency": [
+          {
+            "abbreviation": "YER",
+            "name-ru": "Йеменский риал",
+            "link": "http://banknotes.finance.ua/ru/currency/view/yer"
+          }
+        ],
+        "flagBgP": "-360px -300px"
+      },
+      {
+        "id": "kazakhstan",
+        "name-ru": "Казахстан",
+        "currency": [
+          {
+            "abbreviation": "KZT",
+            "name-ru": "Казахстанский тенге",
+            "link": "http://banknotes.finance.ua/ru/currency/view/kzt"
+          }
+        ],
+        "flagBgP": "-60px -270px"
+      },
+      {
+        "id": "cambodia",
+        "name-ru": "Камбоджа",
+        "currency": [
+          {
+            "abbreviation": "KHR",
+            "name-ru": "Камбоджийский риель",
+            "link": "http://banknotes.finance.ua/ru/currency/view/khr"
+          }
+        ],
+        "flagBgP": "-390px -300px"
+      },
+      {
+        "id": "qatar",
+        "name-ru": "Катар",
+        "currency": [
+          {
+            "abbreviation": "QAR",
+            "name-ru": "Катарский риал",
+            "link": "http://banknotes.finance.ua/ru/currency/view/qar"
+          }
+        ],
+        "flagBgP": "-420px -300px"
+      },
+      {
+        "id": "china",
+        "name-ru": "Китай",
+        "currency": [
+          {
+            "abbreviation": "CNY",
+            "name-ru": "Юань Женьминьби (Китай)",
+            "link": "http://banknotes.finance.ua/ru/currency/view/cny"
+          }
+        ],
+        "flagBgP": "-90px -270px"
+      },
+      {
+        "id": "dprk",
+        "name-ru": "КНДР",
+        "currency": [
+          {
+            "abbreviation": "KPW",
+            "name-ru": "Северокорейская вона",
+            "link": "http://banknotes.finance.ua/ru/currency/view/kpw"
+          }
+        ],
+        "flagBgP": "-450px -300px"
+      },
+      {
+        "id": "kuwait",
+        "name-ru": "Кувейт",
+        "currency": [
+          {
+            "abbreviation": "KWD",
+            "name-ru": "Кувейтский динар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/kwd"
+          }
+        ],
+        "flagBgP": "-450px -270px"
+      },
+      {
+        "id": "kyrgyzstan",
+        "name-ru": "Кыргызстан",
+        "currency": [
+          {
+            "abbreviation": "KGS",
+            "name-ru": "Кыргызский сом",
+            "link": "http://banknotes.finance.ua/ru/currency/view/kgs"
+          }
+        ],
+        "flagBgP": "-390px -270px"
+      },
+      {
+        "id": "laos",
+        "name-ru": "Лаос",
+        "currency": [
+          {
+            "abbreviation": "LAK",
+            "name-ru": "Лаосский кип",
+            "link": "http://banknotes.finance.ua/ru/currency/view/lak"
+          }
+        ],
+        "flagBgP": "-480px -300px"
+      },
+      {
+        "id": "lebanon",
+        "name-ru": "Ливан",
+        "currency": [
+          {
+            "abbreviation": "LBP",
+            "name-ru": "Ливанский фунт",
+            "link": "http://banknotes.finance.ua/ru/currency/view/lbp"
+          }
+        ],
+        "flagBgP": "-480px -270px"
+      },
+      {
+        "id": "macau",
+        "name-ru": "Макао",
+        "currency": [
+          {
+            "abbreviation": "MOP",
+            "name-ru": "Патака Макао",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mop"
+          }
+        ],
+        "flagBgP": "-420px -330px"
+      },
+      {
+        "id": "malaysia",
+        "name-ru": "Малайзия",
+        "currency": [
+          {
+            "abbreviation": "MYR",
+            "name-ru": "Малайзийский ринггит",
+            "link": "http://banknotes.finance.ua/ru/currency/view/myr"
+          }
+        ],
+        "flagBgP": "-510px -300px"
+      },
+      {
+        "id": "maldives",
+        "name-ru": "Мальдивы",
+        "currency": [
+          {
+            "abbreviation": "MVR",
+            "name-ru": "Мальдивская руфия",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mvr"
+          }
+        ],
+        "flagBgP": "-540px -300px"
+      },
+      {
+        "id": "mongolia",
+        "name-ru": "Монголия",
+        "currency": [
+          {
+            "abbreviation": "MNT",
+            "name-ru": "Монгольский тугрик",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mnt"
+          }
+        ],
+        "flagBgP": "-510px -270px"
+      },
+      {
+        "id": "myanmar",
+        "name-ru": "Мьянма",
+        "currency": [
+          {
+            "abbreviation": "MMK",
+            "name-ru": "Мьянманский кьят",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mmk"
+          }
+        ],
+        "flagBgP": "-570px -300px"
+      },
+      {
+        "id": "nepal",
+        "name-ru": "Непал",
+        "currency": [
+          {
+            "abbreviation": "NPR",
+            "name-ru": "Непальская рупия",
+            "link": "http://banknotes.finance.ua/ru/currency/view/npr"
+          }
+        ],
+        "flagBgP": "0px -330px"
+      },
+      {
+        "id": "united-arab-emirates",
+        "name-ru": "Объединённые Арабские Эмираты",
+        "currency": [
+          {
+            "abbreviation": "AED",
+            "name-ru": "Дирхам ОАЭ",
+            "link": "http://banknotes.finance.ua/ru/currency/view/aed"
+          }
+        ],
+        "flagBgP": "-30px -330px"
+      },
+      {
+        "id": "oman",
+        "name-ru": "Оман",
+        "currency": [
+          {
+            "abbreviation": "OMR",
+            "name-ru": "Оманский риал",
+            "link": "http://banknotes.finance.ua/ru/currency/view/omr"
+          }
+        ],
+        "flagBgP": "-60px -330px"
+      },
+      {
+        "id": "pakistan",
+        "name-ru": "Пакистан",
+        "currency": [
+          {
+            "abbreviation": "PKR",
+            "name-ru": "Пакистанская рупия",
+            "link": "http://banknotes.finance.ua/ru/currency/view/pkr"
+          }
+        ],
+        "flagBgP": "-540px -270px"
+      },
+      {
+        "id": "palestine",
+        "name-ru": "Палестина",
+        "currency": [
+          {
+            "abbreviation": "ILS",
+            "name-ru": "Новый израильский шекель",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ils"
+          }
+        ],
+        "flagBgP": "-300px -330px"
+      },
+      {
+        "id": "saudi-arabia",
+        "name-ru": "Саудовская Аравия",
+        "currency": [
+          {
+            "abbreviation": "SAR",
+            "name-ru": "Саудовский риял",
+            "link": "http://banknotes.finance.ua/ru/currency/view/sar"
+          }
+        ],
+        "flagBgP": "-570px -270px"
+      },
+      {
+        "id": "northern-cyprus",
+        "name-ru": "Северный Кипр",
+        "currency": [
+          {
+            "abbreviation": "TRY",
+            "name-ru": "Турецкая лира",
+            "link": "http://banknotes.finance.ua/ru/currency/view/try"
+          }
+        ],
+        "flagBgP": "-330px -90px"
+      },
+      {
+        "id": "singapore",
+        "name-ru": "Сингапур",
+        "currency": [
+          {
+            "abbreviation": "SGD",
+            "name-ru": "Сингапурский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/sgd"
+          }
+        ],
+        "flagBgP": "-120px -270px"
+      },
+      {
+        "id": "syria",
+        "name-ru": "Сирия",
+        "currency": [
+          {
+            "abbreviation": "SYP",
+            "name-ru": "Сирийский фунт",
+            "link": "http://banknotes.finance.ua/ru/currency/view/syp"
+          }
+        ],
+        "flagBgP": "0px -300px"
+      },
+      {
+        "id": "tajikistan",
+        "name-ru": "Таджикистан",
+        "currency": [
+          {
+            "abbreviation": "TJS",
+            "name-ru": "Таджикский сомони",
+            "link": "http://banknotes.finance.ua/ru/currency/view/tjs"
+          }
+        ],
+        "flagBgP": "-60px -300px"
+      },
+      {
+        "id": "thailand",
+        "name-ru": "Таиланд",
+        "currency": [
+          {
+            "abbreviation": "THB",
+            "name-ru": "Тайский бат",
+            "link": "http://banknotes.finance.ua/ru/currency/view/thb"
+          }
+        ],
+        "flagBgP": "-90px -330px"
+      },
+      {
+        "id": "taiwan",
+        "name-ru": "Тайвань",
+        "currency": [
+          {
+            "abbreviation": "TWD",
+            "name-ru": "Новый тайваньский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/twd"
+          }
+        ],
+        "flagBgP": "-90px -300px"
+      },
+      {
+        "id": "tunisia",
+        "name-ru": "Тунис",
+        "currency": [
+          {
+            "abbreviation": "TND",
+            "name-ru": "Тунисский динар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/tnd"
+          }
+        ],
+        "flagBgP": "-180px -630px"
+      },
+      {
+        "id": "turkmenistan",
+        "name-ru": "Туркменистан",
+        "currency": [
+          {
+            "abbreviation": "TMT",
+            "name-ru": "Туркменский манат",
+            "link": "http://banknotes.finance.ua/ru/currency/view/tmt"
+          }
+        ],
+        "flagBgP": "-150px -270px"
+      },
+      {
+        "id": "turkey",
+        "name-ru": "Турция",
+        "currency": [
+          {
+            "abbreviation": "TRY",
+            "name-ru": "Турецкая лира",
+            "link": "http://banknotes.finance.ua/ru/currency/view/try"
+          }
+        ],
+        "flagBgP": "-480px -60px"
+      },
+      {
+        "id": "uzbekistan",
+        "name-ru": "Узбекистан",
+        "currency": [
+          {
+            "abbreviation": "UZS",
+            "name-ru": "Узбекский сум",
+            "link": "http://banknotes.finance.ua/ru/currency/view/uzs"
+          }
+        ],
+        "flagBgP": "-180px -270px"
+      },
+      {
+        "id": "philippines",
+        "name-ru": "Филиппины",
+        "currency": [
+          {
+            "abbreviation": "PHP",
+            "name-ru": "Филиппинский песо",
+            "link": "http://banknotes.finance.ua/ru/currency/view/php"
+          }
+        ],
+        "flagBgP": "-150px -330px"
+      },
+      {
+        "id": "sri-lanka",
+        "name-ru": "Шри-Ланка",
+        "currency": [
+          {
+            "abbreviation": "LKR",
+            "name-ru": "Шри-ланкийская рупия",
+            "link": "http://banknotes.finance.ua/ru/currency/view/lkr"
+          }
+        ],
+        "flagBgP": "-180px -330px"
+      },
+      {
+        "id": "south-korea",
+        "name-ru": "Южная Корея",
+        "currency": [
+          {
+            "abbreviation": "KRW",
+            "name-ru": "Южнокорейская вона",
+            "link": "http://banknotes.finance.ua/ru/currency/view/krw"
+          }
+        ],
+        "flagBgP": "-420px -270px"
+      },
+      {
+        "id": "japan",
+        "name-ru": "Япония",
+        "currency": [
+          {
+            "abbreviation": "JPY",
+            "name-ru": "Японская иена",
+            "link": "http://banknotes.finance.ua/ru/currency/view/jpy"
+          }
+        ],
+        "flagBgP": "-210px -270px"
+      }
+    ]
+  },
+  {
+    "district-ru": "Африка",
+    "country": [
+      {
+        "id": "algeria",
+        "name-ru": "Алжир",
+        "currency": [
+          {
+            "abbreviation": "DZD",
+            "name-ru": "Алжирский динар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/dzd"
+          }
+        ],
+        "flagBgP": "-300px -570px"
+      },
+      {
+        "id": "angola",
+        "name-ru": "Ангола",
+        "currency": [
+          {
+            "abbreviation": "AOA",
+            "name-ru": "Ангольская кванза",
+            "link": "http://banknotes.finance.ua/ru/currency/view/aoa"
+          }
+        ],
+        "flagBgP": "-330px -570px"
+      },
+      {
+        "id": "benin",
+        "name-ru": "Бенин",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-60px -570px"
+      },
+      {
+        "id": "botswana",
+        "name-ru": "Ботсвана",
+        "currency": [
+          {
+            "abbreviation": "BWP",
+            "name-ru": "Ботсванская пула",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bwp"
+          }
+        ],
+        "flagBgP": "-360px -570px"
+      },
+      {
+        "id": "burkina-faso",
+        "name-ru": "Буркина-Фасо",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-90px -570px"
+      },
+      {
+        "id": "burundi",
+        "name-ru": "Бурунди",
+        "currency": [
+          {
+            "abbreviation": "BIF",
+            "name-ru": "Бурундийский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bif"
+          }
+        ],
+        "flagBgP": "-390px -570px"
+      },
+      {
+        "id": "gabon",
+        "name-ru": "Габон",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-330px -600px"
+      },
+      {
+        "id": "gambia",
+        "name-ru": "Гамбия",
+        "currency": [
+          {
+            "abbreviation": "GMD",
+            "name-ru": "Гамбийский даласи",
+            "link": "http://banknotes.finance.ua/ru/currency/view/gmd"
+          }
+        ],
+        "flagBgP": "-420px -570px"
+      },
+      {
+        "id": "ghana",
+        "name-ru": "Гана",
+        "currency": [
+          {
+            "abbreviation": "GHS",
+            "name-ru": "Ганский седи",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ghs"
+          }
+        ],
+        "flagBgP": "-450px -570px"
+      },
+      {
+        "id": "guinea",
+        "name-ru": "Гвинея",
+        "currency": [
+          {
+            "abbreviation": "GNF",
+            "name-ru": "Гвинейский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/gnf"
+          }
+        ],
+        "flagBgP": "-480px -630px"
+      },
+      {
+        "id": "guinea-bissau",
+        "name-ru": "Гвинея-Бисау",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-120px -570px"
+      },
+      {
+        "id": "democratic-respublika-congo",
+        "name-ru": "Демократическая Республика Конго",
+        "currency": [
+          {
+            "abbreviation": "CDF",
+            "name-ru": "Конголезский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/cdf"
+          }
+        ],
+        "flagBgP": "-30px -600px"
+      },
+      {
+        "id": "djibouti",
+        "name-ru": "Джибути",
+        "currency": [
+          {
+            "abbreviation": "DJF",
+            "name-ru": "Джибутийский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/djf"
+          }
+        ],
+        "flagBgP": "-480px -570px"
+      },
+      {
+        "id": "egypt",
+        "name-ru": "Егиепт",
+        "currency": [
+          {
+            "abbreviation": "EGP",
+            "name-ru": "Египетский фунт",
+            "link": "http://banknotes.finance.ua/ru/currency/view/egp"
+          }
+        ],
+        "flagBgP": "0px -570px"
+      },
+      {
+        "id": "zambia",
+        "name-ru": "Замбия",
+        "currency": [
+          {
+            "abbreviation": "ZMW",
+            "name-ru": "Замбийская квача",
+            "link": "http://banknotes.finance.ua/ru/currency/view/zmw"
+          }
+        ],
+        "flagBgP": "-510px -570px"
+      },
+      {
+        "id": "western-sahara",
+        "name-ru": "Западная Сахара",
+        "currency": [
+          {
+            "abbreviation": "MAD",
+            "name-ru": "Марокканский дирхам",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mad"
+          }
+        ],
+        "flagBgP": "-510px -630px"
+      },
+      {
+        "id": "zimbabwe",
+        "name-ru": "Зимбабве",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-360px -600px"
+      },
+      {
+        "id": "cape-verde",
+        "name-ru": "Кабо-Верде",
+        "currency": [
+          {
+            "abbreviation": "CVE",
+            "name-ru": "Эскудо Кабо-Верде",
+            "link": "http://banknotes.finance.ua/ru/currency/view/cve"
+          }
+        ],
+        "flagBgP": "-540px -570px"
+      },
+      {
+        "id": "cameroon",
+        "name-ru": "Камерун",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-420px -600px"
+      },
+      {
+        "id": "kenya",
+        "name-ru": "Кения",
+        "currency": [
+          {
+            "abbreviation": "KES",
+            "name-ru": "Кенийский шиллинг",
+            "link": "http://banknotes.finance.ua/ru/currency/view/kes"
+          }
+        ],
+        "flagBgP": "-570px -570px"
+      },
+      {
+        "id": "comoros",
+        "name-ru": "Коморские острова",
+        "currency": [
+          {
+            "abbreviation": "KMF",
+            "name-ru": "Коморский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/kmf"
+          }
+        ],
+        "flagBgP": "0px -600px"
+      },
+      {
+        "id": "cotedivoire",
+        "name-ru": "Кот-д’Ивуар",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-150px -570px"
+      },
+      {
+        "id": "lesotho",
+        "name-ru": "Лесото",
+        "currency": [
+          {
+            "abbreviation": "LSL",
+            "name-ru": "Лоти Лесото",
+            "link": "http://banknotes.finance.ua/ru/currency/view/lsl"
+          }
+        ],
+        "flagBgP": "-60px -600px"
+      },
+      {
+        "id": "liberia",
+        "name-ru": "Либерия",
+        "currency": [
+          {
+            "abbreviation": "LRD",
+            "name-ru": "Либерийский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/lrd"
+          }
+        ],
+        "flagBgP": "-90px -600px"
+      },
+      {
+        "id": "libya",
+        "name-ru": "Ливия",
+        "currency": [
+          {
+            "abbreviation": "LYD",
+            "name-ru": "Ливийский динар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/lyd"
+          }
+        ],
+        "flagBgP": "-30px -570px"
+      },
+      {
+        "id": "mauretania",
+        "name-ru": "Мавритания",
+        "currency": [
+          {
+            "abbreviation": "MRO",
+            "name-ru": "Мавританская угия",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mro"
+          }
+        ],
+        "flagBgP": "-210px -600px"
+      },
+      {
+        "id": "madagascar",
+        "name-ru": "Мадагаскар",
+        "currency": [
+          {
+            "abbreviation": "MGA",
+            "name-ru": "Малагасийский ариари",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mga"
+          }
+        ],
+        "flagBgP": "-240px -600px"
+      },
+      {
+        "id": "mayotte",
+        "name-ru": "Майотта",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-450px -600px"
+      },
+      {
+        "id": "malawi",
+        "name-ru": "Малави",
+        "currency": [
+          {
+            "abbreviation": "MWK",
+            "name-ru": "Малавийская квача",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mwk"
+          }
+        ],
+        "flagBgP": "-120px -600px"
+      },
+      {
+        "id": "mali",
+        "name-ru": "Мали",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-180px -570px"
+      },
+      {
+        "id": "morocco",
+        "name-ru": "Марокко",
+        "currency": [
+          {
+            "abbreviation": "MAD",
+            "name-ru": "Марокканский дирхам",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mad"
+          }
+        ],
+        "flagBgP": "-150px -600px"
+      },
+      {
+        "id": "mozambique",
+        "name-ru": "Мозамбик",
+        "currency": [
+          {
+            "abbreviation": "MZN",
+            "name-ru": "Мозамбикский метикал",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mzn"
+          }
+        ],
+        "flagBgP": "-270px -600px"
+      },
+      {
+        "id": "namibia",
+        "name-ru": "Намибия",
+        "currency": [
+          {
+            "abbreviation": "NAD",
+            "name-ru": "Намибийский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/nad"
+          }
+        ],
+        "flagBgP": "-300px -600px"
+      },
+      {
+        "id": "niger",
+        "name-ru": "Нигер",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-210px -570px"
+      },
+      {
+        "id": "nigeria",
+        "name-ru": "Нигерия",
+        "currency": [
+          {
+            "abbreviation": "NGN",
+            "name-ru": "Нигерийская найра",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ngn"
+          }
+        ],
+        "flagBgP": "-390px -600px"
+      },
+      {
+        "id": "saint-helena",
+        "name-ru": "Остров Святой Елены",
+        "currency": [
+          {
+            "abbreviation": "SHP",
+            "name-ru": "Фунт Святой Елены",
+            "link": "http://banknotes.finance.ua/ru/currency/view/shp"
+          }
+        ],
+        "flagBgP": "0px -630px"
+      },
+      {
+        "id": "republik-kongo",
+        "name-ru": "Республика Конго",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-450px -630px"
+      },
+      {
+        "id": "republic-mauritius",
+        "name-ru": "Республика Маврикий",
+        "currency": [
+          {
+            "abbreviation": "MUR",
+            "name-ru": "Маврикийская рупия",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mur"
+          }
+        ],
+        "flagBgP": "-180px -600px"
+      },
+      {
+        "id": "reunion",
+        "name-ru": "Реюньон",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-480px -600px"
+      },
+      {
+        "id": "rwanda",
+        "name-ru": "Руанда",
+        "currency": [
+          {
+            "abbreviation": "RWF",
+            "name-ru": "Руандийский франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/rwf"
+          }
+        ],
+        "flagBgP": "-510px -600px"
+      },
+      {
+        "id": "sao-tome-and-principe",
+        "name-ru": "Сан Томе и Принсипи",
+        "currency": [
+          {
+            "abbreviation": "STD",
+            "name-ru": "Добра Сан Томе и Принсипи",
+            "link": "http://banknotes.finance.ua/ru/currency/view/std"
+          }
+        ],
+        "flagBgP": "-540px -600px"
+      },
+      {
+        "id": "swaziland",
+        "name-ru": "Свазиленд",
+        "currency": [
+          {
+            "abbreviation": "SZL",
+            "name-ru": "Свазилендский лилангени",
+            "link": "http://banknotes.finance.ua/ru/currency/view/szl"
+          }
+        ],
+        "flagBgP": "-570px -600px"
+      },
+      {
+        "id": "seychelles",
+        "name-ru": "Сейшельские острова",
+        "currency": [
+          {
+            "abbreviation": "SCR",
+            "name-ru": "Сейшельская рупия",
+            "link": "http://banknotes.finance.ua/ru/currency/view/scr"
+          }
+        ],
+        "flagBgP": "-30px -630px"
+      },
+      {
+        "id": "senegal",
+        "name-ru": "Сенегал",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-240px -570px"
+      },
+      {
+        "id": "somalia",
+        "name-ru": "Сомали",
+        "currency": [
+          {
+            "abbreviation": "SOS",
+            "name-ru": "Сомалийский шиллинг",
+            "link": "http://banknotes.finance.ua/ru/currency/view/sos"
+          }
+        ],
+        "flagBgP": "-60px -630px"
+      },
+      {
+        "id": "sudan",
+        "name-ru": "Судан",
+        "currency": [
+          {
+            "abbreviation": "SDG",
+            "name-ru": "Суданский фунт",
+            "link": "http://banknotes.finance.ua/ru/currency/view/sdg"
+          }
+        ],
+        "flagBgP": "-90px -630px"
+      },
+      {
+        "id": "sierra-leone",
+        "name-ru": "Сьерра-Леоне",
+        "currency": [
+          {
+            "abbreviation": "SLL",
+            "name-ru": "Леоне Сьерра-Леоне",
+            "link": "http://banknotes.finance.ua/ru/currency/view/sll"
+          }
+        ],
+        "flagBgP": "-120px -630px"
+      },
+      {
+        "id": "tanzania",
+        "name-ru": "Танзания",
+        "currency": [
+          {
+            "abbreviation": "TZS",
+            "name-ru": "Танзанийский шиллинг",
+            "link": "http://banknotes.finance.ua/ru/currency/view/tzs"
+          }
+        ],
+        "flagBgP": "-150px -630px"
+      },
+      {
+        "id": "togo",
+        "name-ru": "Того",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-270px -570px"
+      },
+      {
+        "id": "uganda",
+        "name-ru": "Уганда",
+        "currency": [
+          {
+            "abbreviation": "UGX",
+            "name-ru": "Угандийский шиллинг",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ugx"
+          }
+        ],
+        "flagBgP": "-210px -630px"
+      },
+      {
+        "id": "car",
+        "name-ru": "ЦАР",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-240px -630px"
+      },
+      {
+        "id": "chad",
+        "name-ru": "Чад",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-270px -630px"
+      },
+      {
+        "id": "equatorial-guinea",
+        "name-ru": "Экваториальная Гвинея",
+        "currency": [
+          {
+            "abbreviation": "XOF",
+            "name-ru": "КФА ВСЕАО Франк",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xof"
+          }
+        ],
+        "flagBgP": "-300px -630px"
+      },
+      {
+        "id": "eritrea",
+        "name-ru": "Эритрея",
+        "currency": [
+          {
+            "abbreviation": "ERN",
+            "name-ru": "Эритрейская накфа",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ern"
+          }
+        ],
+        "flagBgP": "-330px -630px"
+      },
+      {
+        "id": "ethiopia",
+        "name-ru": "Эфиопия",
+        "currency": [
+          {
+            "abbreviation": "ETB",
+            "name-ru": "Эфиопский быр",
+            "link": "http://banknotes.finance.ua/ru/currency/view/etb"
+          }
+        ],
+        "flagBgP": "-360px -630px"
+      },
+      {
+        "id": "south-african-republic",
+        "name-ru": "Южно-Африканска Республика",
+        "currency": [
+          {
+            "abbreviation": "ZAR",
+            "name-ru": "Южноафриканский ранд",
+            "link": "http://banknotes.finance.ua/ru/currency/view/zar"
+          }
+        ],
+        "flagBgP": "-390px -630px"
+      },
+      {
+        "id": "southern-sudan",
+        "name-ru": "Южный Судан",
+        "currency": [
+          {
+            "abbreviation": "SSP",
+            "name-ru": "Южносуданский фунт",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ssp"
+          }
+        ],
+        "flagBgP": "-420px -630px"
+      }
+    ]
+  },
+  {
+    "district-ru": "Северная и Центральная Америка",
+    "country": [
+      {
+        "id": "antigua-and-barbuda",
+        "name-ru": "Антигуа и Барбуда",
+        "currency": [
+          {
+            "abbreviation": "XCD",
+            "name-ru": "Восточно-карибский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xcd"
+          }
+        ],
+        "flagBgP": "-330px -390px"
+      },
+      {
+        "id": "aruba",
+        "name-ru": "Аруба",
+        "currency": [
+          {
+            "abbreviation": "AWG",
+            "name-ru": "Арубанский флорин",
+            "link": "http://banknotes.finance.ua/ru/currency/view/awg"
+          }
+        ],
+        "flagBgP": "-90px -390px"
+      },
+      {
+        "id": "bahamas",
+        "name-ru": "Багамские острова",
+        "currency": [
+          {
+            "abbreviation": "BSD",
+            "name-ru": "Багамский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bsd"
+          }
+        ],
+        "flagBgP": "-120px -390px"
+      },
+      {
+        "id": "barbados",
+        "name-ru": "Барбадос",
+        "currency": [
+          {
+            "abbreviation": "BBD",
+            "name-ru": "Барбадосский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bbd"
+          }
+        ],
+        "flagBgP": "-150px -390px"
+      },
+      {
+        "id": "belize",
+        "name-ru": "Белиз",
+        "currency": [
+          {
+            "abbreviation": "BZD",
+            "name-ru": "Белизский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bzd"
+          }
+        ],
+        "flagBgP": "-180px -390px"
+      },
+      {
+        "id": "bermudas",
+        "name-ru": "Бермудские острова",
+        "currency": [
+          {
+            "abbreviation": "BMD",
+            "name-ru": "Бермудский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bmd"
+          }
+        ],
+        "flagBgP": "-210px -390px"
+      },
+      {
+        "id": "bonaire",
+        "name-ru": "Бонэйр",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-360px -480px"
+      },
+      {
+        "id": "british-vyrhynskye-island",
+        "name-ru": "Британские Виргинские острова",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-420px -480px"
+      },
+      {
+        "id": "virgin-islands",
+        "name-ru": "Виргинские острова",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-390px -480px"
+      },
+      {
+        "id": "haiti",
+        "name-ru": "Гаити",
+        "currency": [
+          {
+            "abbreviation": "HTG",
+            "name-ru": "Гаитянский гурд",
+            "link": "http://banknotes.finance.ua/ru/currency/view/htg"
+          }
+        ],
+        "flagBgP": "-240px -390px"
+      },
+      {
+        "id": "guadeloupe",
+        "name-ru": "Гваделупа",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-450px -480px"
+      },
+      {
+        "id": "guatemala",
+        "name-ru": "Гватемала",
+        "currency": [
+          {
+            "abbreviation": "GTQ",
+            "name-ru": "Гватемальский кетсаль",
+            "link": "http://banknotes.finance.ua/ru/currency/view/gtq"
+          }
+        ],
+        "flagBgP": "-180px -480px"
+      },
+      {
+        "id": "honduras",
+        "name-ru": "Гондурас",
+        "currency": [
+          {
+            "abbreviation": "HNL",
+            "name-ru": "Гондурасская лемпира",
+            "link": "http://banknotes.finance.ua/ru/currency/view/hnl"
+          }
+        ],
+        "flagBgP": "-210px -480px"
+      },
+      {
+        "id": "grenada",
+        "name-ru": "Гренада",
+        "currency": [
+          {
+            "abbreviation": "XCD",
+            "name-ru": "Восточно-карибский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xcd"
+          }
+        ],
+        "flagBgP": "-360px -390px"
+      },
+      {
+        "id": "greenland",
+        "name-ru": "Гренландия",
+        "currency": [
+          {
+            "abbreviation": "DKK",
+            "name-ru": "Датская крона",
+            "link": "http://banknotes.finance.ua/ru/currency/view/dkk"
+          }
+        ],
+        "flagBgP": "-390px -390px"
+      },
+      {
+        "id": "dominica",
+        "name-ru": "Доминика",
+        "currency": [
+          {
+            "abbreviation": "XCD",
+            "name-ru": "Восточно-карибский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xcd"
+          }
+        ],
+        "flagBgP": "-420px -390px"
+      },
+      {
+        "id": "dominican-republic",
+        "name-ru": "Доминиканская Республика",
+        "currency": [
+          {
+            "abbreviation": "DOP",
+            "name-ru": "Доминиканский песо",
+            "link": "http://banknotes.finance.ua/ru/currency/view/dop"
+          }
+        ],
+        "flagBgP": "-240px -480px"
+      },
+      {
+        "id": "cayman-islands",
+        "name-ru": "Каймановы острова",
+        "currency": [
+          {
+            "abbreviation": "KYD",
+            "name-ru": "Доллар Каймановых островов",
+            "link": "http://banknotes.finance.ua/ru/currency/view/kyd"
+          }
+        ],
+        "flagBgP": "-270px -390px"
+      },
+      {
+        "id": "canada",
+        "name-ru": "Канада",
+        "currency": [
+          {
+            "abbreviation": "CAD",
+            "name-ru": "Канадский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/cad"
+          }
+        ],
+        "flagBgP": "0px -390px"
+      },
+      {
+        "id": "costa-rica",
+        "name-ru": "Коста-Рика",
+        "currency": [
+          {
+            "abbreviation": "CRC",
+            "name-ru": "Костариканский колон",
+            "link": "http://banknotes.finance.ua/ru/currency/view/crc"
+          }
+        ],
+        "flagBgP": "-300px -480px"
+      },
+      {
+        "id": "cuba",
+        "name-ru": "Куба",
+        "currency": [
+          {
+            "abbreviation": "CUC",
+            "name-ru": "Кубинское конвертируемое песо",
+            "link": "http://banknotes.finance.ua/ru/currency/view/cuc"
+          },
+          {
+            "abbreviation": "CUP",
+            "name-ru": "Кубинский песо",
+            "link": "http://banknotes.finance.ua/ru/currency/view/cup"
+          }
+        ],
+        "flagBgP": "-300px -390px"
+      },
+      {
+        "id": "curacao",
+        "name-ru": "Кюрасао",
+        "currency": [
+          {
+            "abbreviation": "ANG",
+            "name-ru": "Нидерландский антильский гульден",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ang"
+          }
+        ],
+        "flagBgP": "-330px -480px"
+      },
+      {
+        "id": "mexico",
+        "name-ru": "Мексика",
+        "currency": [
+          {
+            "abbreviation": "MXN",
+            "name-ru": "Новый мексиканский песо",
+            "link": "http://banknotes.finance.ua/ru/currency/view/mxn"
+          }
+        ],
+        "flagBgP": "-60px -390px"
+      },
+      {
+        "id": "montserrat",
+        "name-ru": "Монтсеррат",
+        "currency": [
+          {
+            "abbreviation": "XCD",
+            "name-ru": "Восточно-карибский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xcd"
+          }
+        ],
+        "flagBgP": "-510px -390px"
+      },
+      {
+        "id": "nicaragua",
+        "name-ru": "Никарагуа",
+        "currency": [
+          {
+            "abbreviation": "NIO",
+            "name-ru": "Никарагуанская кордоба",
+            "link": "http://banknotes.finance.ua/ru/currency/view/nio"
+          }
+        ],
+        "flagBgP": "-540px -390px"
+      },
+      {
+        "id": "island-anguilla",
+        "name-ru": "Остров Ангилья",
+        "currency": [
+          {
+            "abbreviation": "XCD",
+            "name-ru": "Восточно-карибский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xcd"
+          }
+        ],
+        "flagBgP": "-450px -390px"
+      },
+      {
+        "id": "panama",
+        "name-ru": "Панама",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-570px -390px"
+      },
+      {
+        "id": "puerto-rico",
+        "name-ru": "Пуэрто-Рико",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "0px -420px"
+      },
+      {
+        "id": "saba",
+        "name-ru": "Саба",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-30px -420px"
+      },
+      {
+        "id": "salvador",
+        "name-ru": "Сальвадор",
+        "currency": [
+          {
+            "abbreviation": "SVC",
+            "name-ru": "Сальвадорский колон",
+            "link": "http://banknotes.finance.ua/ru/currency/view/svc"
+          }
+        ],
+        "flagBgP": "-60px -420px"
+      },
+      {
+        "id": "saint-barthelemy",
+        "name-ru": "Сен-Бартелеми",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-90px -420px"
+      },
+      {
+        "id": "saint-martin",
+        "name-ru": "Сен-Мартен",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-120px -420px"
+      },
+      {
+        "id": "saint-pierre-and-mykelon",
+        "name-ru": "Сен-Пьер и Микелон",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-150px -420px"
+      },
+      {
+        "id": "saint-vincent-and-grenadines",
+        "name-ru": "Сент-Винсент и Гренадины",
+        "currency": [
+          {
+            "abbreviation": "XCD",
+            "name-ru": "Восточно-карибский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xcd"
+          }
+        ],
+        "flagBgP": "-180px -420px"
+      },
+      {
+        "id": "saint-kitts-and-nevis",
+        "name-ru": "Сент-Китс и Невис",
+        "currency": [
+          {
+            "abbreviation": "XCD",
+            "name-ru": "Восточно-карибский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xcd"
+          }
+        ],
+        "flagBgP": "-240px -420px"
+      },
+      {
+        "id": "saint-lucia",
+        "name-ru": "Сент-Люсия",
+        "currency": [
+          {
+            "abbreviation": "XCD",
+            "name-ru": "Восточно-карибский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/xcd"
+          }
+        ],
+        "flagBgP": "-270px -420px"
+      },
+      {
+        "id": "sint-maarten",
+        "name-ru": "Синт-Мартен",
+        "currency": [
+          {
+            "abbreviation": "ANG",
+            "name-ru": "Нидерландский антильский гульден",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ang"
+          }
+        ],
+        "flagBgP": "-210px -420px"
+      },
+      {
+        "id": "sint-eustatius",
+        "name-ru": "Синт-Эстатиус",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-300px -420px"
+      },
+      {
+        "id": "usa",
+        "name-ru": "США",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-30px -390px"
+      },
+      {
+        "id": "turks-and-caicos",
+        "name-ru": "Тёркс и Кайкос",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-330px -420px"
+      },
+      {
+        "id": "trinidad-and-tobago",
+        "name-ru": "Тринидад и Тобаго",
+        "currency": [
+          {
+            "abbreviation": "TTD",
+            "name-ru": "Доллар Тринидада и Тобаго",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ttd"
+          }
+        ],
+        "flagBgP": "-360px -420px"
+      },
+      {
+        "id": "frantsuzskaya-hvyana",
+        "name-ru": "Французская Гвиана",
+        "currency": [
+          {
+            "abbreviation": "EUR",
+            "name-ru": "Евро",
+            "link": "http://banknotes.finance.ua/ru/currency/view/eur"
+          }
+        ],
+        "flagBgP": "-480px -480px"
+      },
+      {
+        "id": "jamaica",
+        "name-ru": "Ямайка",
+        "currency": [
+          {
+            "abbreviation": "JMD",
+            "name-ru": "Ямайский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/jmd"
+          }
+        ],
+        "flagBgP": "-390px -420px"
+      }
+    ]
+  },
+  {
+    "district-ru": "Южная Америка",
+    "country": [
+      {
+        "id": "argentina",
+        "name-ru": "Аргентина",
+        "currency": [
+          {
+            "abbreviation": "ARS",
+            "name-ru": "Аргентинское песо",
+            "link": "http://banknotes.finance.ua/ru/currency/view/ars"
+          }
+        ],
+        "flagBgP": "-90px -480px"
+      },
+      {
+        "id": "bolivia",
+        "name-ru": "Боливия",
+        "currency": [
+          {
+            "abbreviation": "BOB",
+            "name-ru": "Боливийский боливиано",
+            "link": "http://banknotes.finance.ua/ru/currency/view/bob"
+          }
+        ],
+        "flagBgP": "-60px -510px"
+      },
+      {
+        "id": "brasil",
+        "name-ru": "Бразилия",
+        "currency": [
+          {
+            "abbreviation": "BRL",
+            "name-ru": "Бразильский реал",
+            "link": "http://banknotes.finance.ua/ru/currency/view/brl"
+          }
+        ],
+        "flagBgP": "0px -480px"
+      },
+      {
+        "id": "venezuela",
+        "name-ru": "Венесуэла",
+        "currency": [
+          {
+            "abbreviation": "VEF",
+            "name-ru": "Венесуэльский боливар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/vef"
+          }
+        ],
+        "flagBgP": "-120px -480px"
+      },
+      {
+        "id": "guyana",
+        "name-ru": "Гайана",
+        "currency": [
+          {
+            "abbreviation": "GYD",
+            "name-ru": "Гайанский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/gyd"
+          }
+        ],
+        "flagBgP": "-150px -480px"
+      },
+      {
+        "id": "colombia",
+        "name-ru": "Колумбия",
+        "currency": [
+          {
+            "abbreviation": "COP",
+            "name-ru": "Колумбийское песо",
+            "link": "http://banknotes.finance.ua/ru/currency/view/cop"
+          }
+        ],
+        "flagBgP": "-270px -480px"
+      },
+      {
+        "id": "paraguay",
+        "name-ru": "Парагвай",
+        "currency": [
+          {
+            "abbreviation": "PYG",
+            "name-ru": "Парагвайский гуарани",
+            "link": "http://banknotes.finance.ua/ru/currency/view/pyg"
+          }
+        ],
+        "flagBgP": "-510px -480px"
+      },
+      {
+        "id": "peru",
+        "name-ru": "Перу",
+        "currency": [
+          {
+            "abbreviation": "PEN",
+            "name-ru": "Перуанский новый соль",
+            "link": "http://banknotes.finance.ua/ru/currency/view/pen"
+          }
+        ],
+        "flagBgP": "-60px -480px"
+      },
+      {
+        "id": "suriname",
+        "name-ru": "Суринам",
+        "currency": [
+          {
+            "abbreviation": "SRD",
+            "name-ru": "Суринамский доллар",
+            "link": "http://banknotes.finance.ua/ru/currency/view/srd"
+          }
+        ],
+        "flagBgP": "-540px -480px"
+      },
+      {
+        "id": "uruguay",
+        "name-ru": "Уругвай",
+        "currency": [
+          {
+            "abbreviation": "UYU",
+            "name-ru": "Уругвайский песо",
+            "link": "http://banknotes.finance.ua/ru/currency/view/uyu"
+          }
+        ],
+        "flagBgP": "-570px -480px"
+      },
+      {
+        "id": "falkland-islands",
+        "name-ru": "Фолклендские острова",
+        "currency": [
+          {
+            "abbreviation": "FKP",
+            "name-ru": "Фунт Фолклендских островов",
+            "link": "http://banknotes.finance.ua/ru/currency/view/fkp"
+          }
+        ],
+        "flagBgP": "0px -510px"
+      },
+      {
+        "id": "chile",
+        "name-ru": "Чили",
+        "currency": [
+          {
+            "abbreviation": "CLP",
+            "name-ru": "Чилийский песо",
+            "link": "http://banknotes.finance.ua/ru/currency/view/clp"
+          }
+        ],
+        "flagBgP": "-30px -480px"
+      },
+      {
+        "id": "ecuador",
+        "name-ru": "Эквадор",
+        "currency": [
+          {
+            "abbreviation": "USD",
+            "name-ru": "Доллар США",
+            "link": "http://banknotes.finance.ua/ru/currency/view/usd"
+          }
+        ],
+        "flagBgP": "-30px -510px"
+      }
+    ]
+  }
+]
