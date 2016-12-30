@@ -22,16 +22,28 @@ export default class District extends Component {
 
     render() {
 
-        const id = this.props.params.districtId;
-        const district = data.filter(district => id === district.id)[0];
-        const districtId = district.id;
+        const params = this.props.params;
+
+        const districtId = params.districtId;
+        const countryId = params.countryId;
+        const district = data.filter(district => districtId === district.id)[0];
+
+        const country = district.country.filter(country => countryId === country.id)[0];
 
         return <div>
 
-            <h1>{district['district-ru']}</h1>
+            <h1>{country['name-ru']}</h1>
 
-            {district.country.map( country => <Link key={country.id} to={'/district/' + districtId + '/' + country.id}>{country['name-ru']}</Link> )}
+            {country.currency.map(currency => {
 
+                return <div>
+                    {currency.abbreviation}
+                    {currency['name-ru']}
+                    {currency.link}
+                    {currency.description && currency.description.map( p => (<p>{p}</p>) )}
+                </div>
+
+            })}
 
         </div>;
 
