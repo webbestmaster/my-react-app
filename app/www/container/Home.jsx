@@ -9,17 +9,13 @@ export default class Home extends Component {
 
     render() {
 
-        let templates = data.map(function (district) {
-            return <Link key={district.id} to={'/district/' + district.id}>{district['district-ru']}</Link>
-        });
-
         return <div>
 
             <form action="#">
                 <input type="text" placeholder="Search..."/>
             </form>
 
-            {templates}
+            {data.map(district => <Link key={district.id} to={'/district/' + district.id}>{district['district-ru']}</Link> )}
 
         </div>;
 

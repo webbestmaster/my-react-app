@@ -30,7 +30,7 @@ ReactDOM.render(
 
                 <IndexRoute component={Home}/>
 
-                <Route path="/continent/:continentId" component={District}/>
+                <Route path="/district/:districtId" component={District}/>
 
                 {/*<Route path="/demotivators" component={Demotivators}/>*/}
                 {/*<Route path="/about" component={About}/>*/}
