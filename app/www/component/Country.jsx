@@ -40,7 +40,7 @@ export default class District extends Component {
                     {currency.abbreviation}
                     {currency['name-ru']}
                     {currency.link}
-                    {currency.description && currency.description.map( p => (<p>{p}</p>) )}
+                    {currency.description && currency.description.map( p => <p>{p}</p> )}
                 </div>
 
             })}
