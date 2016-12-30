@@ -3,9 +3,15 @@ import React, {Component} from 'react'
 // import {increase, decrease} from '../actions/count'
 import { Link, browserHistory } from 'react-router'
 
+const data = require('../data/data.json');
+
 export default class Home extends Component {
 
     render() {
+
+        let templates = data.map(function (district) {
+            return <Link key={district.id} to={'/district/' + district.id}>{district['district-ru']}</Link>
+        });
 
         return <div>
 
@@ -13,17 +19,7 @@ export default class Home extends Component {
                 <input type="text" placeholder="Search..."/>
             </form>
 
-            <Link to="/continent/asia">Asia</Link>
-            <br/>
-            <Link to="/continent/europe">Europe</Link>
-            <br/>
-            <Link to="/continent/sa">South America</Link>
-
-            {/*<p>Links below is not used</p>*/}
-
-            {/*<Link to="/demotivators">demotivators</Link>*/}
-            {/*<br/>*/}
-            {/*<Link to="/about">about</Link>*/}
+            {templates}
 
         </div>;
 

@@ -8,7 +8,7 @@ import {syncHistoryWithStore, routerReducer} from 'react-router-redux';
 import * as reducers from './reducer';
 import {App, About} from './component';
 import Home from './container/Home';
-import Continent from './container/Continent';
+import District from './container/District';
 import Demotivators from './container/Demotivators';
 
 const reducer = combineReducers({
@@ -30,7 +30,7 @@ ReactDOM.render(
 
                 <IndexRoute component={Home}/>
 
-                <Route path="/continent/:continentId" component={Continent}/>
+                <Route path="/continent/:continentId" component={District}/>
 
                 {/*<Route path="/demotivators" component={Demotivators}/>*/}
                 {/*<Route path="/about" component={About}/>*/}

@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 // import {increase, decrease} from '../actions/count'
 import { Link, browserHistory } from 'react-router'
 
-export default class Home extends Component {
+export default class District extends Component {
 
     /*
     * need to prevent react render called twice
