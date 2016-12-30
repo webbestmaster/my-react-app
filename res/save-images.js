@@ -12,7 +12,7 @@ var download = function (uri, filename, callback) {
 
         request(uri).pipe(fs.createWriteStream(filename)).on('close', function () {
 
-            setTimeout(callback, 1000);
+            setTimeout(callback, 10);
 
         });
     });
@@ -28,9 +28,10 @@ var p = Promise.resolve();
 
 linkData.forEach(function (continent) {
 
-    continent.country.forEach(function (country) {
+    continent.country.forEach(function (country, i) {
 
         country.currency.forEach(function (currency, i) {
+
 
             // create folder is not exist
             // if exist -> abort
@@ -41,6 +42,17 @@ linkData.forEach(function (continent) {
 
         });
 
+    });
+
+});
+
+p.then(function () {
+
+    console.log(JSON.stringify(linkData));
+
+    fs.writeFile('data1.json', JSON.stringify(linkData), function (err) {
+        if (err) throw err;
+        console.log('It\'s saved!');
     });
 
 });
@@ -107,7 +119,6 @@ function saveDataByCurrency(currency) {
 
                         var $ = window.$;
 
-
                         var arr = [];
 
                         $('.wm_magnify').each(function () {
@@ -116,6 +127,18 @@ function saveDataByCurrency(currency) {
 
                             var pathToImage = $img.attr('src').replace('/preview/', '/full/');
 
+                            $('.wm_intro p').each(function () {
+                                currency.description = currency.description || [];
+
+                                var html = $(this).html();
+
+                                if (currency.description.indexOf(html) === -1) {
+                                    currency.description.push(html);
+                                }
+
+                            });
+
+                            /*
                             arr.push(
 
                                 new Promise(function (res, req) {
@@ -132,10 +155,12 @@ function saveDataByCurrency(currency) {
 
                                 })
                             )
+                            */
 
                         });
 
-                        Promise.all(arr).then(resolve);
+                        // Promise.all(arr).then(resolve);
+                        resolve();
 
                     },
                     error: function () {
