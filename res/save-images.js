@@ -1,3 +1,5 @@
+var jsdom = require("jsdom");
+
 var linkData = require('./data.json');
 
 var http = require('http');
@@ -70,7 +72,6 @@ function createFolder(folderName) {
 
 
 function saveDataByCurrency(currency) {
-    var jsdom = require("jsdom");
 
     var host = 'banknotes.finance.ua';
 
@@ -126,6 +127,7 @@ function saveDataByCurrency(currency) {
                             var $img = $(this).find('img');
 
                             var pathToImage = $img.attr('src').replace('/preview/', '/full/');
+/*
 
                             $('.wm_intro p').each(function () {
                                 currency.description = currency.description || [];
@@ -137,6 +139,20 @@ function saveDataByCurrency(currency) {
                                 }
 
                             });
+*/
+
+                            currency.image = currency.image || [];
+
+                            if (currency.image.indexOf(pathToImage.split('/').pop()) === -1) {
+                                currency.image.push(pathToImage.split('/').pop());
+                            }
+
+
+                            // currency.image.push(pathToImage.split('/').pop());
+                            console.log(pathToImage.split('/').pop());
+
+                            // console.log(pathToImage);
+
 
                             /*
                             arr.push(
