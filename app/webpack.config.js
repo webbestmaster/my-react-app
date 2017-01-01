@@ -53,6 +53,10 @@ module.exports = {
             {
                 test: /\.json$/,
                 loader: 'json'
+            },
+            {
+                test: /\.(png|jpg|gif)$/,
+                loader: "file-loader?name=img/img-[hash:6].[ext]"
             }
         ]
     },

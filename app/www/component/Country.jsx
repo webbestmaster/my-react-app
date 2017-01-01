@@ -6,6 +6,8 @@ import { Link, browserHistory } from 'react-router'
 
 const data = require('../data/data.json');
 
+
+
 export default class District extends Component {
 
     /*
@@ -30,13 +32,19 @@ export default class District extends Component {
 
         const country = district.country.filter(country => countryId === country.id)[0];
 
+        console.log('../data/currency/' + country.currency[0].abbreviation + '/' + country.currency[0].image[0]);
+
+        const image = require('../data/currency/' + country.currency[0].abbreviation + '/' + country.currency[0].image[0]);
+
         return <div>
 
             <h1>{country['name-ru']}</h1>
 
+            <img src={image}/>
+
             {country.currency.map(currency => {
 
-                return <div>
+                return <div key={currency.abbreviation}>
                     {currency.abbreviation}
                     {currency['name-ru']}
                     {currency.link}
