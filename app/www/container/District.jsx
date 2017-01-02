@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 // import {connect} from 'react-redux'
 // import {increase, decrease} from '../actions/count'
 // import { Link, browserHistory } from 'react-router';
-import { Link, browserHistory } from 'react-router'
+import {Link, browserHistory} from 'react-router'
 
 const data = require('../data/data.json');
 
@@ -22,16 +22,24 @@ export default class District extends Component {
 
     render() {
 
-        const id = this.props.params.districtId;
-        const district = data.filter(district => id === district.id)[0];
-        const districtId = district.id;
+        const districtId = this.props.params.districtId;
+        const district = data.filter(district => districtId === district.id)[0];
 
         return <div>
 
             <h1>{district['district-ru']}</h1>
 
-            {district.country.map( country => <Link key={country.id} to={'/district/' + districtId + '/' + country.id}>{country['name-ru']}</Link> )}
-
+            {
+                district.country.map(country =>
+                    country.currency.map(currency =>
+                        <Link
+                            key={country['name-ru'] + currency.abbreviation + currency['name-ru']}
+                            to={'/currency/' + districtId + '/' + country.id + '/' + currency.abbreviation}>
+                            {country['name-ru']} - {currency.abbreviation} - {currency['name-ru']}
+                        </Link>
+                    )
+                )
+            }
 
         </div>;
 

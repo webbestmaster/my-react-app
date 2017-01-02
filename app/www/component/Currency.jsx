@@ -2,13 +2,12 @@ import React, {Component} from 'react';
 // import {connect} from 'react-redux'
 // import {increase, decrease} from '../actions/count'
 // import { Link, browserHistory } from 'react-router';
-import { Link, browserHistory } from 'react-router'
+import {Link, browserHistory} from 'react-router'
 
 const data = require('../data/data.json');
 
 
-
-export default class District extends Component {
+export default class Currency extends Component {
 
     /*
      * need to prevent react render called twice
@@ -24,34 +23,28 @@ export default class District extends Component {
 
     render() {
 
-        const params = this.props.params;
+        const {districtId, countryId, currencyId} = this.props.params;
 
-        const districtId = params.districtId;
-        const countryId = params.countryId;
         const district = data.filter(district => districtId === district.id)[0];
-
         const country = district.country.filter(country => countryId === country.id)[0];
-
-        console.log('../data/currency/' + country.currency[0].abbreviation + '/' + country.currency[0].image[0]);
-
-        const image = require('../data/currency/' + country.currency[0].abbreviation + '/' + country.currency[0].image[0]);
+        const currency = country.currency.filter(currency => currency.abbreviation === currencyId)[0];
 
         return <div>
 
             <h1>{country['name-ru']}</h1>
 
-            <img src={image}/>
+            {
+                currency.image.map(image =>
+                    <img
+                        key={Math.random()}
+                        src={require('../data/currency/' + currencyId + '/' + image)}
+                    />)
+            }
 
-            {country.currency.map(currency => {
-
-                return <div key={currency.abbreviation}>
-                    {currency.abbreviation}
-                    {currency['name-ru']}
-                    {currency.link}
-                    {currency.description && currency.description.map( p => <p>{p}</p> )}
-                </div>
-
-            })}
+            {currencyId}
+            {currency['name-ru']}
+            {currency.link}
+            {currency.description && currency.description.map(p => <p key={Math.random()}>{p}</p>)}
 
         </div>;
 

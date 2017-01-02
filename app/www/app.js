@@ -9,7 +9,7 @@ import * as reducers from './reducer';
 import {App, About} from './component';
 import Home from './container/Home';
 import District from './container/District';
-import Country from './component/Country';
+import Currency from './component/Currency';
 
 const reducer = combineReducers({
     ...reducers,
@@ -31,7 +31,7 @@ ReactDOM.render(
                 <IndexRoute component={Home}/>
 
                 <Route path="/district/:districtId" component={District}/>
-                <Route path="/district/:districtId/:countryId" component={Country}/>
+                <Route path="/currency/:districtId/:countryId/:currencyId" component={Currency}/>
 
                 {/*<Route path="/demotivators" component={Demotivators}/>*/}
                 {/*<Route path="/about" component={About}/>*/}
