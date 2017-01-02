@@ -23,6 +23,9 @@ export default class Currency extends Component {
 
     render() {
 
+        console.log('Currency');
+
+
         const {districtId, countryId, currencyId} = this.props.params;
 
         const district = data.filter(district => districtId === district.id)[0];

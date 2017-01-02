@@ -22,6 +22,8 @@ export default class District extends Component {
 
     render() {
 
+        console.log('District');
+
         const districtId = this.props.params.districtId;
         const district = data.filter(district => districtId === district.id)[0];
 

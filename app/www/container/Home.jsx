@@ -9,6 +9,8 @@ export default class Home extends Component {
 
     render() {
 
+        console.log('Home');
+
         return <div>
 
             <form action="#">
