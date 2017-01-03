@@ -13,7 +13,7 @@
     "alpha3": "ARE",
     "numericCode": "784",
     "subdivisionCode": "ISO 3166-2:AE",
-    "name-ru": "ОАЭ"
+    "name-ru": "Объединённые Арабские Эмираты"
   },
   {
     "name-en": "Afghanistan",
@@ -285,7 +285,7 @@
     "alpha3": "BLR",
     "numericCode": "112",
     "subdivisionCode": "ISO 3166-2:BY",
-    "name-ru": "Белоруссия"
+    "name-ru": "Беларусь"
   },
   {
     "name-en": "Belize",
@@ -381,7 +381,7 @@
     "alpha3": "CHN",
     "numericCode": "156",
     "subdivisionCode": "ISO 3166-2:CN",
-    "name-ru": "КНР (Китайская Народная Республика)"
+    "name-ru": "Китай"
   },
   {
     "name-en": "Colombia",
@@ -589,7 +589,7 @@
     "alpha3": "FRO",
     "numericCode": "234",
     "subdivisionCode": "ISO 3166-2:FO",
-    "name-ru": "Фареры"
+    "name-ru": "Фарерские острова"
   },
   {
     "name-en": "France",
@@ -637,7 +637,7 @@
     "alpha3": "GUF",
     "numericCode": "254",
     "subdivisionCode": "ISO 3166-2:GF",
-    "name-ru": "Гвиана"
+    "name-ru": "Французская Гвиана"
   },
   {
     "name-en": "Guernsey",
@@ -717,7 +717,7 @@
     "alpha3": "SGS",
     "numericCode": "239",
     "subdivisionCode": "ISO 3166-2:GS",
-    "name-ru": "Южная Георгия и Южные Сандвичевы Острова"
+    "name-ru": "Южная Георгия и Южные Сандвичевы острова"
   },
   {
     "name-en": "Guatemala",
@@ -925,7 +925,7 @@
     "alpha3": "KGZ",
     "numericCode": "417",
     "subdivisionCode": "ISO 3166-2:KG",
-    "name-ru": "Киргизия"
+    "name-ru": "Кыргызстан"
   },
   {
     "name-en": "Cambodia",
@@ -960,20 +960,28 @@
     "name-ru": "Сент-Китс и Невис"
   },
   {
-    "name-en": "Korea (Democratic People's Republic of)",
+    "name-en": "Kosovo",
+    "alpha2": "XK",
+    "alpha3": "KOS",
+    "numericCode": "N/A",
+    "subdivisionCode": "N/A",
+    "name-ru": "Косово"
+  },
+  {
+    "name-en": "North Korea",
     "alpha2": "KP",
     "alpha3": "PRK",
     "numericCode": "408",
     "subdivisionCode": "ISO 3166-2:KP",
-    "name-ru": "КНДР (Корейская Народно-Демократическая Республика)"
+    "name-ru": "Северная Корея"
   },
   {
-    "name-en": "Korea (Republic of)",
+    "name-en": "South Korea",
     "alpha2": "KR",
     "alpha3": "KOR",
     "numericCode": "410",
     "subdivisionCode": "ISO 3166-2:KR",
-    "name-ru": "Республика Корея"
+    "name-ru": "Южная Корея"
   },
   {
     "name-en": "Kuwait",
@@ -1141,7 +1149,7 @@
     "alpha3": "MHL",
     "numericCode": "584",
     "subdivisionCode": "ISO 3166-2:MH",
-    "name-ru": "Маршалловы Острова"
+    "name-ru": "Маршалловы острова"
   },
   {
     "name-en": "Macedonia (the former Yugoslav Republic of)",
@@ -1189,7 +1197,7 @@
     "alpha3": "MNP",
     "numericCode": "580",
     "subdivisionCode": "ISO 3166-2:MP",
-    "name-ru": "Северные Марианские Острова"
+    "name-ru": "Северные Марианские острова"
   },
   {
     "name-en": "Martinique",
@@ -1461,7 +1469,7 @@
     "alpha3": "PSE",
     "numericCode": "275",
     "subdivisionCode": "ISO 3166-2:PS",
-    "name-ru": "Государство Палестина"
+    "name-ru": "Палестина"
   },
   {
     "name-en": "Portugal",
@@ -1549,7 +1557,7 @@
     "alpha3": "SLB",
     "numericCode": "090",
     "subdivisionCode": "ISO 3166-2:SB",
-    "name-ru": "Соломоновы Острова"
+    "name-ru": "Соломоновы острова"
   },
   {
     "name-en": "Seychelles",
@@ -1557,7 +1565,7 @@
     "alpha3": "SYC",
     "numericCode": "690",
     "subdivisionCode": "ISO 3166-2:SC",
-    "name-ru": "Сейшельские Острова"
+    "name-ru": "Сейшельские острова"
   },
   {
     "name-en": "Sudan",
@@ -1773,7 +1781,7 @@
     "alpha3": "TKM",
     "numericCode": "795",
     "subdivisionCode": "ISO 3166-2:TM",
-    "name-ru": "Туркмения"
+    "name-ru": "Туркменистан"
   },
   {
     "name-en": "Tunisia",
@@ -1821,7 +1829,7 @@
     "alpha3": "TWN",
     "numericCode": "158",
     "subdivisionCode": "ISO 3166-2:TW",
-    "name-ru": "Китайская Республика"
+    "name-ru": "Тайвань"
   },
   {
     "name-en": "Tanzania, United Republic of",
@@ -1909,7 +1917,7 @@
     "alpha3": "VGB",
     "numericCode": "092",
     "subdivisionCode": "ISO 3166-2:VG",
-    "name-ru": "Виргинские Острова (Великобритания)"
+    "name-ru": "Виргинские острова (Великобритания)"
   },
   {
     "name-en": "Virgin Islands (U.S.)",
@@ -1917,7 +1925,7 @@
     "alpha3": "VIR",
     "numericCode": "850",
     "subdivisionCode": "ISO 3166-2:VI",
-    "name-ru": "Виргинские Острова (США)"
+    "name-ru": "Виргинские острова (США)"
   },
   {
     "name-en": "Viet Nam",
@@ -1973,7 +1981,7 @@
     "alpha3": "ZAF",
     "numericCode": "710",
     "subdivisionCode": "ISO 3166-2:ZA",
-    "name-ru": "ЮАР"
+    "name-ru": "Южно-Африканска Республика"
   },
   {
     "name-en": "Zambia",
