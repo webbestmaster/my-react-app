@@ -57,6 +57,10 @@ module.exports = {
             {
                 test: /\.(png|jpg|gif)$/,
                 loader: "file-loader?name=img/img-[hash:6].[ext]"
+            },
+            {
+                test: /\.raw\.[\s\S]+?$/,
+                loader: "raw"
             }
         ]
     },

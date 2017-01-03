@@ -1,15 +1,34 @@
 import React, {Component} from 'react'
 // import {connect} from 'react-redux'
 // import {increase, decrease} from '../actions/count'
-import { Link, browserHistory } from 'react-router'
+import {Link, browserHistory} from 'react-router'
 
 const data = require('../data/data.json');
+const svgMap = require('../data/map.raw.svg');
 
 export default class Home extends Component {
 
-    render() {
+    bindEventListeners() {
 
-        console.log('Home');
+        let svgNode = this.refs.mapWrapper.querySelector('svg');
+
+        Array.prototype.forEach.call(
+            svgNode.querySelectorAll('.country'),
+            pathNode => {
+                pathNode.addEventListener('click', e => {
+                    console.log(e.currentTarget);
+                }, false)
+            }
+        )
+
+    }
+
+    componentDidMount() {
+        this.refs.mapWrapper.innerHTML = svgMap;
+        this.bindEventListeners();
+    }
+
+    render() {
 
         return <div>
 
@@ -17,7 +36,7 @@ export default class Home extends Component {
                 <input type="text" placeholder="Search..."/>
             </form>
 
-            {data.map(district => <Link key={district.id} to={'/district/' + district.id}>{district['district-ru']}</Link> )}
+            <div ref="mapWrapper"></div>
 
         </div>;
 
