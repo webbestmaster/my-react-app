@@ -1,0 +1,1994 @@
+[
+  {
+    "name-en": "Andorra",
+    "alpha2": "AD",
+    "alpha3": "AND",
+    "numericCode": "020",
+    "subdivisionCode": "ISO 3166-2:AD",
+    "name-ru": "Андорра"
+  },
+  {
+    "name-en": "United Arab Emirates",
+    "alpha2": "AE",
+    "alpha3": "ARE",
+    "numericCode": "784",
+    "subdivisionCode": "ISO 3166-2:AE",
+    "name-ru": "ОАЭ"
+  },
+  {
+    "name-en": "Afghanistan",
+    "alpha2": "AF",
+    "alpha3": "AFG",
+    "numericCode": "004",
+    "subdivisionCode": "ISO 3166-2:AF",
+    "name-ru": "Афганистан"
+  },
+  {
+    "name-en": "Antigua and Barbuda",
+    "alpha2": "AG",
+    "alpha3": "ATG",
+    "numericCode": "028",
+    "subdivisionCode": "ISO 3166-2:AG",
+    "name-ru": "Антигуа и Барбуда"
+  },
+  {
+    "name-en": "Anguilla",
+    "alpha2": "AI",
+    "alpha3": "AIA",
+    "numericCode": "660",
+    "subdivisionCode": "ISO 3166-2:AI",
+    "name-ru": "Ангилья"
+  },
+  {
+    "name-en": "Albania",
+    "alpha2": "AL",
+    "alpha3": "ALB",
+    "numericCode": "008",
+    "subdivisionCode": "ISO 3166-2:AL",
+    "name-ru": "Албания"
+  },
+  {
+    "name-en": "Armenia",
+    "alpha2": "AM",
+    "alpha3": "ARM",
+    "numericCode": "051",
+    "subdivisionCode": "ISO 3166-2:AM",
+    "name-ru": "Армения"
+  },
+  {
+    "name-en": "Angola",
+    "alpha2": "AO",
+    "alpha3": "AGO",
+    "numericCode": "024",
+    "subdivisionCode": "ISO 3166-2:AO",
+    "name-ru": "Ангола"
+  },
+  {
+    "name-en": "Antarctica",
+    "alpha2": "AQ",
+    "alpha3": "ATA",
+    "numericCode": "010",
+    "subdivisionCode": "ISO 3166-2:AQ",
+    "name-ru": "Антарктида"
+  },
+  {
+    "name-en": "Argentina",
+    "alpha2": "AR",
+    "alpha3": "ARG",
+    "numericCode": "032",
+    "subdivisionCode": "ISO 3166-2:AR",
+    "name-ru": "Аргентина"
+  },
+  {
+    "name-en": "American Samoa",
+    "alpha2": "AS",
+    "alpha3": "ASM",
+    "numericCode": "016",
+    "subdivisionCode": "ISO 3166-2:AS",
+    "name-ru": "Американское Самоа"
+  },
+  {
+    "name-en": "Austria",
+    "alpha2": "AT",
+    "alpha3": "AUT",
+    "numericCode": "040",
+    "subdivisionCode": "ISO 3166-2:AT",
+    "name-ru": "Австрия"
+  },
+  {
+    "name-en": "Australia",
+    "alpha2": "AU",
+    "alpha3": "AUS",
+    "numericCode": "036",
+    "subdivisionCode": "ISO 3166-2:AU",
+    "name-ru": "Австралия"
+  },
+  {
+    "name-en": "Aruba",
+    "alpha2": "AW",
+    "alpha3": "ABW",
+    "numericCode": "533",
+    "subdivisionCode": "ISO 3166-2:AW",
+    "name-ru": "Аруба"
+  },
+  {
+    "name-en": "Åland Islands",
+    "alpha2": "AX",
+    "alpha3": "ALA",
+    "numericCode": "248",
+    "subdivisionCode": "ISO 3166-2:AX",
+    "name-ru": "Аландские острова"
+  },
+  {
+    "name-en": "Azerbaijan",
+    "alpha2": "AZ",
+    "alpha3": "AZE",
+    "numericCode": "031",
+    "subdivisionCode": "ISO 3166-2:AZ",
+    "name-ru": "Азербайджан"
+  },
+  {
+    "name-en": "Bosnia and Herzegovina",
+    "alpha2": "BA",
+    "alpha3": "BIH",
+    "numericCode": "070",
+    "subdivisionCode": "ISO 3166-2:BA",
+    "name-ru": "Босния и Герцеговина"
+  },
+  {
+    "name-en": "Barbados",
+    "alpha2": "BB",
+    "alpha3": "BRB",
+    "numericCode": "052",
+    "subdivisionCode": "ISO 3166-2:BB",
+    "name-ru": "Барбадос"
+  },
+  {
+    "name-en": "Bangladesh",
+    "alpha2": "BD",
+    "alpha3": "BGD",
+    "numericCode": "050",
+    "subdivisionCode": "ISO 3166-2:BD",
+    "name-ru": "Бангладеш"
+  },
+  {
+    "name-en": "Belgium",
+    "alpha2": "BE",
+    "alpha3": "BEL",
+    "numericCode": "056",
+    "subdivisionCode": "ISO 3166-2:BE",
+    "name-ru": "Бельгия"
+  },
+  {
+    "name-en": "Burkina Faso",
+    "alpha2": "BF",
+    "alpha3": "BFA",
+    "numericCode": "854",
+    "subdivisionCode": "ISO 3166-2:BF",
+    "name-ru": "Буркина-Фасо"
+  },
+  {
+    "name-en": "Bulgaria",
+    "alpha2": "BG",
+    "alpha3": "BGR",
+    "numericCode": "100",
+    "subdivisionCode": "ISO 3166-2:BG",
+    "name-ru": "Болгария"
+  },
+  {
+    "name-en": "Bahrain",
+    "alpha2": "BH",
+    "alpha3": "BHR",
+    "numericCode": "048",
+    "subdivisionCode": "ISO 3166-2:BH",
+    "name-ru": "Бахрейн"
+  },
+  {
+    "name-en": "Burundi",
+    "alpha2": "BI",
+    "alpha3": "BDI",
+    "numericCode": "108",
+    "subdivisionCode": "ISO 3166-2:BI",
+    "name-ru": "Бурунди"
+  },
+  {
+    "name-en": "Benin",
+    "alpha2": "BJ",
+    "alpha3": "BEN",
+    "numericCode": "204",
+    "subdivisionCode": "ISO 3166-2:BJ",
+    "name-ru": "Бенин"
+  },
+  {
+    "name-en": "Saint Barthélemy",
+    "alpha2": "BL",
+    "alpha3": "BLM",
+    "numericCode": "652",
+    "subdivisionCode": "ISO 3166-2:BL",
+    "name-ru": "Сен-Бартелеми"
+  },
+  {
+    "name-en": "Bermuda",
+    "alpha2": "BM",
+    "alpha3": "BMU",
+    "numericCode": "060",
+    "subdivisionCode": "ISO 3166-2:BM",
+    "name-ru": "Бермуды"
+  },
+  {
+    "name-en": "Brunei Darussalam",
+    "alpha2": "BN",
+    "alpha3": "BRN",
+    "numericCode": "096",
+    "subdivisionCode": "ISO 3166-2:BN",
+    "name-ru": "Бруней"
+  },
+  {
+    "name-en": "Bolivia (Plurinational State of)",
+    "alpha2": "BO",
+    "alpha3": "BOL",
+    "numericCode": "068",
+    "subdivisionCode": "ISO 3166-2:BO",
+    "name-ru": "Боливия"
+  },
+  {
+    "name-en": "Bonaire, Sint Eustatius and Saba",
+    "alpha2": "BQ",
+    "alpha3": "BES",
+    "numericCode": "535",
+    "subdivisionCode": "ISO 3166-2:BQ",
+    "name-ru": "Бонэйр, Синт-Эстатиус и Саба"
+  },
+  {
+    "name-en": "Brazil",
+    "alpha2": "BR",
+    "alpha3": "BRA",
+    "numericCode": "076",
+    "subdivisionCode": "ISO 3166-2:BR",
+    "name-ru": "Бразилия"
+  },
+  {
+    "name-en": "Bahamas",
+    "alpha2": "BS",
+    "alpha3": "BHS",
+    "numericCode": "044",
+    "subdivisionCode": "ISO 3166-2:BS",
+    "name-ru": "Багамы"
+  },
+  {
+    "name-en": "Bhutan",
+    "alpha2": "BT",
+    "alpha3": "BTN",
+    "numericCode": "064",
+    "subdivisionCode": "ISO 3166-2:BT",
+    "name-ru": "Бутан"
+  },
+  {
+    "name-en": "Bouvet Island",
+    "alpha2": "BV",
+    "alpha3": "BVT",
+    "numericCode": "074",
+    "subdivisionCode": "ISO 3166-2:BV",
+    "name-ru": "Остров Буве"
+  },
+  {
+    "name-en": "Botswana",
+    "alpha2": "BW",
+    "alpha3": "BWA",
+    "numericCode": "072",
+    "subdivisionCode": "ISO 3166-2:BW",
+    "name-ru": "Ботсвана"
+  },
+  {
+    "name-en": "Belarus",
+    "alpha2": "BY",
+    "alpha3": "BLR",
+    "numericCode": "112",
+    "subdivisionCode": "ISO 3166-2:BY",
+    "name-ru": "Белоруссия"
+  },
+  {
+    "name-en": "Belize",
+    "alpha2": "BZ",
+    "alpha3": "BLZ",
+    "numericCode": "084",
+    "subdivisionCode": "ISO 3166-2:BZ",
+    "name-ru": "Белиз"
+  },
+  {
+    "name-en": "Canada",
+    "alpha2": "CA",
+    "alpha3": "CAN",
+    "numericCode": "124",
+    "subdivisionCode": "ISO 3166-2:CA",
+    "name-ru": "Канада"
+  },
+  {
+    "name-en": "Cocos (Keeling) Islands",
+    "alpha2": "CC",
+    "alpha3": "CCK",
+    "numericCode": "166",
+    "subdivisionCode": "ISO 3166-2:CC",
+    "name-ru": "Кокосовые острова"
+  },
+  {
+    "name-en": "Congo (Democratic Republic of the)",
+    "alpha2": "CD",
+    "alpha3": "COD",
+    "numericCode": "180",
+    "subdivisionCode": "ISO 3166-2:CD",
+    "name-ru": "Демократическая Республика Конго"
+  },
+  {
+    "name-en": "Central African Republic",
+    "alpha2": "CF",
+    "alpha3": "CAF",
+    "numericCode": "140",
+    "subdivisionCode": "ISO 3166-2:CF",
+    "name-ru": "ЦАР"
+  },
+  {
+    "name-en": "Congo",
+    "alpha2": "CG",
+    "alpha3": "COG",
+    "numericCode": "178",
+    "subdivisionCode": "ISO 3166-2:CG",
+    "name-ru": "Республика Конго"
+  },
+  {
+    "name-en": "Switzerland",
+    "alpha2": "CH",
+    "alpha3": "CHE",
+    "numericCode": "756",
+    "subdivisionCode": "ISO 3166-2:CH",
+    "name-ru": "Швейцария"
+  },
+  {
+    "name-en": "Côte d'Ivoire",
+    "alpha2": "CI",
+    "alpha3": "CIV",
+    "numericCode": "384",
+    "subdivisionCode": "ISO 3166-2:CI",
+    "name-ru": "Кот-д’Ивуар"
+  },
+  {
+    "name-en": "Cook Islands",
+    "alpha2": "CK",
+    "alpha3": "COK",
+    "numericCode": "184",
+    "subdivisionCode": "ISO 3166-2:CK",
+    "name-ru": "Острова Кука"
+  },
+  {
+    "name-en": "Chile",
+    "alpha2": "CL",
+    "alpha3": "CHL",
+    "numericCode": "152",
+    "subdivisionCode": "ISO 3166-2:CL",
+    "name-ru": "Чили"
+  },
+  {
+    "name-en": "Cameroon",
+    "alpha2": "CM",
+    "alpha3": "CMR",
+    "numericCode": "120",
+    "subdivisionCode": "ISO 3166-2:CM",
+    "name-ru": "Камерун"
+  },
+  {
+    "name-en": "China",
+    "alpha2": "CN",
+    "alpha3": "CHN",
+    "numericCode": "156",
+    "subdivisionCode": "ISO 3166-2:CN",
+    "name-ru": "КНР (Китайская Народная Республика)"
+  },
+  {
+    "name-en": "Colombia",
+    "alpha2": "CO",
+    "alpha3": "COL",
+    "numericCode": "170",
+    "subdivisionCode": "ISO 3166-2:CO",
+    "name-ru": "Колумбия"
+  },
+  {
+    "name-en": "Costa Rica",
+    "alpha2": "CR",
+    "alpha3": "CRI",
+    "numericCode": "188",
+    "subdivisionCode": "ISO 3166-2:CR",
+    "name-ru": "Коста-Рика"
+  },
+  {
+    "name-en": "Cuba",
+    "alpha2": "CU",
+    "alpha3": "CUB",
+    "numericCode": "192",
+    "subdivisionCode": "ISO 3166-2:CU",
+    "name-ru": "Куба"
+  },
+  {
+    "name-en": "Cabo Verde",
+    "alpha2": "CV",
+    "alpha3": "CPV",
+    "numericCode": "132",
+    "subdivisionCode": "ISO 3166-2:CV",
+    "name-ru": "Кабо-Верде"
+  },
+  {
+    "name-en": "Curaçao",
+    "alpha2": "CW",
+    "alpha3": "CUW",
+    "numericCode": "531",
+    "subdivisionCode": "ISO 3166-2:CW",
+    "name-ru": "Кюрасао"
+  },
+  {
+    "name-en": "Christmas Island",
+    "alpha2": "CX",
+    "alpha3": "CXR",
+    "numericCode": "162",
+    "subdivisionCode": "ISO 3166-2:CX",
+    "name-ru": "Остров Рождества"
+  },
+  {
+    "name-en": "Cyprus",
+    "alpha2": "CY",
+    "alpha3": "CYP",
+    "numericCode": "196",
+    "subdivisionCode": "ISO 3166-2:CY",
+    "name-ru": "Кипр"
+  },
+  {
+    "name-en": "Czechia",
+    "alpha2": "CZ",
+    "alpha3": "CZE",
+    "numericCode": "203",
+    "subdivisionCode": "ISO 3166-2:CZ",
+    "name-ru": "Чехия"
+  },
+  {
+    "name-en": "Germany",
+    "alpha2": "DE",
+    "alpha3": "DEU",
+    "numericCode": "276",
+    "subdivisionCode": "ISO 3166-2:DE",
+    "name-ru": "Германия"
+  },
+  {
+    "name-en": "Djibouti",
+    "alpha2": "DJ",
+    "alpha3": "DJI",
+    "numericCode": "262",
+    "subdivisionCode": "ISO 3166-2:DJ",
+    "name-ru": "Джибути"
+  },
+  {
+    "name-en": "Denmark",
+    "alpha2": "DK",
+    "alpha3": "DNK",
+    "numericCode": "208",
+    "subdivisionCode": "ISO 3166-2:DK",
+    "name-ru": "Дания"
+  },
+  {
+    "name-en": "Dominica",
+    "alpha2": "DM",
+    "alpha3": "DMA",
+    "numericCode": "212",
+    "subdivisionCode": "ISO 3166-2:DM",
+    "name-ru": "Доминика"
+  },
+  {
+    "name-en": "Dominican Republic",
+    "alpha2": "DO",
+    "alpha3": "DOM",
+    "numericCode": "214",
+    "subdivisionCode": "ISO 3166-2:DO",
+    "name-ru": "Доминиканская Республика"
+  },
+  {
+    "name-en": "Algeria",
+    "alpha2": "DZ",
+    "alpha3": "DZA",
+    "numericCode": "012",
+    "subdivisionCode": "ISO 3166-2:DZ",
+    "name-ru": "Алжир"
+  },
+  {
+    "name-en": "Ecuador",
+    "alpha2": "EC",
+    "alpha3": "ECU",
+    "numericCode": "218",
+    "subdivisionCode": "ISO 3166-2:EC",
+    "name-ru": "Эквадор"
+  },
+  {
+    "name-en": "Estonia",
+    "alpha2": "EE",
+    "alpha3": "EST",
+    "numericCode": "233",
+    "subdivisionCode": "ISO 3166-2:EE",
+    "name-ru": "Эстония"
+  },
+  {
+    "name-en": "Egypt",
+    "alpha2": "EG",
+    "alpha3": "EGY",
+    "numericCode": "818",
+    "subdivisionCode": "ISO 3166-2:EG",
+    "name-ru": "Египет"
+  },
+  {
+    "name-en": "Western Sahara",
+    "alpha2": "EH",
+    "alpha3": "ESH",
+    "numericCode": "732",
+    "subdivisionCode": "ISO 3166-2:EH",
+    "name-ru": "САДР"
+  },
+  {
+    "name-en": "Eritrea",
+    "alpha2": "ER",
+    "alpha3": "ERI",
+    "numericCode": "232",
+    "subdivisionCode": "ISO 3166-2:ER",
+    "name-ru": "Эритрея"
+  },
+  {
+    "name-en": "Spain",
+    "alpha2": "ES",
+    "alpha3": "ESP",
+    "numericCode": "724",
+    "subdivisionCode": "ISO 3166-2:ES",
+    "name-ru": "Испания"
+  },
+  {
+    "name-en": "Ethiopia",
+    "alpha2": "ET",
+    "alpha3": "ETH",
+    "numericCode": "231",
+    "subdivisionCode": "ISO 3166-2:ET",
+    "name-ru": "Эфиопия"
+  },
+  {
+    "name-en": "Finland",
+    "alpha2": "FI",
+    "alpha3": "FIN",
+    "numericCode": "246",
+    "subdivisionCode": "ISO 3166-2:FI",
+    "name-ru": "Финляндия"
+  },
+  {
+    "name-en": "Fiji",
+    "alpha2": "FJ",
+    "alpha3": "FJI",
+    "numericCode": "242",
+    "subdivisionCode": "ISO 3166-2:FJ",
+    "name-ru": "Фиджи"
+  },
+  {
+    "name-en": "Falkland Islands (Malvinas)",
+    "alpha2": "FK",
+    "alpha3": "FLK",
+    "numericCode": "238",
+    "subdivisionCode": "ISO 3166-2:FK",
+    "name-ru": "Фолклендские острова"
+  },
+  {
+    "name-en": "Micronesia (Federated States of)",
+    "alpha2": "FM",
+    "alpha3": "FSM",
+    "numericCode": "583",
+    "subdivisionCode": "ISO 3166-2:FM",
+    "name-ru": "Микронезия"
+  },
+  {
+    "name-en": "Faroe Islands",
+    "alpha2": "FO",
+    "alpha3": "FRO",
+    "numericCode": "234",
+    "subdivisionCode": "ISO 3166-2:FO",
+    "name-ru": "Фареры"
+  },
+  {
+    "name-en": "France",
+    "alpha2": "FR",
+    "alpha3": "FRA",
+    "numericCode": "250",
+    "subdivisionCode": "ISO 3166-2:FR",
+    "name-ru": "Франция"
+  },
+  {
+    "name-en": "Gabon",
+    "alpha2": "GA",
+    "alpha3": "GAB",
+    "numericCode": "266",
+    "subdivisionCode": "ISO 3166-2:GA",
+    "name-ru": "Габон"
+  },
+  {
+    "name-en": "United Kingdom of Great Britain and Northern Ireland",
+    "alpha2": "GB",
+    "alpha3": "GBR",
+    "numericCode": "826",
+    "subdivisionCode": "ISO 3166-2:GB",
+    "name-ru": "Великобритания"
+  },
+  {
+    "name-en": "Grenada",
+    "alpha2": "GD",
+    "alpha3": "GRD",
+    "numericCode": "308",
+    "subdivisionCode": "ISO 3166-2:GD",
+    "name-ru": "Гренада"
+  },
+  {
+    "name-en": "Georgia",
+    "alpha2": "GE",
+    "alpha3": "GEO",
+    "numericCode": "268",
+    "subdivisionCode": "ISO 3166-2:GE",
+    "name-ru": "Грузия"
+  },
+  {
+    "name-en": "French Guiana",
+    "alpha2": "GF",
+    "alpha3": "GUF",
+    "numericCode": "254",
+    "subdivisionCode": "ISO 3166-2:GF",
+    "name-ru": "Гвиана"
+  },
+  {
+    "name-en": "Guernsey",
+    "alpha2": "GG",
+    "alpha3": "GGY",
+    "numericCode": "831",
+    "subdivisionCode": "ISO 3166-2:GG",
+    "name-ru": "Гернси"
+  },
+  {
+    "name-en": "Ghana",
+    "alpha2": "GH",
+    "alpha3": "GHA",
+    "numericCode": "288",
+    "subdivisionCode": "ISO 3166-2:GH",
+    "name-ru": "Гана"
+  },
+  {
+    "name-en": "Gibraltar",
+    "alpha2": "GI",
+    "alpha3": "GIB",
+    "numericCode": "292",
+    "subdivisionCode": "ISO 3166-2:GI",
+    "name-ru": "Гибралтар"
+  },
+  {
+    "name-en": "Greenland",
+    "alpha2": "GL",
+    "alpha3": "GRL",
+    "numericCode": "304",
+    "subdivisionCode": "ISO 3166-2:GL",
+    "name-ru": "Гренландия"
+  },
+  {
+    "name-en": "Gambia",
+    "alpha2": "GM",
+    "alpha3": "GMB",
+    "numericCode": "270",
+    "subdivisionCode": "ISO 3166-2:GM",
+    "name-ru": "Гамбия"
+  },
+  {
+    "name-en": "Guinea",
+    "alpha2": "GN",
+    "alpha3": "GIN",
+    "numericCode": "324",
+    "subdivisionCode": "ISO 3166-2:GN",
+    "name-ru": "Гвинея"
+  },
+  {
+    "name-en": "Guadeloupe",
+    "alpha2": "GP",
+    "alpha3": "GLP",
+    "numericCode": "312",
+    "subdivisionCode": "ISO 3166-2:GP",
+    "name-ru": "Гваделупа"
+  },
+  {
+    "name-en": "Equatorial Guinea",
+    "alpha2": "GQ",
+    "alpha3": "GNQ",
+    "numericCode": "226",
+    "subdivisionCode": "ISO 3166-2:GQ",
+    "name-ru": "Экваториальная Гвинея"
+  },
+  {
+    "name-en": "Greece",
+    "alpha2": "GR",
+    "alpha3": "GRC",
+    "numericCode": "300",
+    "subdivisionCode": "ISO 3166-2:GR",
+    "name-ru": "Греция"
+  },
+  {
+    "name-en": "South Georgia and the South Sandwich Islands",
+    "alpha2": "GS",
+    "alpha3": "SGS",
+    "numericCode": "239",
+    "subdivisionCode": "ISO 3166-2:GS",
+    "name-ru": "Южная Георгия и Южные Сандвичевы Острова"
+  },
+  {
+    "name-en": "Guatemala",
+    "alpha2": "GT",
+    "alpha3": "GTM",
+    "numericCode": "320",
+    "subdivisionCode": "ISO 3166-2:GT",
+    "name-ru": "Гватемала"
+  },
+  {
+    "name-en": "Guam",
+    "alpha2": "GU",
+    "alpha3": "GUM",
+    "numericCode": "316",
+    "subdivisionCode": "ISO 3166-2:GU",
+    "name-ru": "Гуам"
+  },
+  {
+    "name-en": "Guinea-Bissau",
+    "alpha2": "GW",
+    "alpha3": "GNB",
+    "numericCode": "624",
+    "subdivisionCode": "ISO 3166-2:GW",
+    "name-ru": "Гвинея-Бисау"
+  },
+  {
+    "name-en": "Guyana",
+    "alpha2": "GY",
+    "alpha3": "GUY",
+    "numericCode": "328",
+    "subdivisionCode": "ISO 3166-2:GY",
+    "name-ru": "Гайана"
+  },
+  {
+    "name-en": "Hong Kong",
+    "alpha2": "HK",
+    "alpha3": "HKG",
+    "numericCode": "344",
+    "subdivisionCode": "ISO 3166-2:HK",
+    "name-ru": "Гонконг"
+  },
+  {
+    "name-en": "Heard Island and McDonald Islands",
+    "alpha2": "HM",
+    "alpha3": "HMD",
+    "numericCode": "334",
+    "subdivisionCode": "ISO 3166-2:HM",
+    "name-ru": "Херд и Макдональд"
+  },
+  {
+    "name-en": "Honduras",
+    "alpha2": "HN",
+    "alpha3": "HND",
+    "numericCode": "340",
+    "subdivisionCode": "ISO 3166-2:HN",
+    "name-ru": "Гондурас"
+  },
+  {
+    "name-en": "Croatia",
+    "alpha2": "HR",
+    "alpha3": "HRV",
+    "numericCode": "191",
+    "subdivisionCode": "ISO 3166-2:HR",
+    "name-ru": "Хорватия"
+  },
+  {
+    "name-en": "Haiti",
+    "alpha2": "HT",
+    "alpha3": "HTI",
+    "numericCode": "332",
+    "subdivisionCode": "ISO 3166-2:HT",
+    "name-ru": "Гаити"
+  },
+  {
+    "name-en": "Hungary",
+    "alpha2": "HU",
+    "alpha3": "HUN",
+    "numericCode": "348",
+    "subdivisionCode": "ISO 3166-2:HU",
+    "name-ru": "Венгрия"
+  },
+  {
+    "name-en": "Indonesia",
+    "alpha2": "ID",
+    "alpha3": "IDN",
+    "numericCode": "360",
+    "subdivisionCode": "ISO 3166-2:ID",
+    "name-ru": "Индонезия"
+  },
+  {
+    "name-en": "Ireland",
+    "alpha2": "IE",
+    "alpha3": "IRL",
+    "numericCode": "372",
+    "subdivisionCode": "ISO 3166-2:IE",
+    "name-ru": "Ирландия"
+  },
+  {
+    "name-en": "Israel",
+    "alpha2": "IL",
+    "alpha3": "ISR",
+    "numericCode": "376",
+    "subdivisionCode": "ISO 3166-2:IL",
+    "name-ru": "Израиль"
+  },
+  {
+    "name-en": "Isle of Man",
+    "alpha2": "IM",
+    "alpha3": "IMN",
+    "numericCode": "833",
+    "subdivisionCode": "ISO 3166-2:IM",
+    "name-ru": "Остров Мэн"
+  },
+  {
+    "name-en": "India",
+    "alpha2": "IN",
+    "alpha3": "IND",
+    "numericCode": "356",
+    "subdivisionCode": "ISO 3166-2:IN",
+    "name-ru": "Индия"
+  },
+  {
+    "name-en": "British Indian Ocean Territory",
+    "alpha2": "IO",
+    "alpha3": "IOT",
+    "numericCode": "086",
+    "subdivisionCode": "ISO 3166-2:IO",
+    "name-ru": "Британская территория в Индийском океане"
+  },
+  {
+    "name-en": "Iraq",
+    "alpha2": "IQ",
+    "alpha3": "IRQ",
+    "numericCode": "368",
+    "subdivisionCode": "ISO 3166-2:IQ",
+    "name-ru": "Ирак"
+  },
+  {
+    "name-en": "Iran (Islamic Republic of)",
+    "alpha2": "IR",
+    "alpha3": "IRN",
+    "numericCode": "364",
+    "subdivisionCode": "ISO 3166-2:IR",
+    "name-ru": "Иран"
+  },
+  {
+    "name-en": "Iceland",
+    "alpha2": "IS",
+    "alpha3": "ISL",
+    "numericCode": "352",
+    "subdivisionCode": "ISO 3166-2:IS",
+    "name-ru": "Исландия"
+  },
+  {
+    "name-en": "Italy",
+    "alpha2": "IT",
+    "alpha3": "ITA",
+    "numericCode": "380",
+    "subdivisionCode": "ISO 3166-2:IT",
+    "name-ru": "Италия"
+  },
+  {
+    "name-en": "Jersey",
+    "alpha2": "JE",
+    "alpha3": "JEY",
+    "numericCode": "832",
+    "subdivisionCode": "ISO 3166-2:JE",
+    "name-ru": "Джерси"
+  },
+  {
+    "name-en": "Jamaica",
+    "alpha2": "JM",
+    "alpha3": "JAM",
+    "numericCode": "388",
+    "subdivisionCode": "ISO 3166-2:JM",
+    "name-ru": "Ямайка"
+  },
+  {
+    "name-en": "Jordan",
+    "alpha2": "JO",
+    "alpha3": "JOR",
+    "numericCode": "400",
+    "subdivisionCode": "ISO 3166-2:JO",
+    "name-ru": "Иордания"
+  },
+  {
+    "name-en": "Japan",
+    "alpha2": "JP",
+    "alpha3": "JPN",
+    "numericCode": "392",
+    "subdivisionCode": "ISO 3166-2:JP",
+    "name-ru": "Япония"
+  },
+  {
+    "name-en": "Kenya",
+    "alpha2": "KE",
+    "alpha3": "KEN",
+    "numericCode": "404",
+    "subdivisionCode": "ISO 3166-2:KE",
+    "name-ru": "Кения"
+  },
+  {
+    "name-en": "Kyrgyzstan",
+    "alpha2": "KG",
+    "alpha3": "KGZ",
+    "numericCode": "417",
+    "subdivisionCode": "ISO 3166-2:KG",
+    "name-ru": "Киргизия"
+  },
+  {
+    "name-en": "Cambodia",
+    "alpha2": "KH",
+    "alpha3": "KHM",
+    "numericCode": "116",
+    "subdivisionCode": "ISO 3166-2:KH",
+    "name-ru": "Камбоджа"
+  },
+  {
+    "name-en": "Kiribati",
+    "alpha2": "KI",
+    "alpha3": "KIR",
+    "numericCode": "296",
+    "subdivisionCode": "ISO 3166-2:KI",
+    "name-ru": "Кирибати"
+  },
+  {
+    "name-en": "Comoros",
+    "alpha2": "KM",
+    "alpha3": "COM",
+    "numericCode": "174",
+    "subdivisionCode": "ISO 3166-2:KM",
+    "name-ru": "Коморы"
+  },
+  {
+    "name-en": "Saint Kitts and Nevis",
+    "alpha2": "KN",
+    "alpha3": "KNA",
+    "numericCode": "659",
+    "subdivisionCode": "ISO 3166-2:KN",
+    "name-ru": "Сент-Китс и Невис"
+  },
+  {
+    "name-en": "Korea (Democratic People's Republic of)",
+    "alpha2": "KP",
+    "alpha3": "PRK",
+    "numericCode": "408",
+    "subdivisionCode": "ISO 3166-2:KP",
+    "name-ru": "КНДР (Корейская Народно-Демократическая Республика)"
+  },
+  {
+    "name-en": "Korea (Republic of)",
+    "alpha2": "KR",
+    "alpha3": "KOR",
+    "numericCode": "410",
+    "subdivisionCode": "ISO 3166-2:KR",
+    "name-ru": "Республика Корея"
+  },
+  {
+    "name-en": "Kuwait",
+    "alpha2": "KW",
+    "alpha3": "KWT",
+    "numericCode": "414",
+    "subdivisionCode": "ISO 3166-2:KW",
+    "name-ru": "Кувейт"
+  },
+  {
+    "name-en": "Cayman Islands",
+    "alpha2": "KY",
+    "alpha3": "CYM",
+    "numericCode": "136",
+    "subdivisionCode": "ISO 3166-2:KY",
+    "name-ru": "Острова Кайман"
+  },
+  {
+    "name-en": "Kazakhstan",
+    "alpha2": "KZ",
+    "alpha3": "KAZ",
+    "numericCode": "398",
+    "subdivisionCode": "ISO 3166-2:KZ",
+    "name-ru": "Казахстан"
+  },
+  {
+    "name-en": "Lao People's Democratic Republic",
+    "alpha2": "LA",
+    "alpha3": "LAO",
+    "numericCode": "418",
+    "subdivisionCode": "ISO 3166-2:LA",
+    "name-ru": "Лаос"
+  },
+  {
+    "name-en": "Lebanon",
+    "alpha2": "LB",
+    "alpha3": "LBN",
+    "numericCode": "422",
+    "subdivisionCode": "ISO 3166-2:LB",
+    "name-ru": "Ливан"
+  },
+  {
+    "name-en": "Saint Lucia",
+    "alpha2": "LC",
+    "alpha3": "LCA",
+    "numericCode": "662",
+    "subdivisionCode": "ISO 3166-2:LC",
+    "name-ru": "Сент-Люсия"
+  },
+  {
+    "name-en": "Liechtenstein",
+    "alpha2": "LI",
+    "alpha3": "LIE",
+    "numericCode": "438",
+    "subdivisionCode": "ISO 3166-2:LI",
+    "name-ru": "Лихтенштейн"
+  },
+  {
+    "name-en": "Sri Lanka",
+    "alpha2": "LK",
+    "alpha3": "LKA",
+    "numericCode": "144",
+    "subdivisionCode": "ISO 3166-2:LK",
+    "name-ru": "Шри-Ланка"
+  },
+  {
+    "name-en": "Liberia",
+    "alpha2": "LR",
+    "alpha3": "LBR",
+    "numericCode": "430",
+    "subdivisionCode": "ISO 3166-2:LR",
+    "name-ru": "Либерия"
+  },
+  {
+    "name-en": "Lesotho",
+    "alpha2": "LS",
+    "alpha3": "LSO",
+    "numericCode": "426",
+    "subdivisionCode": "ISO 3166-2:LS",
+    "name-ru": "Лесото"
+  },
+  {
+    "name-en": "Lithuania",
+    "alpha2": "LT",
+    "alpha3": "LTU",
+    "numericCode": "440",
+    "subdivisionCode": "ISO 3166-2:LT",
+    "name-ru": "Литва"
+  },
+  {
+    "name-en": "Luxembourg",
+    "alpha2": "LU",
+    "alpha3": "LUX",
+    "numericCode": "442",
+    "subdivisionCode": "ISO 3166-2:LU",
+    "name-ru": "Люксембург"
+  },
+  {
+    "name-en": "Latvia",
+    "alpha2": "LV",
+    "alpha3": "LVA",
+    "numericCode": "428",
+    "subdivisionCode": "ISO 3166-2:LV",
+    "name-ru": "Латвия"
+  },
+  {
+    "name-en": "Libya",
+    "alpha2": "LY",
+    "alpha3": "LBY",
+    "numericCode": "434",
+    "subdivisionCode": "ISO 3166-2:LY",
+    "name-ru": "Ливия"
+  },
+  {
+    "name-en": "Morocco",
+    "alpha2": "MA",
+    "alpha3": "MAR",
+    "numericCode": "504",
+    "subdivisionCode": "ISO 3166-2:MA",
+    "name-ru": "Марокко"
+  },
+  {
+    "name-en": "Monaco",
+    "alpha2": "MC",
+    "alpha3": "MCO",
+    "numericCode": "492",
+    "subdivisionCode": "ISO 3166-2:MC",
+    "name-ru": "Монако"
+  },
+  {
+    "name-en": "Moldova (Republic of)",
+    "alpha2": "MD",
+    "alpha3": "MDA",
+    "numericCode": "498",
+    "subdivisionCode": "ISO 3166-2:MD",
+    "name-ru": "Молдавия"
+  },
+  {
+    "name-en": "Montenegro",
+    "alpha2": "ME",
+    "alpha3": "MNE",
+    "numericCode": "499",
+    "subdivisionCode": "ISO 3166-2:ME",
+    "name-ru": "Черногория"
+  },
+  {
+    "name-en": "Saint Martin (French part)",
+    "alpha2": "MF",
+    "alpha3": "MAF",
+    "numericCode": "663",
+    "subdivisionCode": "ISO 3166-2:MF",
+    "name-ru": "Сен-Мартен"
+  },
+  {
+    "name-en": "Madagascar",
+    "alpha2": "MG",
+    "alpha3": "MDG",
+    "numericCode": "450",
+    "subdivisionCode": "ISO 3166-2:MG",
+    "name-ru": "Мадагаскар"
+  },
+  {
+    "name-en": "Marshall Islands",
+    "alpha2": "MH",
+    "alpha3": "MHL",
+    "numericCode": "584",
+    "subdivisionCode": "ISO 3166-2:MH",
+    "name-ru": "Маршалловы Острова"
+  },
+  {
+    "name-en": "Macedonia (the former Yugoslav Republic of)",
+    "alpha2": "MK",
+    "alpha3": "MKD",
+    "numericCode": "807",
+    "subdivisionCode": "ISO 3166-2:MK",
+    "name-ru": "Македония"
+  },
+  {
+    "name-en": "Mali",
+    "alpha2": "ML",
+    "alpha3": "MLI",
+    "numericCode": "466",
+    "subdivisionCode": "ISO 3166-2:ML",
+    "name-ru": "Мали"
+  },
+  {
+    "name-en": "Myanmar",
+    "alpha2": "MM",
+    "alpha3": "MMR",
+    "numericCode": "104",
+    "subdivisionCode": "ISO 3166-2:MM",
+    "name-ru": "Мьянма"
+  },
+  {
+    "name-en": "Mongolia",
+    "alpha2": "MN",
+    "alpha3": "MNG",
+    "numericCode": "496",
+    "subdivisionCode": "ISO 3166-2:MN",
+    "name-ru": "Монголия"
+  },
+  {
+    "name-en": "Macao",
+    "alpha2": "MO",
+    "alpha3": "MAC",
+    "numericCode": "446",
+    "subdivisionCode": "ISO 3166-2:MO",
+    "name-ru": "Макао"
+  },
+  {
+    "name-en": "Northern Mariana Islands",
+    "alpha2": "MP",
+    "alpha3": "MNP",
+    "numericCode": "580",
+    "subdivisionCode": "ISO 3166-2:MP",
+    "name-ru": "Северные Марианские Острова"
+  },
+  {
+    "name-en": "Martinique",
+    "alpha2": "MQ",
+    "alpha3": "MTQ",
+    "numericCode": "474",
+    "subdivisionCode": "ISO 3166-2:MQ",
+    "name-ru": "Мартиника"
+  },
+  {
+    "name-en": "Mauritania",
+    "alpha2": "MR",
+    "alpha3": "MRT",
+    "numericCode": "478",
+    "subdivisionCode": "ISO 3166-2:MR",
+    "name-ru": "Мавритания"
+  },
+  {
+    "name-en": "Montserrat",
+    "alpha2": "MS",
+    "alpha3": "MSR",
+    "numericCode": "500",
+    "subdivisionCode": "ISO 3166-2:MS",
+    "name-ru": "Монтсеррат"
+  },
+  {
+    "name-en": "Malta",
+    "alpha2": "MT",
+    "alpha3": "MLT",
+    "numericCode": "470",
+    "subdivisionCode": "ISO 3166-2:MT",
+    "name-ru": "Мальта"
+  },
+  {
+    "name-en": "Mauritius",
+    "alpha2": "MU",
+    "alpha3": "MUS",
+    "numericCode": "480",
+    "subdivisionCode": "ISO 3166-2:MU",
+    "name-ru": "Маврикий"
+  },
+  {
+    "name-en": "Maldives",
+    "alpha2": "MV",
+    "alpha3": "MDV",
+    "numericCode": "462",
+    "subdivisionCode": "ISO 3166-2:MV",
+    "name-ru": "Мальдивы"
+  },
+  {
+    "name-en": "Malawi",
+    "alpha2": "MW",
+    "alpha3": "MWI",
+    "numericCode": "454",
+    "subdivisionCode": "ISO 3166-2:MW",
+    "name-ru": "Малави"
+  },
+  {
+    "name-en": "Mexico",
+    "alpha2": "MX",
+    "alpha3": "MEX",
+    "numericCode": "484",
+    "subdivisionCode": "ISO 3166-2:MX",
+    "name-ru": "Мексика"
+  },
+  {
+    "name-en": "Malaysia",
+    "alpha2": "MY",
+    "alpha3": "MYS",
+    "numericCode": "458",
+    "subdivisionCode": "ISO 3166-2:MY",
+    "name-ru": "Малайзия"
+  },
+  {
+    "name-en": "Mozambique",
+    "alpha2": "MZ",
+    "alpha3": "MOZ",
+    "numericCode": "508",
+    "subdivisionCode": "ISO 3166-2:MZ",
+    "name-ru": "Мозамбик"
+  },
+  {
+    "name-en": "Namibia",
+    "alpha2": "NA",
+    "alpha3": "NAM",
+    "numericCode": "516",
+    "subdivisionCode": "ISO 3166-2:NA",
+    "name-ru": "Намибия"
+  },
+  {
+    "name-en": "New Caledonia",
+    "alpha2": "NC",
+    "alpha3": "NCL",
+    "numericCode": "540",
+    "subdivisionCode": "ISO 3166-2:NC",
+    "name-ru": "Новая Каледония"
+  },
+  {
+    "name-en": "Niger",
+    "alpha2": "NE",
+    "alpha3": "NER",
+    "numericCode": "562",
+    "subdivisionCode": "ISO 3166-2:NE",
+    "name-ru": "Нигер"
+  },
+  {
+    "name-en": "Norfolk Island",
+    "alpha2": "NF",
+    "alpha3": "NFK",
+    "numericCode": "574",
+    "subdivisionCode": "ISO 3166-2:NF",
+    "name-ru": "Остров Норфолк"
+  },
+  {
+    "name-en": "Nigeria",
+    "alpha2": "NG",
+    "alpha3": "NGA",
+    "numericCode": "566",
+    "subdivisionCode": "ISO 3166-2:NG",
+    "name-ru": "Нигерия"
+  },
+  {
+    "name-en": "Nicaragua",
+    "alpha2": "NI",
+    "alpha3": "NIC",
+    "numericCode": "558",
+    "subdivisionCode": "ISO 3166-2:NI",
+    "name-ru": "Никарагуа"
+  },
+  {
+    "name-en": "Netherlands",
+    "alpha2": "NL",
+    "alpha3": "NLD",
+    "numericCode": "528",
+    "subdivisionCode": "ISO 3166-2:NL",
+    "name-ru": "Нидерланды"
+  },
+  {
+    "name-en": "Norway",
+    "alpha2": "NO",
+    "alpha3": "NOR",
+    "numericCode": "578",
+    "subdivisionCode": "ISO 3166-2:NO",
+    "name-ru": "Норвегия"
+  },
+  {
+    "name-en": "Nepal",
+    "alpha2": "NP",
+    "alpha3": "NPL",
+    "numericCode": "524",
+    "subdivisionCode": "ISO 3166-2:NP",
+    "name-ru": "Непал"
+  },
+  {
+    "name-en": "Nauru",
+    "alpha2": "NR",
+    "alpha3": "NRU",
+    "numericCode": "520",
+    "subdivisionCode": "ISO 3166-2:NR",
+    "name-ru": "Науру"
+  },
+  {
+    "name-en": "Niue",
+    "alpha2": "NU",
+    "alpha3": "NIU",
+    "numericCode": "570",
+    "subdivisionCode": "ISO 3166-2:NU",
+    "name-ru": "Ниуэ"
+  },
+  {
+    "name-en": "New Zealand",
+    "alpha2": "NZ",
+    "alpha3": "NZL",
+    "numericCode": "554",
+    "subdivisionCode": "ISO 3166-2:NZ",
+    "name-ru": "Новая Зеландия"
+  },
+  {
+    "name-en": "Oman",
+    "alpha2": "OM",
+    "alpha3": "OMN",
+    "numericCode": "512",
+    "subdivisionCode": "ISO 3166-2:OM",
+    "name-ru": "Оман"
+  },
+  {
+    "name-en": "Panama",
+    "alpha2": "PA",
+    "alpha3": "PAN",
+    "numericCode": "591",
+    "subdivisionCode": "ISO 3166-2:PA",
+    "name-ru": "Панама"
+  },
+  {
+    "name-en": "Peru",
+    "alpha2": "PE",
+    "alpha3": "PER",
+    "numericCode": "604",
+    "subdivisionCode": "ISO 3166-2:PE",
+    "name-ru": "Перу"
+  },
+  {
+    "name-en": "French Polynesia",
+    "alpha2": "PF",
+    "alpha3": "PYF",
+    "numericCode": "258",
+    "subdivisionCode": "ISO 3166-2:PF",
+    "name-ru": "Французская Полинезия"
+  },
+  {
+    "name-en": "Papua New Guinea",
+    "alpha2": "PG",
+    "alpha3": "PNG",
+    "numericCode": "598",
+    "subdivisionCode": "ISO 3166-2:PG",
+    "name-ru": "Папуа — Новая Гвинея"
+  },
+  {
+    "name-en": "Philippines",
+    "alpha2": "PH",
+    "alpha3": "PHL",
+    "numericCode": "608",
+    "subdivisionCode": "ISO 3166-2:PH",
+    "name-ru": "Филиппины"
+  },
+  {
+    "name-en": "Pakistan",
+    "alpha2": "PK",
+    "alpha3": "PAK",
+    "numericCode": "586",
+    "subdivisionCode": "ISO 3166-2:PK",
+    "name-ru": "Пакистан"
+  },
+  {
+    "name-en": "Poland",
+    "alpha2": "PL",
+    "alpha3": "POL",
+    "numericCode": "616",
+    "subdivisionCode": "ISO 3166-2:PL",
+    "name-ru": "Польша"
+  },
+  {
+    "name-en": "Saint Pierre and Miquelon",
+    "alpha2": "PM",
+    "alpha3": "SPM",
+    "numericCode": "666",
+    "subdivisionCode": "ISO 3166-2:PM",
+    "name-ru": "Сен-Пьер и Микелон"
+  },
+  {
+    "name-en": "Pitcairn",
+    "alpha2": "PN",
+    "alpha3": "PCN",
+    "numericCode": "612",
+    "subdivisionCode": "ISO 3166-2:PN",
+    "name-ru": "Острова Питкэрн"
+  },
+  {
+    "name-en": "Puerto Rico",
+    "alpha2": "PR",
+    "alpha3": "PRI",
+    "numericCode": "630",
+    "subdivisionCode": "ISO 3166-2:PR",
+    "name-ru": "Пуэрто-Рико"
+  },
+  {
+    "name-en": "Palestine, State of",
+    "alpha2": "PS",
+    "alpha3": "PSE",
+    "numericCode": "275",
+    "subdivisionCode": "ISO 3166-2:PS",
+    "name-ru": "Государство Палестина"
+  },
+  {
+    "name-en": "Portugal",
+    "alpha2": "PT",
+    "alpha3": "PRT",
+    "numericCode": "620",
+    "subdivisionCode": "ISO 3166-2:PT",
+    "name-ru": "Португалия"
+  },
+  {
+    "name-en": "Palau",
+    "alpha2": "PW",
+    "alpha3": "PLW",
+    "numericCode": "585",
+    "subdivisionCode": "ISO 3166-2:PW",
+    "name-ru": "Палау"
+  },
+  {
+    "name-en": "Paraguay",
+    "alpha2": "PY",
+    "alpha3": "PRY",
+    "numericCode": "600",
+    "subdivisionCode": "ISO 3166-2:PY",
+    "name-ru": "Парагвай"
+  },
+  {
+    "name-en": "Qatar",
+    "alpha2": "QA",
+    "alpha3": "QAT",
+    "numericCode": "634",
+    "subdivisionCode": "ISO 3166-2:QA",
+    "name-ru": "Катар"
+  },
+  {
+    "name-en": "Réunion",
+    "alpha2": "RE",
+    "alpha3": "REU",
+    "numericCode": "638",
+    "subdivisionCode": "ISO 3166-2:RE",
+    "name-ru": "Реюньон"
+  },
+  {
+    "name-en": "Romania",
+    "alpha2": "RO",
+    "alpha3": "ROU",
+    "numericCode": "642",
+    "subdivisionCode": "ISO 3166-2:RO",
+    "name-ru": "Румыния"
+  },
+  {
+    "name-en": "Serbia",
+    "alpha2": "RS",
+    "alpha3": "SRB",
+    "numericCode": "688",
+    "subdivisionCode": "ISO 3166-2:RS",
+    "name-ru": "Сербия"
+  },
+  {
+    "name-en": "Russian Federation",
+    "alpha2": "RU",
+    "alpha3": "RUS",
+    "numericCode": "643",
+    "subdivisionCode": "ISO 3166-2:RU",
+    "name-ru": "Россия"
+  },
+  {
+    "name-en": "Rwanda",
+    "alpha2": "RW",
+    "alpha3": "RWA",
+    "numericCode": "646",
+    "subdivisionCode": "ISO 3166-2:RW",
+    "name-ru": "Руанда"
+  },
+  {
+    "name-en": "Saudi Arabia",
+    "alpha2": "SA",
+    "alpha3": "SAU",
+    "numericCode": "682",
+    "subdivisionCode": "ISO 3166-2:SA",
+    "name-ru": "Саудовская Аравия"
+  },
+  {
+    "name-en": "Solomon Islands",
+    "alpha2": "SB",
+    "alpha3": "SLB",
+    "numericCode": "090",
+    "subdivisionCode": "ISO 3166-2:SB",
+    "name-ru": "Соломоновы Острова"
+  },
+  {
+    "name-en": "Seychelles",
+    "alpha2": "SC",
+    "alpha3": "SYC",
+    "numericCode": "690",
+    "subdivisionCode": "ISO 3166-2:SC",
+    "name-ru": "Сейшельские Острова"
+  },
+  {
+    "name-en": "Sudan",
+    "alpha2": "SD",
+    "alpha3": "SDN",
+    "numericCode": "729",
+    "subdivisionCode": "ISO 3166-2:SD",
+    "name-ru": "Судан"
+  },
+  {
+    "name-en": "Sweden",
+    "alpha2": "SE",
+    "alpha3": "SWE",
+    "numericCode": "752",
+    "subdivisionCode": "ISO 3166-2:SE",
+    "name-ru": "Швеция"
+  },
+  {
+    "name-en": "Singapore",
+    "alpha2": "SG",
+    "alpha3": "SGP",
+    "numericCode": "702",
+    "subdivisionCode": "ISO 3166-2:SG",
+    "name-ru": "Сингапур"
+  },
+  {
+    "name-en": "Saint Helena, Ascension and Tristan da Cunha",
+    "alpha2": "SH",
+    "alpha3": "SHN",
+    "numericCode": "654",
+    "subdivisionCode": "ISO 3166-2:SH",
+    "name-ru": "Острова Святой Елены, Вознесения и Тристан-да-Кунья"
+  },
+  {
+    "name-en": "Slovenia",
+    "alpha2": "SI",
+    "alpha3": "SVN",
+    "numericCode": "705",
+    "subdivisionCode": "ISO 3166-2:SI",
+    "name-ru": "Словения"
+  },
+  {
+    "name-en": "Svalbard and Jan Mayen",
+    "alpha2": "SJ",
+    "alpha3": "SJM",
+    "numericCode": "744",
+    "subdivisionCode": "ISO 3166-2:SJ",
+    "name-ru": "Шпицберген и Ян-Майен"
+  },
+  {
+    "name-en": "Slovakia",
+    "alpha2": "SK",
+    "alpha3": "SVK",
+    "numericCode": "703",
+    "subdivisionCode": "ISO 3166-2:SK",
+    "name-ru": "Словакия"
+  },
+  {
+    "name-en": "Sierra Leone",
+    "alpha2": "SL",
+    "alpha3": "SLE",
+    "numericCode": "694",
+    "subdivisionCode": "ISO 3166-2:SL",
+    "name-ru": "Сьерра-Леоне"
+  },
+  {
+    "name-en": "San Marino",
+    "alpha2": "SM",
+    "alpha3": "SMR",
+    "numericCode": "674",
+    "subdivisionCode": "ISO 3166-2:SM",
+    "name-ru": "Сан-Марино"
+  },
+  {
+    "name-en": "Senegal",
+    "alpha2": "SN",
+    "alpha3": "SEN",
+    "numericCode": "686",
+    "subdivisionCode": "ISO 3166-2:SN",
+    "name-ru": "Сенегал"
+  },
+  {
+    "name-en": "Somalia",
+    "alpha2": "SO",
+    "alpha3": "SOM",
+    "numericCode": "706",
+    "subdivisionCode": "ISO 3166-2:SO",
+    "name-ru": "Сомали"
+  },
+  {
+    "name-en": "Suriname",
+    "alpha2": "SR",
+    "alpha3": "SUR",
+    "numericCode": "740",
+    "subdivisionCode": "ISO 3166-2:SR",
+    "name-ru": "Суринам"
+  },
+  {
+    "name-en": "South Sudan",
+    "alpha2": "SS",
+    "alpha3": "SSD",
+    "numericCode": "728",
+    "subdivisionCode": "ISO 3166-2:SS",
+    "name-ru": "Южный Судан"
+  },
+  {
+    "name-en": "Sao Tome and Principe",
+    "alpha2": "ST",
+    "alpha3": "STP",
+    "numericCode": "678",
+    "subdivisionCode": "ISO 3166-2:ST",
+    "name-ru": "Сан-Томе и Принсипи"
+  },
+  {
+    "name-en": "El Salvador",
+    "alpha2": "SV",
+    "alpha3": "SLV",
+    "numericCode": "222",
+    "subdivisionCode": "ISO 3166-2:SV",
+    "name-ru": "Сальвадор"
+  },
+  {
+    "name-en": "Sint Maarten (Dutch part)",
+    "alpha2": "SX",
+    "alpha3": "SXM",
+    "numericCode": "534",
+    "subdivisionCode": "ISO 3166-2:SX",
+    "name-ru": "Синт-Мартен"
+  },
+  {
+    "name-en": "Syrian Arab Republic",
+    "alpha2": "SY",
+    "alpha3": "SYR",
+    "numericCode": "760",
+    "subdivisionCode": "ISO 3166-2:SY",
+    "name-ru": "Сирия"
+  },
+  {
+    "name-en": "Swaziland",
+    "alpha2": "SZ",
+    "alpha3": "SWZ",
+    "numericCode": "748",
+    "subdivisionCode": "ISO 3166-2:SZ",
+    "name-ru": "Свазиленд"
+  },
+  {
+    "name-en": "Turks and Caicos Islands",
+    "alpha2": "TC",
+    "alpha3": "TCA",
+    "numericCode": "796",
+    "subdivisionCode": "ISO 3166-2:TC",
+    "name-ru": "Тёркс и Кайкос"
+  },
+  {
+    "name-en": "Chad",
+    "alpha2": "TD",
+    "alpha3": "TCD",
+    "numericCode": "148",
+    "subdivisionCode": "ISO 3166-2:TD",
+    "name-ru": "Чад"
+  },
+  {
+    "name-en": "French Southern Territories",
+    "alpha2": "TF",
+    "alpha3": "ATF",
+    "numericCode": "260",
+    "subdivisionCode": "ISO 3166-2:TF",
+    "name-ru": "Французские Южные и Антарктические Территории"
+  },
+  {
+    "name-en": "Togo",
+    "alpha2": "TG",
+    "alpha3": "TGO",
+    "numericCode": "768",
+    "subdivisionCode": "ISO 3166-2:TG",
+    "name-ru": "Того"
+  },
+  {
+    "name-en": "Thailand",
+    "alpha2": "TH",
+    "alpha3": "THA",
+    "numericCode": "764",
+    "subdivisionCode": "ISO 3166-2:TH",
+    "name-ru": "Таиланд"
+  },
+  {
+    "name-en": "Tajikistan",
+    "alpha2": "TJ",
+    "alpha3": "TJK",
+    "numericCode": "762",
+    "subdivisionCode": "ISO 3166-2:TJ",
+    "name-ru": "Таджикистан"
+  },
+  {
+    "name-en": "Tokelau",
+    "alpha2": "TK",
+    "alpha3": "TKL",
+    "numericCode": "772",
+    "subdivisionCode": "ISO 3166-2:TK",
+    "name-ru": "Токелау"
+  },
+  {
+    "name-en": "Timor-Leste",
+    "alpha2": "TL",
+    "alpha3": "TLS",
+    "numericCode": "626",
+    "subdivisionCode": "ISO 3166-2:TL",
+    "name-ru": "Восточный Тимор"
+  },
+  {
+    "name-en": "Turkmenistan",
+    "alpha2": "TM",
+    "alpha3": "TKM",
+    "numericCode": "795",
+    "subdivisionCode": "ISO 3166-2:TM",
+    "name-ru": "Туркмения"
+  },
+  {
+    "name-en": "Tunisia",
+    "alpha2": "TN",
+    "alpha3": "TUN",
+    "numericCode": "788",
+    "subdivisionCode": "ISO 3166-2:TN",
+    "name-ru": "Тунис"
+  },
+  {
+    "name-en": "Tonga",
+    "alpha2": "TO",
+    "alpha3": "TON",
+    "numericCode": "776",
+    "subdivisionCode": "ISO 3166-2:TO",
+    "name-ru": "Тонга"
+  },
+  {
+    "name-en": "Turkey",
+    "alpha2": "TR",
+    "alpha3": "TUR",
+    "numericCode": "792",
+    "subdivisionCode": "ISO 3166-2:TR",
+    "name-ru": "Турция"
+  },
+  {
+    "name-en": "Trinidad and Tobago",
+    "alpha2": "TT",
+    "alpha3": "TTO",
+    "numericCode": "780",
+    "subdivisionCode": "ISO 3166-2:TT",
+    "name-ru": "Тринидад и Тобаго"
+  },
+  {
+    "name-en": "Tuvalu",
+    "alpha2": "TV",
+    "alpha3": "TUV",
+    "numericCode": "798",
+    "subdivisionCode": "ISO 3166-2:TV",
+    "name-ru": "Тувалу"
+  },
+  {
+    "name-en": "Taiwan, Province of China[a]",
+    "alpha2": "TW",
+    "alpha3": "TWN",
+    "numericCode": "158",
+    "subdivisionCode": "ISO 3166-2:TW",
+    "name-ru": "Китайская Республика"
+  },
+  {
+    "name-en": "Tanzania, United Republic of",
+    "alpha2": "TZ",
+    "alpha3": "TZA",
+    "numericCode": "834",
+    "subdivisionCode": "ISO 3166-2:TZ",
+    "name-ru": "Танзания"
+  },
+  {
+    "name-en": "Ukraine",
+    "alpha2": "UA",
+    "alpha3": "UKR",
+    "numericCode": "804",
+    "subdivisionCode": "ISO 3166-2:UA",
+    "name-ru": "Украина"
+  },
+  {
+    "name-en": "Uganda",
+    "alpha2": "UG",
+    "alpha3": "UGA",
+    "numericCode": "800",
+    "subdivisionCode": "ISO 3166-2:UG",
+    "name-ru": "Уганда"
+  },
+  {
+    "name-en": "United States Minor Outlying Islands",
+    "alpha2": "UM",
+    "alpha3": "UMI",
+    "numericCode": "581",
+    "subdivisionCode": "ISO 3166-2:UM",
+    "name-ru": "Внешние малые острова (США)"
+  },
+  {
+    "name-en": "United States of America",
+    "alpha2": "US",
+    "alpha3": "USA",
+    "numericCode": "840",
+    "subdivisionCode": "ISO 3166-2:US",
+    "name-ru": "США"
+  },
+  {
+    "name-en": "Uruguay",
+    "alpha2": "UY",
+    "alpha3": "URY",
+    "numericCode": "858",
+    "subdivisionCode": "ISO 3166-2:UY",
+    "name-ru": "Уругвай"
+  },
+  {
+    "name-en": "Uzbekistan",
+    "alpha2": "UZ",
+    "alpha3": "UZB",
+    "numericCode": "860",
+    "subdivisionCode": "ISO 3166-2:UZ",
+    "name-ru": "Узбекистан"
+  },
+  {
+    "name-en": "Holy See",
+    "alpha2": "VA",
+    "alpha3": "VAT",
+    "numericCode": "336",
+    "subdivisionCode": "ISO 3166-2:VA",
+    "name-ru": "Ватикан"
+  },
+  {
+    "name-en": "Saint Vincent and the Grenadines",
+    "alpha2": "VC",
+    "alpha3": "VCT",
+    "numericCode": "670",
+    "subdivisionCode": "ISO 3166-2:VC",
+    "name-ru": "Сент-Винсент и Гренадины"
+  },
+  {
+    "name-en": "Venezuela (Bolivarian Republic of)",
+    "alpha2": "VE",
+    "alpha3": "VEN",
+    "numericCode": "862",
+    "subdivisionCode": "ISO 3166-2:VE",
+    "name-ru": "Венесуэла"
+  },
+  {
+    "name-en": "Virgin Islands (British)",
+    "alpha2": "VG",
+    "alpha3": "VGB",
+    "numericCode": "092",
+    "subdivisionCode": "ISO 3166-2:VG",
+    "name-ru": "Виргинские Острова (Великобритания)"
+  },
+  {
+    "name-en": "Virgin Islands (U.S.)",
+    "alpha2": "VI",
+    "alpha3": "VIR",
+    "numericCode": "850",
+    "subdivisionCode": "ISO 3166-2:VI",
+    "name-ru": "Виргинские Острова (США)"
+  },
+  {
+    "name-en": "Viet Nam",
+    "alpha2": "VN",
+    "alpha3": "VNM",
+    "numericCode": "704",
+    "subdivisionCode": "ISO 3166-2:VN",
+    "name-ru": "Вьетнам"
+  },
+  {
+    "name-en": "Vanuatu",
+    "alpha2": "VU",
+    "alpha3": "VUT",
+    "numericCode": "548",
+    "subdivisionCode": "ISO 3166-2:VU",
+    "name-ru": "Вануату"
+  },
+  {
+    "name-en": "Wallis and Futuna",
+    "alpha2": "WF",
+    "alpha3": "WLF",
+    "numericCode": "876",
+    "subdivisionCode": "ISO 3166-2:WF",
+    "name-ru": "Уоллис и Футуна"
+  },
+  {
+    "name-en": "Samoa",
+    "alpha2": "WS",
+    "alpha3": "WSM",
+    "numericCode": "882",
+    "subdivisionCode": "ISO 3166-2:WS",
+    "name-ru": "Самоа"
+  },
+  {
+    "name-en": "Yemen",
+    "alpha2": "YE",
+    "alpha3": "YEM",
+    "numericCode": "887",
+    "subdivisionCode": "ISO 3166-2:YE",
+    "name-ru": "Йемен"
+  },
+  {
+    "name-en": "Mayotte",
+    "alpha2": "YT",
+    "alpha3": "MYT",
+    "numericCode": "175",
+    "subdivisionCode": "ISO 3166-2:YT",
+    "name-ru": "Майотта"
+  },
+  {
+    "name-en": "South Africa",
+    "alpha2": "ZA",
+    "alpha3": "ZAF",
+    "numericCode": "710",
+    "subdivisionCode": "ISO 3166-2:ZA",
+    "name-ru": "ЮАР"
+  },
+  {
+    "name-en": "Zambia",
+    "alpha2": "ZM",
+    "alpha3": "ZMB",
+    "numericCode": "894",
+    "subdivisionCode": "ISO 3166-2:ZM",
+    "name-ru": "Замбия"
+  },
+  {
+    "name-en": "Zimbabwe",
+    "alpha2": "ZW",
+    "alpha3": "ZWE",
+    "numericCode": "716",
+    "subdivisionCode": "ISO 3166-2:ZW",
+    "name-ru": "Зимбабве"
+  }
+]
