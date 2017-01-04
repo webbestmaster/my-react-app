@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 // import {increase, decrease} from '../actions/count'
-import {Link, browserHistory} from 'react-router'
+import {Link, browserHistory, hashHistory} from 'react-router'
 
 import actionRouteToCountry from './../actions/home'
 
@@ -10,26 +10,31 @@ const svgMap = require('../data/map.raw.svg');
 
 class Home extends Component {
 
-    bindEventListeners() {
+    _pathNodeOnClick(e) {
 
-        let svgNode = this.refs.mapWrapper.querySelector('svg');
+        let path = e.currentTarget.getAttribute('alpha3');
 
-        Array.prototype.forEach.call(
-            svgNode.querySelectorAll('.country'),
-            pathNode => {
-                pathNode.addEventListener('click', e => {
-                    // console.log(e.currentTarget);
-                    this.props.actionRouteToCountry(e.currentTarget.getAttribute('alpha3'));
-                    console
-                }, false)
-            }
-        )
+        this.props.actionRouteToCountry('/country/' + path);
+
+        hashHistory.push('/country/' + path);
+
+    }
+
+    _bindEventListeners() {
+
+        let svgNode = this.refs.mapWrapper.querySelector('svg'),
+            pathNodes = svgNode.querySelectorAll('.country'),
+            i, len;
+
+        for (i = 0, len = pathNodes.length; i < len; i += 1) {
+            pathNodes[i].addEventListener('click', e => this._pathNodeOnClick(e), false);
+        }
 
     }
 
     componentDidMount() {
         this.refs.mapWrapper.innerHTML = svgMap;
-        this.bindEventListeners();
+        this._bindEventListeners();
     }
 
     render() {

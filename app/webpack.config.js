@@ -19,7 +19,7 @@ module.exports = {
     context: path.join(CWD, 'www'),
     entry: {
         'common': './common',
-        'main': ['./app.js']
+        'main': ['./app.jsx']
     },
     output: {
         path: path.join(CWD, 'dist'),
