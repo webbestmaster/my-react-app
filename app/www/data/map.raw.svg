@@ -11,8 +11,9 @@
             fill: #444444;
             fill-opacity: 1;
             fill-rule: evenodd;
-            stroke: none;
+            stroke: #FFF;
             cursor: pointer;
+            stroke-width: 0.1px;
         }
 
         .country:hover,
