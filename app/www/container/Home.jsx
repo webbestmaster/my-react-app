@@ -1,12 +1,14 @@
 import React, {Component} from 'react'
-// import {connect} from 'react-redux'
+import {connect} from 'react-redux'
 // import {increase, decrease} from '../actions/count'
 import {Link, browserHistory} from 'react-router'
+
+import actionRouteToCountry from './../actions/home'
 
 const data = require('../data/data.json');
 const svgMap = require('../data/map.raw.svg');
 
-export default class Home extends Component {
+class Home extends Component {
 
     bindEventListeners() {
 
@@ -16,7 +18,8 @@ export default class Home extends Component {
             svgNode.querySelectorAll('.country'),
             pathNode => {
                 pathNode.addEventListener('click', e => {
-                    console.log(e.currentTarget);
+                    // console.log(e.currentTarget);
+                    this.props.actionRouteToCountry(e.currentTarget.getAttribute('alpha3'));
                 }, false)
             }
         )
@@ -43,3 +46,8 @@ export default class Home extends Component {
     }
 
 }
+
+export default connect(
+    state => ({ to: '' }),
+    { actionRouteToCountry }
+)(Home)
