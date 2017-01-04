@@ -4,37 +4,18 @@ import {connect} from 'react-redux'
 import {Link, browserHistory, hashHistory} from 'react-router'
 
 import actionRouteToCountry from './../actions/home'
+// this.props.actionRouteToCountry('/country/' + path);
+// hashHistory.push('/country/' + path);
 
 const data = require('../data/data.json');
-const svgMap = require('../data/map.raw.svg');
+// const svgMap = require('../data/map.raw.svg');
 
 class Home extends Component {
 
-    _pathNodeOnClick(e) {
+    _onSearchInput(e) {
 
-        let path = e.currentTarget.getAttribute('alpha3');
+        console.log(e)
 
-        this.props.actionRouteToCountry('/country/' + path);
-
-        hashHistory.push('/country/' + path);
-
-    }
-
-    _bindEventListeners() {
-
-        let svgNode = this.refs.mapWrapper.querySelector('svg'),
-            pathNodes = svgNode.querySelectorAll('.country'),
-            i, len;
-
-        for (i = 0, len = pathNodes.length; i < len; i += 1) {
-            pathNodes[i].addEventListener('click', e => this._pathNodeOnClick(e), false);
-        }
-
-    }
-
-    componentDidMount() {
-        this.refs.mapWrapper.innerHTML = svgMap;
-        this._bindEventListeners();
     }
 
     render() {
@@ -44,10 +25,10 @@ class Home extends Component {
             {this.props.to}
 
             <form action="#">
-                <input type="text" placeholder="Search..."/>
+                <input type="text" placeholder="Search..." onInput={this._onSearchInput}/>
             </form>
 
-            <div ref="mapWrapper"></div>
+            {data.map(country => <Link to={'/country/' + country.alpha3}>{country.alpha3}</Link>)}
 
         </div>;
 
@@ -56,6 +37,6 @@ class Home extends Component {
 }
 
 export default connect(
-    state => ({ to: state.reducerRouteToCountry.to }),
-    { actionRouteToCountry }
+    state => ({to: state.reducerRouteToCountry.to}),
+    {actionRouteToCountry}
 )(Home)
