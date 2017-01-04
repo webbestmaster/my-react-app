@@ -9,7 +9,9 @@ export default function reducerRouteToCountry(state = initialState, action) {
     console.log(action);
 
     if (action.type === 'RouteToCountry') {
-        return {to: '/' + state.to, ...state}
+        console.log(3333);
+        console.log({to: '/' + action.to});
+        return {to: '/' + action.to}
     }
 
     return state;

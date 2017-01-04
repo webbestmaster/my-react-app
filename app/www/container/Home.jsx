@@ -20,6 +20,7 @@ class Home extends Component {
                 pathNode.addEventListener('click', e => {
                     // console.log(e.currentTarget);
                     this.props.actionRouteToCountry(e.currentTarget.getAttribute('alpha3'));
+                    console
                 }, false)
             }
         )
@@ -35,6 +36,8 @@ class Home extends Component {
 
         return <div>
 
+            {this.props.to}
+
             <form action="#">
                 <input type="text" placeholder="Search..."/>
             </form>
@@ -48,6 +51,6 @@ class Home extends Component {
 }
 
 export default connect(
-    state => ({ to: '' }),
+    state => ({ to: state.reducerRouteToCountry.to }),
     { actionRouteToCountry }
 )(Home)
