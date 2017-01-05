@@ -1,29 +1,38 @@
 .home-cards {
   display: block;
+  -webkit-column-width: 100px;
+  -webkit-column-gap: 10px;
   column-width: 100px;
   column-gap: 10px;
+  text-align: center;
 }
 
 .country-card {
   display: inline-block;
-  background-color: #dcdcdc;
   text-decoration: none;
   text-align: center;
   color: #212121;
-  font-family: Trebuchet MS, sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   width: 100px;
   word-break: break-word;
+  margin-bottom: 33px;
+  font-size: 14px;
+  line-height: 1.15;
 }
-
-$flagWidth: 76px;
 
 .country-card__flag {
   display: block;
-  width: $flagWidth;
-  height: $flagWidth * 3 / 4;
+  width: 76px;
+  height: 57px;
   margin: 0 auto;
+  margin-bottom: 4px;
+  border: 1px solid #777;
 }
 
-
+.country-card__currency {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #333;
+}
 
 

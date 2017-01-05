@@ -25,18 +25,22 @@ class Home extends Component {
         return <div className="home-cards">
 
             {this.props.to}
-{/*
-            <form action="#">
-                <input type="text" placeholder="Search..." onInput={this._onSearchInput}/>
-            </form>
-*/}
+            {/*
+             <form action="#">
+             <input type="text" placeholder="Search..." onInput={this._onSearchInput}/>
+             </form>
+             */}
 
             {data.map(country => <Link className="country-card" to={'/country/' + country.alpha3}>
-                    {/*{country.alpha3}*/}
-                    <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
-                    {country['name-ru']}
-
-                </Link>)}
+                {/*{country.alpha3}*/}
+                <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
+                {country['name-ru']}
+                {country.currency &&
+                <p className="country-card__currency">
+                    {country.currency.map(currency => currency.abbreviation).join(' ')}
+                </p>
+                }
+            </Link>)}
 
         </div>;
 
@@ -47,4 +51,4 @@ class Home extends Component {
 export default connect(
     state => ({to: state.reducerRouteToCountry.to}),
     {actionRouteToCountry}
-)(Home)
+)(Home);
