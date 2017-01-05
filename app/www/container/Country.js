@@ -20,7 +20,7 @@ export default class Country extends Component {
                 <div>
                     <p>{currency.abbreviation}</p>
                     <p>{currency['name-ru']}</p>
-                    <p>{currency.description}</p>
+                    <p>{currency['description-ru']}</p>
 
                     {currency.image.map(image =>
                         <img className="money" src={require('../data/currency/' + currency.abbreviation + '/' + image)}/>

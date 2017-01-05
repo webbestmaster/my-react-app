@@ -33,7 +33,7 @@ class Home extends Component {
             {data.map(country => <Link to={'/country/' + country.alpha3}>
                 <div>
                     {country.alpha3}
-                    {country['name-en']}
+                    {country['name-ru']}
                     <img className="flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
                 </div>
                 </Link>)}
