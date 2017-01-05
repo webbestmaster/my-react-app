@@ -28,7 +28,13 @@ class Home extends Component {
                 <input type="text" placeholder="Search..." onInput={this._onSearchInput}/>
             </form>
 
-            {data.map(country => <Link to={'/country/' + country.alpha3}>{country.alpha3}</Link>)}
+            {data.map(country => <Link to={'/country/' + country.alpha3}>
+                <div>
+                    {country.alpha3}
+                    {country['name-en']}
+                    <img width="100px" height="100px" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
+                </div>
+                </Link>)}
 
         </div>;
 

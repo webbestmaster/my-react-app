@@ -55,13 +55,13 @@ module.exports = {
                 loader: 'json'
             },
             {
-                test: /\.(png|jpg|gif)$/,
-                loader: "file-loader?name=img/img-[hash:6].[ext]"
-            },
-            {
-                test: /\.raw\.[\s\S]+?$/,
-                loader: "raw"
+                test: /\.(png|jpg|gif|svg)$/,
+                loader: "file-loader?name=img/img-[name]-[hash:6].[ext]"
             }
+            // {
+            //     test: /\.raw\.[\s\S]+?$/,
+            //     loader: "raw"
+            // }
         ]
     },
 
