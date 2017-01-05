@@ -22,20 +22,20 @@ class Home extends Component {
 
     render() {
 
-        return <div>
+        return <div className="home-cards">
 
             {this.props.to}
-
+{/*
             <form action="#">
                 <input type="text" placeholder="Search..." onInput={this._onSearchInput}/>
             </form>
+*/}
 
-            {data.map(country => <Link to={'/country/' + country.alpha3}>
-                <div>
-                    {country.alpha3}
+            {data.map(country => <Link className="country-card" to={'/country/' + country.alpha3}>
+                    {/*{country.alpha3}*/}
+                    <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
                     {country['name-ru']}
-                    <img className="flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
-                </div>
+
                 </Link>)}
 
         </div>;
