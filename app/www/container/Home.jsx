@@ -1,20 +1,22 @@
-import React, {Component} from 'react'
-import {connect} from 'react-redux'
+import React, {Component} from 'react';
+import {connect} from 'react-redux';
 // import {increase, decrease} from '../actions/count'
-import {Link, browserHistory, hashHistory} from 'react-router'
+import {Link, browserHistory, hashHistory} from 'react-router';
 
-import actionRouteToCountry from './../actions/home'
+import actionRouteToCountry from './../actions/home';
 // this.props.actionRouteToCountry('/country/' + path);
 // hashHistory.push('/country/' + path);
 
 const data = require('../data/data.json');
 // const svgMap = require('../data/map.raw.svg');
 
+require('../style/home.scss');
+
 class Home extends Component {
 
     _onSearchInput(e) {
 
-        console.log(e)
+        console.log(e);
 
     }
 
@@ -32,7 +34,7 @@ class Home extends Component {
                 <div>
                     {country.alpha3}
                     {country['name-en']}
-                    <img width="100px" height="100px" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
+                    <img className="flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
                 </div>
                 </Link>)}
 

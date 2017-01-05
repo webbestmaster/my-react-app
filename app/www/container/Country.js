@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 const _ = require('lodash');
 
 const data = require('../data/data.json');
+require('../style/country.scss');
 
 export default class Country extends Component {
 
@@ -22,7 +23,7 @@ export default class Country extends Component {
                     <p>{currency.description}</p>
 
                     {currency.image.map(image =>
-                        <img src={require('../data/currency/' + currency.abbreviation + '/' + image)}/>
+                        <img className="money" src={require('../data/currency/' + currency.abbreviation + '/' + image)}/>
                     )}
 
                 </div>

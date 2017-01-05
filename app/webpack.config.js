@@ -1,4 +1,3 @@
-/* eslint-disable */
 'use strict';
 
 const path = require('path');
@@ -6,6 +5,7 @@ const path = require('path');
 const webpack = require('webpack');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const DEVELOPMENT = 'development';
 const PRODUCTION = 'production';
@@ -33,21 +33,12 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.js$/,
+                test: /\.jsx?$/,
                 loader: 'babel',
                 exclude: /(node_modules|bower_components)/,
                 query: {
                     presets: ['es2015', 'stage-1', 'react'],
-                    // plugins: ['transform-runtime'],
                     compact: false
-                }
-            },
-            {
-                test: /\.jsx$/,
-                loader: 'babel',
-                exclude: /(node_modules|bower_components)/,
-                query: {
-                    presets: ['es2015', 'stage-1', 'react']
                 }
             },
             {
@@ -56,7 +47,11 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|gif|svg)$/,
-                loader: "file-loader?name=img/img-[name]-[hash:6].[ext]"
+                loader: 'file-loader?name=img/img-[name]-[hash:6].[ext]'
+            },
+            {
+                test: /\.scss$/,
+                loader: ExtractTextPlugin.extract('css!sass')
             }
             // {
             //     test: /\.raw\.[\s\S]+?$/,
@@ -77,6 +72,9 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: 'index.html'
+        }),
+        new ExtractTextPlugin('style.css', {
+            allChunks: true
         }),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'common'

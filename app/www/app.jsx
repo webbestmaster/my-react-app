@@ -12,6 +12,8 @@ import Country from './container/Country';
 import District from './container/District';
 import Currency from './component/Currency';
 
+require('style/main.scss');
+
 const reducer = combineReducers({
     ...reducers,
     routing: routerReducer
