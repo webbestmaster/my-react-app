@@ -31,14 +31,14 @@ class Home extends Component {
              </form>
              */}
 
-            {data.map(country => <Link className="country-card" to={'/country/' + country.alpha3}>
-                {/*{country.alpha3}*/}
+            {data.map(country => <Link
+                onClick={e => country.currency || e.preventDefault()}
+                key={country.alpha3}
+                className={'country-card ' + (country.currency ? '' : 'link--disabled' )}
+                to={'/country/' + country.alpha3}>
                 <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
                 {country['name-ru']}
-                {country.currency &&
-                <p className="country-card__currency">
-                    {country.currency.map(currency => currency.abbreviation).join(' ')}
-                </p>
+                {country.currency && <p className="country-card__currency">{country.currency.map(currency => currency.abbreviation).join(' ')}</p>
                 }
             </Link>)}
 

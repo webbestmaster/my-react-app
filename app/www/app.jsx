@@ -12,7 +12,7 @@ import Country from './container/Country';
 import District from './container/District';
 import Currency from './component/Currency';
 
-require('style/main.scss');
+require('style/root.scss');
 
 const reducer = combineReducers({
     ...reducers,
