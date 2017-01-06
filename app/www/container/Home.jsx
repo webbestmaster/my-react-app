@@ -7,31 +7,29 @@ import actionRouteToCountry from './../actions/home';
 // this.props.actionRouteToCountry('/country/' + path);
 // hashHistory.push('/country/' + path);
 
+import { applyCountryFilter } from './../actions/applyCountryFilter';
+
 const data = require('../data/data.json');
 // const svgMap = require('../data/map.raw.svg');
+const dataSorted = data.sort((a, b) => a['name-ru'] > b['name-ru'] ? 1 : -1);
 
 require('../style/home.scss');
 
 class Home extends Component {
 
-    _onSearchInput(e) {
-
-        console.log(e);
-
+    componentWillMount() {
+        this.props.applyCountryFilter('');
     }
 
     render() {
 
         return <div className="home-cards">
 
-            {this.props.to}
-            {/*
              <form action="#">
-             <input type="text" placeholder="Search..." onInput={this._onSearchInput}/>
+                 <input type="text" placeholder="Search..." onInput={e => this.props.applyCountryFilter(e.currentTarget.value)}/>
              </form>
-             */}
 
-            {data.map(country => <Link
+            {this.props.countrySearch.country.map(country => <Link
                 onClick={e => country.currency || e.preventDefault()}
                 key={country.alpha3}
                 className={'country-card ' + (country.currency ? '' : 'link--disabled' )}
@@ -49,6 +47,6 @@ class Home extends Component {
 }
 
 export default connect(
-    state => ({to: state.reducerRouteToCountry.to}),
-    {actionRouteToCountry}
+    state => ({countrySearch: state.countrySearch }),
+    { applyCountryFilter }
 )(Home);

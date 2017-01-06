@@ -1,1 +1,1 @@
-export reducerRouteToCountry from './home'
+export countrySearch from './countrySearch'

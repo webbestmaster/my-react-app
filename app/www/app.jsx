@@ -9,8 +9,6 @@ import * as reducers from './reducer';
 import {App, About} from './component';
 import Home from './container/Home';
 import Country from './container/Country';
-import District from './container/District';
-import Currency from './component/Currency';
 
 require('style/root.scss');
 
