@@ -20,6 +20,6 @@ export default function countrySearch(state = initialState, action) {
 
     let country = dataSorted.filter(country => re.test(country['name-ru']));
 
-    return {...state, country};
+    return {...state, country: country, filter: action.filter};
 
 }

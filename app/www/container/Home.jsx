@@ -17,17 +17,15 @@ require('../style/home.scss');
 
 class Home extends Component {
 
-    componentWillMount() {
-        this.props.applyCountryFilter('');
+    onSearchChange(e) {
+        this.props.applyCountryFilter(e.currentTarget.value);
     }
 
     render() {
 
         return <div className="home-cards">
 
-            <form action="#">
-                <input type="text" placeholder="Search..." onInput={e => this.props.applyCountryFilter(e.currentTarget.value)}/>
-            </form>
+            <input type="text" placeholder="Search..." value={this.props.countrySearch.filter || ''} onInput={e => this.onSearchChange(e)}/>
 
             {this.props.countrySearch.country.map(country =>
                 <Link
