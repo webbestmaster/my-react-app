@@ -16,14 +16,7 @@ export default function countrySearch(state = initialState, action) {
 
     let re = new RegExp(action.filter, 'i');
 
-    let country = dataSorted.filter(country => {
-        if (!country.currency) {
-            return false;
-        }
-
-        return re.test(country['name-ru']);
-
-    });
+    let country = dataSorted.filter(country => country.currency && re.test(country['name-ru']));
 
     return {...state, country};
 
