@@ -13,8 +13,6 @@ const data = require('../data/data.json');
 // const svgMap = require('../data/map.raw.svg');
 const dataSorted = data.sort((a, b) => a['name-ru'] > b['name-ru'] ? 1 : -1);
 
-require('../style/home.scss');
-
 class Home extends Component {
 
     onSearchChange(e) {
@@ -23,22 +21,51 @@ class Home extends Component {
 
     render() {
 
+        let countrySearch = this.props.countrySearch;
+        let countryResult = countrySearch.country;
+        let countrySearchRe = countrySearch.re;
+
         return <div className="home-cards">
 
-            <input type="text" placeholder="Search..." value={this.props.countrySearch.filter || ''} onInput={e => this.onSearchChange(e)}/>
+            <input className="home-cards__search-input" type="text" placeholder="Поиск..." value={this.props.countrySearch.filter || ''} onChange={e => this.onSearchChange(e)}/>
 
-            {this.props.countrySearch.country.map(country =>
-                <Link
-                    key={country.alpha3}
-                    className="country-card"
-                    to={'/country/' + country.alpha3}>
-                    <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
-                    {country['name-ru']}
-                    {country.currency && <p className="country-card__currency">{country.currency.map(currency => currency.abbreviation).join(' ')}</p>
-                    }
-                </Link>)}
+            {countryResult.length
+            &&
+            <div className="home-cards__colums">
+                {countryResult.map(country =>
+                    <Link
+                        key={country.alpha3}
+                        className="country-card"
+                        to={'/country/' + country.alpha3}>
+                        <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
+                        <SelectedPart string={country['name-ru']} re={countrySearchRe} />
+                        {country.currency && <p className="country-card__currency">{country.currency.map(currency => currency.abbreviation).join(' ')}</p>
+                        }
+                    </Link>)}
+            </div>
+            ||
+            <div className="home-cards__did-not-found-country">Ничего не найдено, попробуйте ввести другой запрос. Поиск ведётся по: &lt; тут поля по которым ведётся поиск &gt; </div>}
 
         </div>;
+
+    }
+
+}
+
+class SelectedPart extends Component {
+
+    render() {
+
+        let string = this.props.string;
+        let re = this.props.re;
+
+        let firstSplit = string.search(re);
+        let secondSplit = firstSplit + string.match(re)[0].length;
+        // если firstSplit и secondSplit равны 0, то ничё не делаем
+        console.log(firstSplit)
+        console.log(secondSplit)
+
+        return <span>{this.props.string}</span>;
 
     }
 

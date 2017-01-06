@@ -9,6 +9,18 @@ Released under the MIT license. http://opensource.736cs.com/licenses/mit
 
 */
 
+html, body,
+img,
+div, p, a, span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/*
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -28,12 +40,14 @@ output, progress, section, summary, time, video {
 	vertical-align: baseline;
 	background: transparent;
 }
+*/
 
 body {
 	line-height: 1;
 }
 
-article, aside, dialog, figure, footer, header, 
+/*
+article, aside, dialog, figure, footer, header,
 hgroup, nav, section, blockquote { 
 	display: block;
 }
@@ -81,7 +95,6 @@ abbr[title], dfn[title] {
 	cursor:help;
 }
 
-/* tables still need 'cellspacing="0"' in the markup */
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -100,6 +113,7 @@ input[type="submit"], input[type="button"], button {
     padding: 0 !important;
     margin: 0 !important;
 }
+*/
 
 input, select, a img {
 	vertical-align: middle;

@@ -1,0 +1,15 @@
+.clear-self {
+  &:after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+}
+
+.link--disabled {
+  opacity: 0.5;
+}
+
+.clear {
+  clear: both;
+}

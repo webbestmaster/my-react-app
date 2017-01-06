@@ -2,8 +2,8 @@ import actionConst from '../const';
 
 const data = require('../data/data.json');
 const dataSorted = data
-    .sort((a, b) => a['name-ru'] > b['name-ru'] ? 1 : -1)
-    .filter(country => country.currency);
+    .filter(country => country.currency)
+    .sort((a, b) => a['name-ru'] > b['name-ru'] ? 1 : -1);
 
 
 const initialState = {
@@ -16,10 +16,12 @@ export default function countrySearch(state = initialState, action) {
         return state;
     }
 
-    let re = new RegExp(action.filter, 'i');
+    let filter = action.filter.trim();
+
+    let re = new RegExp(filter , 'i');
 
     let country = dataSorted.filter(country => re.test(country['name-ru']));
 
-    return {...state, country: country, filter: action.filter};
+    return {...state, country, filter, re};
 
 }
