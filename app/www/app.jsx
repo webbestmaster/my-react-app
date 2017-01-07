@@ -6,9 +6,8 @@ import {Router, Route, IndexRoute, browserHistory, hashHistory} from 'react-rout
 import {syncHistoryWithStore, routerReducer} from 'react-router-redux';
 
 import * as reducers from './reducer';
-import {App, About} from './component';
-import Home from './container/Home';
-import Country from './container/Country';
+import {Country, Home} from './container';
+import {App} from './component';
 
 require('style/root.scss');
 
@@ -33,12 +32,6 @@ ReactDOM.render(
                 <IndexRoute component={Home}/>
 
                 <Route path="/country/:alpha3" component={Country}/>
-
-                {/*<Route path="/district/:districtId" component={District}/>*/}
-                {/*<Route path="/currency/:districtId/:countryId/:currencyId" component={Currency}/>*/}
-
-                {/*<Route path="/demotivators" component={Demotivators}/>*/}
-                {/*<Route path="/about" component={About}/>*/}
 
             </Route>
         </Router>

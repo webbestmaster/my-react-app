@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class About extends Component {
     render() {
-        return <div>About page as component!</div>
+        return <div>About page as component!</div>;
     }
 }
 
