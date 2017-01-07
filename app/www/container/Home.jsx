@@ -30,7 +30,7 @@ class Home extends Component {
             <input className="home-cards__search-input" type="text" placeholder="Поиск..." value={this.props.countrySearch.filter || ''} onChange={e => this.onSearchChange(e)}/>
 
             {countryResult.length
-            &&
+            ?
             <div className="home-cards__colums">
                 {countryResult.map(country =>
                     <Link
@@ -43,7 +43,7 @@ class Home extends Component {
                         }
                     </Link>)}
             </div>
-            ||
+            :
             <div className="home-cards__did-not-found-country">Ничего не найдено, попробуйте ввести другой запрос. Поиск ведётся по: &lt; тут поля по которым ведётся поиск &gt; </div>}
 
         </div>;
@@ -61,11 +61,12 @@ class SelectedPart extends Component {
 
         let firstSplit = string.search(re);
         let secondSplit = firstSplit + string.match(re)[0].length;
-        // если firstSplit и secondSplit равны 0, то ничё не делаем
-        console.log(firstSplit)
-        console.log(secondSplit)
 
-        return <span>{this.props.string}</span>;
+        let first = string.substring(0, firstSplit);
+        let selected = string.substring(firstSplit, secondSplit);
+        let second = string.substring(secondSplit);
+
+        return <span>{first}<span className="country-card__founded-text">{selected}</span>{second}</span>
 
     }
 
