@@ -1,4 +1,25 @@
-.money {
+.country {
+  display: block;
+  padding: 10px;
+}
+
+.country__header {
+  display: block;
+}
+
+.country__currency-info {
+  display: block;
+}
+
+.country__header_2 {
+  display: block;
+}
+
+.country__description {
+  display: block;
+}
+
+.country__currency-image {
   display: block;
   max-width: 200px;
 }
