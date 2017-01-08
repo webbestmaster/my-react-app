@@ -17,7 +17,7 @@ export default class Country extends Component {
             <h1 className="country__header">{countryData['name-ru']}</h1>
 
             {countryData.currency.map(currency =>
-                <div className="country__currency-info">
+                <div key={currency.abbreviation} className="country__currency-info">
                     <h2 className="country__header_2">{currency.abbreviation} - {currency['name-ru']}</h2>
 
                     {currency['description-ru'] && currency['description-ru'].map((description, i) =>
