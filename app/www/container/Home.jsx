@@ -7,18 +7,25 @@ import SelectedPart from './../component/SelectedPart';
 
 class Home extends Component {
 
+/*
+    // just example for onLeave
+    onLeave() {
+
+        return new Promise(function (res) {
+            setTimeout(res, 3000);
+        });
+
+    }
+
     componentDidMount() {
 
         let router = this.props.router;
 
         let unlistenLeave = router.setRouteLeaveHook(this.props.route, nextLocation => {
-            // TODO: onLeave !!!!! implement this
             this.onLeave().then(() => {
-                console.log('sdfdfsdfs');
                 unlistenLeave();
                 router.push(nextLocation);
             }).catch(() => {
-                console.log('catch');
                 unlistenLeave();
                 router.push(nextLocation);
             });
@@ -26,6 +33,7 @@ class Home extends Component {
             return false;
         });
     }
+*/
 
     render() {
 
