@@ -12,7 +12,7 @@ export default class Country extends Component {
 
         let countryData = _.find(data, {alpha3});
 
-        return <div className="country">
+        return <div className="country clear-self">
 
             <h1 className="country__header">{countryData['name-ru']}</h1>
 
@@ -24,9 +24,11 @@ export default class Country extends Component {
                         <p className="country__description" key={'description_' + i}>{description}</p>
                     )}
 
-                    {currency.image.map(image =>
-                        <img className="country__currency-image" key={image} src={require('../data/currency/' + currency.abbreviation + '/' + image)}/>
-                    )}
+                    <div className="country__currency-image-list">
+                        {currency.image.map((image, i) =>
+                            <img className={'country__currency-image' + (i % 2 ? ' country__currency-image--odd' : '')} key={image} src={require('../data/currency/' + currency.abbreviation + '/' + image)}/>
+                        )}
+                    </div>
 
                 </div>
 

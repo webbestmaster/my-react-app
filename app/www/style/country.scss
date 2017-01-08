@@ -1,25 +1,58 @@
 .country {
-  display: block;
-  padding: 10px;
+  //display: block;
+  //padding: 10px;
 }
 
 .country__header {
-  display: block;
+  background-color: #0683c9;
+  transition: height 0.3s;
+  font-size: 30px;
+  font-weight: normal;
+  color: #ffffff;
+  padding: 15px;
 }
 
 .country__currency-info {
   display: block;
+  padding: 15px;
 }
 
 .country__header_2 {
   display: block;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
 .country__description {
   display: block;
+  padding-bottom: 8px;
+}
+
+.country__currency-image-list {
+  padding: 40px 0;
 }
 
 .country__currency-image {
-  display: block;
-  max-width: 200px;
+  clear: both;
+  width: 150px;
+  float: left;
+  min-width: 40%;
+  margin-left: 8%;
+  margin-bottom: 7%;
+}
+
+.country__currency-image--odd {
+  clear: none;
+  float: right;
+  margin-right: 8%;
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .country__currency-image {
+    float: none;
+    display: block;
+    margin: 0 auto 5%;
+    width: 100%;
+  }
 }
