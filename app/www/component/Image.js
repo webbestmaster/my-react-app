@@ -1,22 +1,38 @@
 import React, {Component} from 'react';
-// import {Link} from 'react-router';
 
-import {allowZoom} from '../service/';
+let OpenSeadragon = require('openseadragon');
+
+// TODO: добавить на онЛив дестрой
+// https://openseadragon.github.io/docs/OpenSeadragon.Viewer.html - вот тут список методов
+// на хоуме есть пример как забайндить онЛив
 
 export default class Image extends Component {
 
     componentDidMount() {
-        allowZoom(true);
+
         let props = this.props;
         props.router.setRouteLeaveHook(props.route, this.routerWillLeave);
-    }
 
-    routerWillLeave() {
-        allowZoom(false);
+        OpenSeadragon({
+            id: 'wrappppper',
+            prefixUrl: "",
+            tileSources:   {
+                type: 'image',
+                url:  '/img/' + props.params.image,
+                buildPyramid: false
+            },
+            showNavigationControl: false,
+            navigationControlAnchor: false,
+            showZoomControl: false,
+            showHomeControl: false
+        });
+
     }
 
     render() {
-        return <img className="single-image" src={'/img/' + this.props.params.image} />;
+        return <div id="wrappppper" ref="wrapper">
+            <img className="single-image" src={'/img/' + this.props.params.image}/>
+        </div>;
     }
 
 }
