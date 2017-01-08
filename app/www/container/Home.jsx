@@ -7,6 +7,26 @@ import SelectedPart from './../component/SelectedPart';
 
 class Home extends Component {
 
+    componentDidMount() {
+
+        let router = this.props.router;
+
+        let unlistenLeave = router.setRouteLeaveHook(this.props.route, nextLocation => {
+            // TODO: onLeave !!!!! implement this
+            this.onLeave().then(() => {
+                console.log('sdfdfsdfs');
+                unlistenLeave();
+                router.push(nextLocation);
+            }).catch(() => {
+                console.log('catch');
+                unlistenLeave();
+                router.push(nextLocation);
+            });
+
+            return false;
+        });
+    }
+
     render() {
 
         let countrySearch = this.props.countrySearch;
@@ -19,22 +39,22 @@ class Home extends Component {
             <Search/>
 
             {countryResult.length
-            ?
-            <div className="home-cards__colums">
-                {countryResult.map(country =>
-                    <Link
-                        key={country.alpha3}
-                        className="country-card"
-                        to={'/country/' + country.alpha3}>
-                        <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
-                        <SelectedPart string={country['name-ru']} searchString={countrySearchString} re={countrySearchRe} />
-                        <p className="country-card__currency">
-                            {country.currency.map((currency, i) => <SelectedPart key={currency.abbreviation + i} string={currency.abbreviation} searchString={countrySearchString} re={countrySearchRe} />)}
-                        </p>
-                    </Link>)}
-            </div>
-            :
-            <div className="home-cards__did-not-found-country">Ничего не найдено, попробуйте ввести другой запрос.</div>}
+                ?
+                <div className="home-cards__colums">
+                    {countryResult.map(country =>
+                        <Link
+                            key={country.alpha3}
+                            className="country-card"
+                            to={'/country/' + country.alpha3}>
+                            <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
+                            <SelectedPart string={country['name-ru']} searchString={countrySearchString} re={countrySearchRe}/>
+                            <p className="country-card__currency">
+                                {country.currency.map((currency, i) => <SelectedPart key={currency.abbreviation + i} string={currency.abbreviation} searchString={countrySearchString} re={countrySearchRe}/>)}
+                            </p>
+                        </Link>)}
+                </div>
+                :
+                <div className="home-cards__did-not-found-country">Ничего не найдено, попробуйте ввести другой запрос.</div>}
 
         </div>;
 
@@ -42,6 +62,6 @@ class Home extends Component {
 
 }
 
-export default connect(
-    state => ({countrySearch: state.countrySearch})
-)(Home);
+export default connect(state => (
+    {countrySearch: state.countrySearch}
+))(Home);
