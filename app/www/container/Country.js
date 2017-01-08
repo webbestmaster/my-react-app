@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router';
+
 const _ = require('lodash');
 
 const data = require('../data/data.json');
@@ -25,13 +27,20 @@ export default class Country extends Component {
                     )}
 
                     <div className="country__currency-image-list">
-                        {currency.image.map((image, i) =>
-                            <img className={'country__currency-image' + (i % 2 ? ' country__currency-image--odd' : '')} key={image} src={require('../data/currency/' + currency.abbreviation + '/' + image)}/>
-                        )}
+                        {currency.image.map((image, i) => {
+                            let path = require('../data/currency/' + currency.abbreviation + '/' + image);
+                            return <Link
+                                to={path}
+                                className={'country__currency-image-link' + (i % 2 ? ' country__currency-image-link--odd' : '')}
+                                key={image}>
+                                <img
+                                    className="country__currency-image"
+                                    src={path}/>
+                            </Link>;
+                        })}
                     </div>
 
                 </div>
-
             )}
 
         </div>;

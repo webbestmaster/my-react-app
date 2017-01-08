@@ -33,6 +33,11 @@
 }
 
 .country__currency-image {
+  display: block;
+  width: 100%;
+}
+
+.country__currency-image-link {
   clear: both;
   width: 150px;
   float: left;
@@ -41,7 +46,7 @@
   margin-bottom: 7%;
 }
 
-.country__currency-image--odd {
+.country__currency-image-link--odd {
   clear: none;
   float: right;
   margin-right: 8%;
@@ -49,7 +54,7 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .country__currency-image {
+  .country__currency-image-link {
     float: none;
     display: block;
     margin: 0 auto 5%;

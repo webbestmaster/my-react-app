@@ -7,7 +7,7 @@ import {syncHistoryWithStore, routerReducer} from 'react-router-redux';
 
 import * as reducers from './reducer';
 import {Country, Home} from './container';
-import {App} from './component';
+import {App, Image} from './component';
 
 require('style/root.scss');
 
@@ -32,6 +32,7 @@ ReactDOM.render(
                 <IndexRoute component={Home}/>
 
                 <Route path="/country/:alpha3" component={Country}/>
+                <Route path="/img/:image" component={Image}/>
 
             </Route>
         </Router>
