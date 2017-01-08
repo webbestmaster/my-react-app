@@ -4,21 +4,25 @@ export default class SelectedPart extends Component {
 
     render() {
 
-        let string = this.props.string;
-        let re = this.props.re;
+        let props = this.props;
+        let string = props.string;
+        let re = props.re;
 
-        let firstSplit = string.search(re);
-        let secondSplit = firstSplit + string.match(re)[0].length;
+        if (props.searchString) {
+            let firstSplit = string.search(re);
+            let secondSplit = firstSplit + string.match(re)[0].length;
 
-        let first = string.substring(0, firstSplit);
-        let selected = string.substring(firstSplit, secondSplit);
-        let second = string.substring(secondSplit);
+            return <span>
+                    {string.substring(0, firstSplit)}
+                    <span className="country-card__founded-text">
+                        {string.substring(firstSplit, secondSplit)}
+                    </span>
+                    {string.substring(secondSplit)}
+               </span>;
 
-        return <span>
-            {first}
-            {selected && <span className="country-card__founded-text">{selected}</span>}
-            {second}
-            </span>;
+        }
+
+        return <span>{string}</span>;
 
     }
 

@@ -12,6 +12,7 @@ class Home extends Component {
         let countrySearch = this.props.countrySearch;
         let countryResult = countrySearch.country;
         let countrySearchRe = countrySearch.re;
+        let countrySearchString = countrySearch.filter;
 
         return <div className="home-cards">
 
@@ -26,12 +27,12 @@ class Home extends Component {
                         className="country-card"
                         to={'/country/' + country.alpha3}>
                         <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
-                        <SelectedPart string={country['name-ru']} re={countrySearchRe} />
+                        <SelectedPart string={country['name-ru']} searchString={countrySearchString} re={countrySearchRe} />
                         {country.currency && <p className="country-card__currency">{country.currency.map(currency => currency.abbreviation).join(' ')}</p>}
                     </Link>)}
             </div>
             :
-            <div className="home-cards__did-not-found-country">Ничего не найдено, попробуйте ввести другой запрос. Поиск ведётся по: &lt; тут поля по которым ведётся поиск &gt; </div>}
+            <div className="home-cards__did-not-found-country">Ничего не найдено, попробуйте ввести другой запрос.</div>}
 
         </div>;
 
