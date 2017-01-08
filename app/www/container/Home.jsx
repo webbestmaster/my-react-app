@@ -28,7 +28,9 @@ class Home extends Component {
                         to={'/country/' + country.alpha3}>
                         <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')}/>
                         <SelectedPart string={country['name-ru']} searchString={countrySearchString} re={countrySearchRe} />
-                        {country.currency && <p className="country-card__currency">{country.currency.map(currency => currency.abbreviation).join(' ')}</p>}
+                        <p className="country-card__currency">
+                            {country.currency.map(currency => <SelectedPart string={currency.abbreviation} searchString={countrySearchString} re={countrySearchRe} />)}
+                        </p>
                     </Link>)}
             </div>
             :

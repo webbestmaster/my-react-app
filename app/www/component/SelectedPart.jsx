@@ -8,11 +8,18 @@ export default class SelectedPart extends Component {
         let string = props.string;
         let re = props.re;
 
-        if (props.searchString) {
-            let firstSplit = string.search(re);
-            let secondSplit = firstSplit + string.match(re)[0].length;
+        if (!props.searchString) {
+            return <span className="country-card__text">{string}</span>;
+        }
 
-            return <span>
+        let firstSplit = string.search(re);
+        if (firstSplit === -1) {
+            return <span className="country-card__text">{string}</span>;
+        }
+
+        let secondSplit = firstSplit + string.match(re)[0].length;
+
+        return <span className="country-card__text">
                     {string.substring(0, firstSplit)}
                     <span className="country-card__founded-text">
                         {string.substring(firstSplit, secondSplit)}
@@ -20,9 +27,6 @@ export default class SelectedPart extends Component {
                     {string.substring(secondSplit)}
                </span>;
 
-        }
-
-        return <span>{string}</span>;
 
     }
 
