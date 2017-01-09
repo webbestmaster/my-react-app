@@ -7,33 +7,33 @@ import SelectedPart from './../component/SelectedPart';
 
 class Home extends Component {
 
-/*
-    // just example for onLeave
-    onLeave() {
+    /*
+     // just example for onLeave
+     onLeave() {
 
-        return new Promise(function (res) {
-            setTimeout(res, 3000);
-        });
+     return new Promise(function (res) {
+     setTimeout(res, 3000);
+     });
 
-    }
+     }
 
-    componentDidMount() {
+     componentDidMount() {
 
-        let router = this.props.router;
+     let router = this.props.router;
 
-        let unlistenLeave = router.setRouteLeaveHook(this.props.route, nextLocation => {
-            this.onLeave().then(() => {
-                unlistenLeave();
-                router.push(nextLocation);
-            }).catch(() => {
-                unlistenLeave();
-                router.push(nextLocation);
-            });
+     let unlistenLeave = router.setRouteLeaveHook(this.props.route, nextLocation => {
+     this.onLeave().then(() => {
+     unlistenLeave();
+     router.push(nextLocation);
+     }).catch(() => {
+     unlistenLeave();
+     router.push(nextLocation);
+     });
 
-            return false;
-        });
-    }
-*/
+     return false;
+     });
+     }
+     */
 
     render() {
 
@@ -70,6 +70,6 @@ class Home extends Component {
 
 }
 
-export default connect(state => (
-    {countrySearch: state.countrySearch}
-))(Home);
+export default connect(state => ({
+    countrySearch: state.countrySearch
+}))(Home);

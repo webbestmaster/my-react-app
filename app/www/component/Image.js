@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
 
 let OpenSeadragon = require('openseadragon');
 
@@ -6,7 +7,13 @@ let OpenSeadragon = require('openseadragon');
 // https://openseadragon.github.io/docs/OpenSeadragon.Viewer.html - вот тут список методов
 // на хоуме есть пример как забайндить онЛив
 
-export default class Image extends Component {
+class Image extends Component {
+
+    componentWillReceiveProps(nextProps) {
+
+        console.log(nextProps);
+
+    }
 
     componentDidMount() {
 
@@ -36,3 +43,7 @@ export default class Image extends Component {
     }
 
 }
+
+export default connect(state => ({
+    screen: state.screen
+}))(Image);

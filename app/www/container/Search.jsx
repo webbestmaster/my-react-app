@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 
-import {applyCountryFilter} from './../actions/applyCountryFilter';
+import {applyCountryFilter} from './../actions/';
 
 class Search extends Component {
 
