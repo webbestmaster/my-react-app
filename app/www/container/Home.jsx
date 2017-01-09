@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, PropTypes} from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router';
 
@@ -69,6 +69,14 @@ class Home extends Component {
     }
 
 }
+
+Home.propTypes = {
+    countrySearch: PropTypes.shape({
+        country: PropTypes.array.isRequired,
+        filter: PropTypes.string.isRequired,
+        re: PropTypes.instanceOf(RegExp).isRequired
+    })
+};
 
 export default connect(state => ({
     countrySearch: state.countrySearch

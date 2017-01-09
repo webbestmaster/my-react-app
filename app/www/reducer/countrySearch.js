@@ -7,7 +7,9 @@ const dataSorted = data
 
 
 const initialState = {
-    country: dataSorted
+    country: dataSorted,
+    filter: '',
+    re: new RegExp('', 'i')
 };
 
 export default function countrySearch(state = initialState, action) {
