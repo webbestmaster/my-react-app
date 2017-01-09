@@ -77,7 +77,8 @@ module.exports = {
             allChunks: true
         }),
         new webpack.optimize.CommonsChunkPlugin({
-            name: 'common'
+            name: 'common',
+            minChunks: 2
         })
     ]
 

@@ -1,4 +1,4 @@
-import { createDevTools } from 'redux-devtools';
+import {createDevTools} from 'redux-devtools';
 import LogMonitor from 'redux-devtools-log-monitor';
 import DockMonitor from 'redux-devtools-dock-monitor';
 
@@ -22,12 +22,13 @@ const reducer = combineReducers({
 
 const DevTools = createDevTools(
     <DockMonitor toggleVisibilityKey="ctrl-h" changePositionKey="ctrl-q">
-        <LogMonitor theme="tomorrow" preserveScrollTop={false} />
+        <LogMonitor theme="tomorrow" preserveScrollTop={false}/>
     </DockMonitor>
 );
 
 const store = createStore(
     reducer,
+
     DevTools.instrument()
 );
 

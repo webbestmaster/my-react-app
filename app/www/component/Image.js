@@ -20,9 +20,11 @@ class Image extends Component {
         let props = this.props;
         props.router.setRouteLeaveHook(props.route, this.routerWillLeave);
 
+        let wrapperNode = this.refs.wrapper;
+
         OpenSeadragon({
-            id: 'wrappppper',
-            prefixUrl: "",
+            element: wrapperNode,
+            // prefixUrl: '',
             tileSources:   {
                 type: 'image',
                 url:  '/img/' + props.params.image,
@@ -37,9 +39,8 @@ class Image extends Component {
     }
 
     render() {
-        return <div id="wrappppper" ref="wrapper">
-            <img className="single-image" src={'/img/' + this.props.params.image}/>
-        </div>;
+        let screen = this.props.screen;
+        return <div ref="wrapper" style={{width: screen.width + 'px', height: screen.height + 'px' }}></div>;
     }
 
 }
