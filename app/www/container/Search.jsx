@@ -18,7 +18,8 @@ class Search extends Component {
 Search.propTypes = {
     countrySearch: PropTypes.shape({
         filter: PropTypes.string.isRequired
-    })
+    }),
+    applyCountryFilter: PropTypes.func.isRequired
 };
 
 export default connect(

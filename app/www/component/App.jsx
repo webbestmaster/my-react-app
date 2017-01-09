@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, PropTypes} from 'react';
 import { resizeScreen } from '../actions';
 import {connect} from 'react-redux';
 
@@ -14,7 +14,11 @@ class App extends Component {
 
 }
 
+App.propTypes = {
+    resizeScreen: PropTypes.func.isRequired
+};
+
 export default connect(
-    state => ({countrySearch: state.screen}),
+    null,
     {resizeScreen}
 )(App);

@@ -44,6 +44,10 @@ class Image extends Component {
 
 }
 
+Image.propTypes = {
+    // resizeScreen: PropTypes.func.isRequired
+};
+
 export default connect(state => ({
     screen: state.screen
 }))(Image);

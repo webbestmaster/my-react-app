@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
 
 const _ = require('lodash');
@@ -48,3 +48,10 @@ export default class Country extends Component {
     }
 
 }
+
+
+Country.propTypes = {
+    params: PropTypes.shape({
+        alpha3: PropTypes.string.isRequired
+    })
+};

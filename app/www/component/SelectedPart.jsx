@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, PropTypes} from 'react';
 
 export default class SelectedPart extends Component {
 
@@ -31,3 +31,9 @@ export default class SelectedPart extends Component {
     }
 
 }
+
+SelectedPart.propTypes = {
+    string: PropTypes.string.isRequired,
+    searchString: PropTypes.string.isRequired,
+    re: PropTypes.instanceOf(RegExp).isRequired
+};
