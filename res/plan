@@ -1,5 +1,10 @@
 !! Порефакторить\пофиксить страницу с одной денюжкой
 
+прикрутить propTypes где это только возможно
+прикрутить красивую дев панель как в basic
+
+
+
 // красота
 react router leave transition - гуглить и найти вот это
 https://github.com/ReactTraining/react-router/issues/3406
