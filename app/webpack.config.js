@@ -7,10 +7,14 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+const Autoprefixer = require('autoprefixer');
+
 const DEVELOPMENT = 'development';
 const PRODUCTION = 'production';
 
 const NODE_ENV = process.env.NODE_ENV || DEVELOPMENT;
+
+const IS_MOBILE = !false;
 
 const CWD = __dirname;
 
@@ -29,6 +33,23 @@ const webpackConfig = {
     watch: NODE_ENV === DEVELOPMENT,
 
     devtool: NODE_ENV === DEVELOPMENT ? 'source-map' : null,
+
+    postcss: [Autoprefixer({browsers:
+
+        IS_MOBILE ? [
+                'last 2 Samsung versions',
+                'last 2 UCAndroid versions',
+                'Android >= 4',
+                'iOS >= 8',
+                'ChromeAndroid > 4'
+            ] : [
+                'last 5 Chrome versions',
+                'last 2 Safari versions',
+                'last 2 Edge versions',
+                'Explorer >= 10',
+                'last 5 Firefox versions'
+            ]
+    })],
 
     module: {
         loaders: [
@@ -51,7 +72,7 @@ const webpackConfig = {
             },
             {
                 test: /\.scss$/,
-                loader: ExtractTextPlugin.extract('css!sass')
+                loader: ExtractTextPlugin.extract('css!postcss!sass')
             }
             // {
             //     test: /\.raw\.[\s\S]+?$/,
