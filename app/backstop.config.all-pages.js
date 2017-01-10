@@ -7,38 +7,26 @@ let config = {
     viewports: [
         {
             'name': 'desktop',
-            'width': 1024,
-            'height': 768
-        },
+            'width': 1280,
+            'height': 1024
+        }
+/*
         {
             'name': 'tablet',
-            'width': 640,
-            'height': 480
+            'width': 786,
+            'height': 1024
         },
         {
             'name': 'phone',
-            'width': 320,
-            'height': 480
+            'width': 375,
+            'height': 667
         }
+*/
     ],
     scenarios: [
         {
             label: 'Home page',
             url: url,
-            selectors: [
-                'body'
-            ]
-        },
-        {
-            label: 'Country: AND',
-            url: url + '#/country/AND',
-            selectors: [
-                'body'
-            ]
-        },
-        {
-            label: 'Country: AND - EUR',
-            url: url + '#/img/EUR/80-0.jpg',
             selectors: [
                 'body'
             ]
@@ -57,5 +45,15 @@ let config = {
     report: ['browser'],
     debug: false
 };
+
+countryData.forEach(country => {
+    country.currency && config.scenarios.push({
+        label: 'Country: ' + country.alpha3,
+        url: url + '#/country/' + country.alpha3,
+        selectors: [
+            'body'
+        ]
+    });
+});
 
 module.exports = config;

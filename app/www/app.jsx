@@ -40,7 +40,7 @@ ReactDOM.render(
                 :
                 <div>
                     <AppRouter history={history}/>
-                    <DevTools />
+                    {/*<DevTools />*/}
                 </div>
         }
     </Provider>,

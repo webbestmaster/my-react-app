@@ -7,7 +7,7 @@
     "build": "NODE_ENV=production webpack",
     "start": "webpack-dev-server --content-base dist/ --host 0.0.0.0 --progress",
     "test": "sudo backstop test --configPath=backstop.config.js",
-    "test:reference": "sudo backstop reference --configPath=backstop.config.js"
+    "test:ref": "sudo backstop reference --i --configPath=backstop.config.js"
   },
   "author": "me",
   "license": "MIT",
