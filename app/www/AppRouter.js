@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Router, Route, IndexRoute} from 'react-router';
 
 import {Country, Home} from './container';
-import {App, Image} from './component';
+import {App, Image, About} from './component';
 
 export default class AppRouter extends Component {
 
@@ -14,6 +14,10 @@ export default class AppRouter extends Component {
 
                 <Route path="/country/:alpha3" component={Country}/>
                 <Route path="/img/:abbreviation/:image" component={Image}/>
+                <Route path="/about" component={About}/>
+
+                /* 404 */
+                <Route path="*" component={About} />
 
             </Route>
         </Router>;
