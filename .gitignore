@@ -2,7 +2,7 @@
 /.idea/
 
 #tests
-#/backstop/backstop_data/
+/app/backstop/backstop_data/
 
 # Logs
 logs

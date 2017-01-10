@@ -6,7 +6,7 @@
   "scripts": {
     "build": "NODE_ENV=production webpack",
     "start": "webpack-dev-server --content-base dist/ --host 0.0.0.0 --progress",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "sudo backstop test --configPath=backstop.config.js"
   },
   "author": "me",
   "license": "MIT",
