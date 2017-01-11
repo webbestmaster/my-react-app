@@ -1,5 +1,6 @@
 import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
+import LoadImage from './../component/LoadImage';
 
 const _ = require('lodash');
 
@@ -34,7 +35,7 @@ export default class Country extends Component {
                                 to={'/img/' + abbreviation + '/' + image}
                                 className={'country__currency-image-link' + (i % 2 ? ' country__currency-image-link--odd' : '')}
                                 key={image}>
-                                <img
+                                <LoadImage
                                     className="country__currency-image"
                                     src={path}/>
                             </Link>;

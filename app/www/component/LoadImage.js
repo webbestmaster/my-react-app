@@ -9,7 +9,7 @@ class LoadImage extends Component {
 
     componentWillReceiveProps(nextProps) {
 
-        if (nextProps.imageLoader.src === this.props.src) {
+        if (nextProps.imageLoader.src !== this.props.src) {
             return;
         }
 
