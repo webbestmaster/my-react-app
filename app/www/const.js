@@ -1,6 +1,8 @@
 export default {
     TYPE: {
         COUNTRY_FILTER: 'COUNTRY_FILTER',
-        RESIZE: 'RESIZE'
+        RESIZE: 'RESIZE',
+        // IMAGE_LOADING: 'IMAGE_LOADING',
+        IMAGE_LOADED: 'IMAGE_LOADED'
     }
 };

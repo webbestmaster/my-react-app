@@ -12,26 +12,30 @@ const initialState = {
     re: new RegExp('', 'i')
 };
 
+const COUNTRY_FILTER = actionConst.TYPE.COUNTRY_FILTER;
+
 export default function countrySearch(state = initialState, action) {
 
-    if (action.type !== actionConst.TYPE.COUNTRY_FILTER) {
-        return state;
+    if (action.type === COUNTRY_FILTER) {
+
+        let filter = action.filter.trim();
+
+        let re = new RegExp(filter , 'i');
+
+        let country = dataSorted.filter(country => {
+
+            if (re.test(country['name-ru'])) {
+                return true;
+            }
+
+            return country.currency.some(currency => re.test(currency['abbreviation']) || re.test(currency['name-ru']) );
+
+        });
+
+        return {...state, country, filter, re};
+
     }
 
-    let filter = action.filter.trim();
-
-    let re = new RegExp(filter , 'i');
-
-    let country = dataSorted.filter(country => {
-
-        if (re.test(country['name-ru'])) {
-            return true;
-        }
-
-        return country.currency.some(currency => re.test(currency['abbreviation']) || re.test(currency['name-ru']) );
-
-    });
-
-    return {...state, country, filter, re};
+    return state;
 
 }

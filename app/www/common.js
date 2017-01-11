@@ -12,7 +12,9 @@ require('lodash');
 require('openseadragon');
 
 // did not find better way, if you know it, please talk to me...
-require('./img/bg.jpg');
+require('./i/spinner.gif');
+require('./i/spacer.gif');
+require('./i/bg.jpg');
 let countryData = require('./data/data.json');
 countryData.forEach(country => {
     require('./data/flag/' + country.alpha2.toLowerCase() + '.svg');

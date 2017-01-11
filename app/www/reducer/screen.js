@@ -9,15 +9,18 @@ const initialState = {
     isTouch: 'ontouchstart' in doc
 };
 
+const RESIZE = actionConst.TYPE.RESIZE;
+
 export default function screen(state = initialState, action) {
 
-    if (action.type !== actionConst.TYPE.RESIZE) {
-        return state;
+    if (action.type === RESIZE) {
+        return {
+            ...state,
+            width: docElem.clientWidth,
+            height: docElem.clientHeight
+        };
     }
 
-    let width = docElem.clientWidth;
-    let height = docElem.clientHeight;
-
-    return {...state, width, height};
+    return state;
 
 }
