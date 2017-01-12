@@ -27,7 +27,7 @@ class Home extends Component {
                             key={country.alpha3}
                             className="country-card"
                             to={'/country/' + country.alpha3}>
-                            <LoadImage className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')} />
+                            <img className="country-card__flag" src={require('../data/flag/' + country.alpha2.toLowerCase() + '.svg')} />
                             <SelectedPart string={country['name-ru']} searchString={countrySearchString} re={countrySearchRe}/>
                             <p className="country-card__currency">
                                 {country.currency.map((currency, i) => <SelectedPart key={currency.abbreviation + i} string={currency.abbreviation} searchString={countrySearchString} re={countrySearchRe}/>)}
