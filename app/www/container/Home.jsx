@@ -17,6 +17,8 @@ class Home extends Component {
 
         return <div className="home-cards">
 
+            <Link to="/about" className="about-link">О программе</Link>
+
             <Search/>
 
             {countryResult.length

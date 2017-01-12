@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import loadingImage from '../actions/loadingImage';
 
 const SPACER_GIF = require('./../i/spacer.gif');
+const EMPTY_STRING = ''; // i fount this 'optimization' in internet
 
 let loadedImages = [];
 
@@ -61,9 +62,9 @@ class LoadImage extends Component {
         let src = props.src;
         return imageIsLoaded(src)
             ?
-            <img ref="hostNode" className={props.className || ''} src={src} />
+            <img ref="hostNode" className={props.className || EMPTY_STRING} src={src} />
             :
-            <img ref="hostNode" className={(props.className || '') + ' loading-image'} src={SPACER_GIF} />;
+            <img ref="hostNode" className={(props.className || EMPTY_STRING) + ' loading-image'} src={SPACER_GIF} />;
 
     }
 
