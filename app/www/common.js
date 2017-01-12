@@ -17,7 +17,7 @@ require('./i/spacer.gif');
 require('./i/bg.jpg');
 let countryData = require('./data/data.json');
 countryData.forEach(country => {
-    require('./data/flag/' + country.alpha2.toLowerCase() + '.svg');
+    require('./data/flag/' + country.alpha2.toLowerCase() + '.png');
     country.currency && country.currency.forEach( currency => {
         currency.image.forEach(image => {
             require('./data/currency/' + currency.abbreviation + '/' + image);
