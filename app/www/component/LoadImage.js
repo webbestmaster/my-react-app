@@ -5,18 +5,43 @@ import loadingImage from '../actions/loadingImage';
 
 const SPACER_GIF = require('./../i/spacer.gif');
 
+let loadedImages = [];
+
 class LoadImage extends Component {
+
+    imageIsLoaded(src) {
+        return loadedImages.indexOf(src) !== -1;
+    }
+
+    addToLoadedImages(src) {
+        if (this.imageIsLoaded(src)) {
+            return;
+        }
+        loadedImages.push(src);
+    }
 
     componentWillReceiveProps(nextProps) {
 
-        if (nextProps.imageLoader.src !== this.props.src) {
+        let src = this.props.src;
+
+        if (nextProps.imageLoader.src !== src || this.imageIsLoaded(src)) {
             return;
         }
 
         let hostNode = this.refs.hostNode;
         hostNode.classList.remove('loading-image');
-        hostNode.src = this.props.src;
+        hostNode.src = src;
 
+        this.addToLoadedImages(src);
+
+    }
+
+    // componentWillUpdate(nextProps, nextState) {
+    //     console.log('updated');
+    // }
+
+    shouldComponentUpdate(nextProps, nextState) {
+        return nextProps.imageLoader.src === this.props.src;
     }
 
     componentWillMount() {
@@ -24,7 +49,14 @@ class LoadImage extends Component {
     }
 
     render() {
-        return <img ref="hostNode" className={(this.props.className || '') + ' loading-image'} src={SPACER_GIF} />;
+        let props = this.props;
+        let src = props.src;
+        return this.imageIsLoaded(src)
+            ?
+            <img ref="hostNode" className={props.className || ''} src={src} />
+            :
+            <img ref="hostNode" className={(props.className || '') + ' loading-image'} src={SPACER_GIF} />;
+
     }
 
 }
