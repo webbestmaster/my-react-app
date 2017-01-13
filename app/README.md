@@ -38,6 +38,9 @@ See in to "backstop reference --filter=<scenario.label>".
 >$ sudo backstop test --filter=<scenario.label>
 
 ## Selenium
+
+$ java -jar selenium-server-standalone-3.0.1.jar 
+
 // TODO: доделать!!!
 добавить истанбул и добавить мока авесом
 install globally - mocha (add mochaawesome!!!!)
