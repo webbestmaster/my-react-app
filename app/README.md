@@ -36,3 +36,12 @@ Run test.
 
 See in to "backstop reference --filter=<scenario.label>".
 >$ sudo backstop test --filter=<scenario.label>
+
+## Selenium
+// TODO: доделать!!!
+добавить истанбул и добавить мока авесом
+install globally - mocha (add mochaawesome!!!!)
+not globally - chai
+
+
+
