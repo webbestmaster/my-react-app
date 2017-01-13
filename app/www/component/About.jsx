@@ -13,6 +13,7 @@ export default class About extends Component {
                 <h2 className="country__header_2">Матералы</h2>
                 <p className="country__description">Описание и изображения валют - FINANCE.UA (http://banknotes.finance.ua)</p>
                 <p className="country__description">Изображения флагов государст - https://github.com/lipis/flag-icon-css</p>
+                <p className="country__description">Иконка и бэкграунд - собраны из кусков изображений найденных на просторах интернета.</p>
                 <h2 className="country__header_2">Контакты</h2>
                 <p className="country__description">Сайт разработчика: https://statlex.github.io</p>
                 <p className="country__description">E-mail: statlex.team@gmail.com</p>
