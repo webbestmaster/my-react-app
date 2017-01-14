@@ -6,7 +6,8 @@
     },
     "globals": {
         "window": true,
-        "document": true
+        "document": true,
+        "SERVER_URL": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {

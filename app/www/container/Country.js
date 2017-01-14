@@ -30,7 +30,7 @@ export default class Country extends Component {
                     <div className="country__currency-image-list">
                         {currency.image.map((image, i) => {
                             let abbreviation = currency.abbreviation;
-                            let path = require('../data/currency/' + abbreviation + '/' + image);
+                            let path = SERVER_URL + require('../data/currency/' + abbreviation + '/' + image);
                             return <Link
                                 to={'/img/' + abbreviation + '/' + image}
                                 className={'country__currency-image-link' + (i % 2 ? ' country__currency-image-link--odd' : '')}

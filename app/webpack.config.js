@@ -1,5 +1,7 @@
 'use strict';
 
+const SERVER_URL = 'https://statlex.github.io/app/cr/';
+
 const path = require('path');
 
 const webpack = require('webpack');
@@ -34,9 +36,8 @@ const webpackConfig = {
 
     devtool: NODE_ENV === DEVELOPMENT ? 'source-map' : null,
 
-    postcss: [Autoprefixer({browsers:
-
-        IS_MOBILE ? [
+    postcss: [Autoprefixer({
+        browsers: IS_MOBILE ? [
                 'last 2 Samsung versions',
                 'last 2 UCAndroid versions',
                 'Android >= 4',
@@ -89,7 +90,8 @@ const webpackConfig = {
     plugins: [
         new webpack.NoErrorsPlugin(),
         new webpack.DefinePlugin({
-            NODE_ENV: JSON.stringify(NODE_ENV)
+            NODE_ENV: JSON.stringify(NODE_ENV),
+            SERVER_URL: JSON.stringify(SERVER_URL)
         }),
         new HtmlWebpackPlugin({
             template: 'index.html'

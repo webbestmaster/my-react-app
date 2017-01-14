@@ -15,7 +15,7 @@ class Image extends Component {
             element: this.refs.wrapper,
             tileSources: {
                 type: 'image',
-                url: require('../data/currency/' + props.params.abbreviation + '/' + props.params.image),
+                url: SERVER_URL + require('../data/currency/' + props.params.abbreviation + '/' + props.params.image),
                 buildPyramid: true
             },
             showNavigationControl: false,
