@@ -3,6 +3,7 @@
 
 #tests
 /app/backstop/backstop_data/
+/app/selenium/test/reports/
 
 # Logs
 logs

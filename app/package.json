@@ -6,8 +6,9 @@
   "scripts": {
     "build": "NODE_ENV=production webpack",
     "start": "webpack-dev-server --content-base dist/ --host 0.0.0.0 --progress",
-    "test": "sudo backstop test --configPath=backstop.config.js",
-    "test:ref": "sudo backstop reference --i --configPath=backstop.config.js"
+    "test:ui": "sudo backstop test --configPath=backstop.config.js",
+    "refs:ui": "sudo backstop reference --i --configPath=backstop.config.js",
+    "test:fn": "./selenium/test-selenium.sh"
   },
   "author": "me",
   "license": "MIT",

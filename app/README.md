@@ -39,12 +39,18 @@ See in to "backstop reference --filter=<scenario.label>".
 
 ## Selenium
 
-$ java -jar selenium-server-standalone-3.0.1.jar 
+Install
+>$ sudo npm install -g mocha mochawesome
+
+Run selenium server standalone:
+>$ java -jar selenium-server-standalone-3.0.1.jar
+
+Run test
+>$ mocha ./\<path\>/\<to\>/\<test\>.js
+
 
 // TODO: доделать!!!
-добавить истанбул и добавить мока авесом
-install globally - mocha (add mochaawesome!!!!)
-not globally - chai
+добавить истанбул
 
 
 
