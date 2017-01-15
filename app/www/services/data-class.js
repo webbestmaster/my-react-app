@@ -1,3 +1,5 @@
+const Promise = require('es6-promise-polyfill').Promise;
+
 const VALUES = {
     DB_PROPERTY_NAME: 'DB_PROPERTY_NAME'
 };

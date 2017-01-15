@@ -10,6 +10,7 @@ import { Router, Route, IndexRoute, browserHistory, hashHistory } from 'react-ro
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
 require('lodash');
 require('openseadragon');
+require('es6-promise-polyfill');
 
 // did not find better way, if you know it, please talk to me...
 require('./i/spinner.gif');

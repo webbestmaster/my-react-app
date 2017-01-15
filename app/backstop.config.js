@@ -30,15 +30,16 @@ let config = {
             ]
         },
         {
-            label: 'Country: AND',
-            url: url + '#/country/AND',
+            label: 'Country: JPN',
+            url: url + '#/country/JPN',
             selectors: [
                 'body'
-            ]
+            ],
+            delay: 3000
         },
         {
-            label: 'Country: AND - EUR',
-            url: url + '#/img/EUR/80-0.jpg',
+            label: 'Country: JPN - JPY',
+            url: url + '#/img/JPY/105-0.jpg',
             selectors: [
                 'body'
             ]

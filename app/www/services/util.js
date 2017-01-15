@@ -1,6 +1,8 @@
 import constant from './../const';
 import db from './data-singleton';
 
+const Promise = require('es6-promise-polyfill').Promise;
+
 db.createTable(constant.DB.IMAGE_TABLE, constant.DB.IMAGE_FIELDS_WITH_TYPES);
 
 function convertImageToBase64(image) {
