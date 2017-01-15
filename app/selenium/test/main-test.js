@@ -16,39 +16,35 @@ describe('Tests', function () {
     let webdriver = require('selenium-webdriver');
     let byCss = webdriver.By.css;
 
-    beforeEach(function () {
+    beforeEach(() => browser = new webdriver
+        .Builder()
+        .usingServer(WEB_DRIVER_SERVER_URL)
+        .withCapabilities({'browserName': 'chrome'})
+        .build()
+    );
 
-        browser = new webdriver
-            .Builder()
-            .usingServer(WEB_DRIVER_SERVER_URL)
-            .withCapabilities({'browserName': 'chrome'})
-            .build();
-    });
+    afterEach(() => browser.quit());
 
-    afterEach(function () {
-        browser.quit();
-    });
+    describe('Home page', () => {
 
-    describe('Home page', function () {
-
-        it('Open Page', function (done) {
+        it('Open Page', done => {
 
             browser.get(SERVER_URL);
 
-            browser.getTitle().then(function (title) {
+            browser.getTitle().then(title => {
                 assert(title === 'Currency Reference', 'Wrong title');
                 done();
             });
 
         });
 
-        it('Navigate to country', function (done) {
+        it('Navigate to country', done => {
 
             browser.get(SERVER_URL);
 
             browser.findElement(byCss('.country-card')).click();
 
-            browser.findElements(byCss('.country__currency-image-link')).then(function (links) {
+            browser.findElements(byCss('.country__currency-image-link')).then(links => {
                 assert(links.length > 0, 'Should several links');
                 done();
             });
@@ -58,28 +54,28 @@ describe('Tests', function () {
     });
 
 
-    describe('Search', function () {
+    describe('Search', () => {
 
-        it('Search by currency', function (done) {
+        it('Search by currency', done => {
 
             browser.get(SERVER_URL);
 
             browser.findElement(byCss('.home-cards__search-input')).sendKeys('usd');
 
-            browser.findElements(byCss('.country-card')).then(function (cards) {
+            browser.findElements(byCss('.country-card')).then(cards => {
                 assert(cards.length === 16, 'Should be 16 countries');
                 done();
             });
 
         });
 
-        it('Search by country', function (done) {
+        it('Search by country', done => {
 
             browser.get(SERVER_URL);
 
             browser.findElement(byCss('.home-cards__search-input')).sendKeys('ания');
 
-            browser.findElements(byCss('.country-card')).then(function (cards) {
+            browser.findElements(byCss('.country-card')).then(cards => {
                 assert(cards.length === 9, 'Should be 9 countries');
                 done();
             });
@@ -88,15 +84,17 @@ describe('Tests', function () {
 
     });
 
-    describe('Country page', function () {
+    describe('Country page', () => {
 
-        it('Navigate to single image', function (done) {
+        it('Navigate to single image', done => {
 
             browser.get(SERVER_URL + '#/country/GBR');
 
             browser.findElement(byCss('.country__currency-image-link')).click();
 
-            browser.findElement(byCss('.openseadragon-canvas canvas')).then(() => done());
+            browser
+                .wait(() => browser.findElement(byCss('.openseadragon-canvas canvas')), 5000)
+                .then(() => done());
 
         });
 
