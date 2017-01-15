@@ -97,14 +97,9 @@ export default class LoadImage extends Component {
 
 }
 
-/*
- LoadImage.propTypes = {
- src: PropTypes.string.isRequired,
- imageLoader: PropTypes.shape({
- src: PropTypes.string.isRequired
- })
- };
- */
+LoadImage.propTypes = {
+    src: PropTypes.string.isRequired
+};
 
 /*
  connect(
