@@ -6,20 +6,20 @@ const DB_PROPERTY_NAME = VALUES.DB_PROPERTY_NAME;
 
 export default class DB {
 
-    constructor(dbName = DB_PROPERTY_NAME,
+    constructor(dbName = 'DB-default-name',
                 version = '0.1',
                 description = 'DB default description',
                 size = 1024 * 1024) {
-
-        let dbMaster = this;
-
-        dbMaster._attr = {};
 
         let db = openDatabase(dbName, version, description, size);
 
         if (!db) {
             throw 'DATA BASE IS NOT CONNECTED!';
         }
+
+        let dbMaster = this;
+
+        dbMaster._attr = {};
 
         dbMaster.setProperty(DB_PROPERTY_NAME, db);
 
