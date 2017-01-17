@@ -27,6 +27,9 @@
 .country__description {
   display: block;
   padding-bottom: 8px;
+  &.country__description--ta-center {
+    text-align: center;
+  }
 }
 
 .country__currency-image-list {

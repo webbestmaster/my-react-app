@@ -41,7 +41,7 @@ export default class LoadImage extends Component {
         let state = this.state;
 
         if (state.isError) {
-            return <p className="country__description">Нет интернет соединения!</p>;
+            return <p className="country__description country__description--ta-center">Нет интернет соединения!</p>;
         } else {
             return <img className={(this.props.className || EMPTY_STRING) + (state.isLoaded ? '' : ' loading-image')} src={state.src}/>;
         }
