@@ -60,8 +60,10 @@ function resizeImage(data, width, height) {
             document.body.appendChild(canvas);
 
             var a = document.createElement('a');
-            a.href = canvas.toDataURL();
-            a.download = file.name.replace('.svg', '.png');
+            // a.href = canvas.toDataURL();
+            a.href = canvas.toDataURL('image/jpeg', 0.8); //'image/png', 'image/bmp', 'image/gif', 'image/jpeg', 'image/tiff'
+            // a.download = file.name.replace('.svg', '.png');
+            a.download = file.name.replace(/\.[\s\S]+/, '.jpg');
             a.click();
 
             setTimeout(resolve, 100);

@@ -15,7 +15,7 @@ function convertImageToBase64(image) {
     let context = canvas.getContext('2d');
     context.drawImage(image, 0, 0);
 
-    return canvas.toDataURL();
+    return canvas.toDataURL('image/jpeg', 0.8);
 
 }
 
