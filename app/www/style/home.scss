@@ -3,26 +3,29 @@
 }
 
 .home-cards__colums {
-  clear: both;
-  -webkit-column-width: 100px;
-  -webkit-column-gap: 10px;
-  column-width: 100px;
-  column-gap: 10px;
+  //clear: both;
+  //-webkit-column-width: 100px;
+  //-webkit-column-gap: 10px;
+  //column-width: 100px;
+  //column-gap: 10px;
+  padding: 15px 0;
   text-align: center;
   @extend .clear-self;
 }
 
 .country-card {
+  height: 100px;
+  width: 100px;
   display: inline-block;
   text-decoration: none;
   text-align: center;
   color: #212121;
-  font-family: "Trebuchet MS", sans-serif;
-  width: 100px;
+  font-family: 'Trebuchet MS', sans-serif;
   word-break: break-word;
   margin-bottom: 33px;
   font-size: 14px;
   line-height: 1.15;
+  vertical-align: top;
 }
 
 .country-card__flag {
@@ -43,6 +46,15 @@
 
 .country-card__text {
   margin: 0 3px;
+  &.country-card__text--ellipsis {
+    //line-height: $line-height;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  }
 }
 
 .country-card__founded-text {

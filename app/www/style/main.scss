@@ -21,8 +21,10 @@ body {
 
 .loading-image {
   min-height: 34px;
+  max-height: 64px;
   background-color: #fff;
   background-image: url(../i/spinner.gif);
   background-repeat: no-repeat;
   background-position: center center;
+  border-radius: 4px;
 }
