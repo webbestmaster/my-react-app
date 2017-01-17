@@ -36,8 +36,7 @@ class Home extends Component {
                                  style={{
                                      backgroundImage: 'url(' + require('./../data/flag/' + flagData.image) + ')',
                                      backgroundPosition: (-flagData.frame.x / 2) + 'px ' + (-flagData.frame.y / 2) + 'px',
-                                     backgroundSize: flagData.size.w / 2  + 'px ' + flagData.size.h / 2 + 'px',
-                                     backgroundRepeat: 'no-repeat'
+                                     backgroundSize: flagData.size.w / 2  + 'px ' + flagData.size.h / 2 + 'px'
                                  }}>
                             </div>
 
