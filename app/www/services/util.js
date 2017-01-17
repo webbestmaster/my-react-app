@@ -19,6 +19,24 @@ function convertImageToBase64(image) {
 
 }
 
+// prepare flag data
+const flagData = {};
+for (let i = 0; i < 6; i += 1) {
+
+    let json = require('./../data/flag/flag-' + i + '.json');
+
+    Object
+        .keys(json.frames).forEach(key =>
+        flagData[key.replace('.png', '')] = {
+            frame: json.frames[key].frame,
+            image: json.meta.image,
+            size: json.meta.size
+        }
+    );
+
+}
+
+
 const util = {
     imageToBase64: function (src) {
 
@@ -62,6 +80,9 @@ const util = {
 
             });
 
+    },
+    getFlagsInfo(alpha2) {
+        return flagData[alpha2.toLowerCase()];
     }
 
 };

@@ -18,10 +18,14 @@ require('./i/spacer.gif');
 require('./i/bg.jpg');
 let countryData = require('./data/data.json');
 countryData.forEach(country => {
-    require('./data/flag/' + country.alpha2.toLowerCase() + '.png');
     country.currency && country.currency.forEach( currency => {
         currency.image.forEach(image => {
             require('./data/currency/' + currency.abbreviation + '/' + image);
         });
     });
 });
+
+for (let i = 0; i < 6; i += 1) {
+    require('./data/flag/flag-' + i + '.json');
+    require('./data/flag/flag-' + i + '.png');
+}
