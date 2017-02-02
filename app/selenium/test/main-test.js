@@ -14,6 +14,7 @@ describe('Tests', function () {
 
     let browser;
     let webdriver = require('selenium-webdriver');
+    let until = webdriver.until;
     let byCss = webdriver.By.css;
 
     beforeEach(() => browser = new webdriver
@@ -92,8 +93,11 @@ describe('Tests', function () {
 
             browser.findElement(byCss('.country__currency-image-link')).click();
 
+            // check element is localed (exist on page)
+            browser.wait(until.elementLocated(byCss('.openseadragon-canvas canvas')), 1e3, 'Could not locate the child element within the time specified');
+
             browser
-                .wait(() => browser.findElement(byCss('.openseadragon-canvas canvas')), 5000)
+                .wait(() => browser.findElement(byCss('.openseadragon-canvas canvas')).isDisplayed(), 1e3)
                 .then(() => done());
 
         });
