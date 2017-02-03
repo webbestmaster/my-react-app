@@ -9,7 +9,7 @@ reportsFolder=./reports
 reportName=auto-test-$now
 
 #mocha example.js --reporter mochawesome --reporter-options reportDir=$reportsFolder,reportFilename=$reportName,reportTitle="Auto Test $now",inlineAssets=false
-mocha main-test.js --reporter mochawesome --reporter-options reportDir=$reportsFolder,reportFilename=$reportName,reportTitle="Auto Test $now",inlineAssets=false
+mocha ./index.js --reporter mochawesome --reporter-options reportDir=$reportsFolder,reportFilename=$reportName,reportTitle="Auto Test $now",inlineAssets=false
 
 unamestr=`uname`
 reportPath="$reportsFolder/$reportName.html"

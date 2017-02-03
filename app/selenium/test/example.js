@@ -63,7 +63,7 @@ describe('Tests', function () {
 
             util
                 .takeScreenshotOfElement(browser, browser.findElement(byCss('[href="#/country/DZA"]')))
-                .then(image => util.writeScreenshot('my-element', image))
+                .then(image => util.writeBase64ToFile('my-element.png', image))
                 .then(done);
 
         });

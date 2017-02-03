@@ -33,6 +33,7 @@
     "canvas": "^1.6.2",
     "chai": "^3.5.0",
     "css-loader": "^0.26.1",
+    "dot": "^1.1.1",
     "eslint": "^3.12.2",
     "eslint-plugin-react": "^6.8.0",
     "extract-text-webpack-plugin": "^1.0.1",
