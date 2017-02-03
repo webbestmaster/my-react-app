@@ -2,6 +2,14 @@
 
 ## Installation
 
+At first install libraries for nodeJs canvas (need for test only)
+
+> Ubuntu: sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++
+
+> OS X: brew install pkg-config cairo libpng jpeg giflib
+
+npm
+
 > npm i
 
 ## Run developer server

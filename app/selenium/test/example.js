@@ -9,6 +9,8 @@ const addContext = require('mochawesome/addContext');
 let SERVER_URL = 'http://localhost:8080/';
 let WEB_DRIVER_SERVER_URL = 'http://localhost:4444/wd/hub';
 
+const util = require('../data/util');
+
 describe('Tests', function () {
 
     // each test should be less than 5s
@@ -30,26 +32,13 @@ describe('Tests', function () {
 
     describe('Home page', () => {
 
-        it('Open Page', function (done) {
+        it('Open Page', function(done) {
 
             browser.get(SERVER_URL);
 
             browser.getTitle().then(title => {
-
                 assert(title === 'Currency Reference', 'Wrong title');
-
-                addContext(this, {
-                    title: 'some title',
-                    value: 'simple_simple simple_simple simple_simple simple_simple ' // can be anything
-                });
-
-                addContext(this, {
-                    title: 'MY image',
-                    value: '<img class="my_mega_image" src="https://statlex.github.io/img/preview/ancient-empire-strike-back.png">'
-                });
-
                 done();
-
             });
 
             addContext(this, {
@@ -59,8 +48,23 @@ describe('Tests', function () {
 
             addContext(this, {
                 title: 'MY image',
-                value: '<img class="my_mega_image" src="https://statlex.github.io/img/preview/ancient-empire-strike-back.png">'
+                value: 'https://statlex.github.io/img/preview/ancient-empire-strike-back.png'
             });
+
+        });
+
+    });
+
+    describe('Take screenshot of element', () => {
+
+        it('Take screenshot of element', function (done) {
+
+            browser.get(SERVER_URL);
+
+            util
+                .takeScreenshotOfElement(browser, browser.findElement(byCss('[href="#/country/DZA"]')))
+                .then(image => util.writeScreenshot('my-element', image))
+                .then(done);
 
         });
 

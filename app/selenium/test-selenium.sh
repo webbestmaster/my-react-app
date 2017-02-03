@@ -8,6 +8,7 @@ now="$(date +'%Y-%m-%d-%H-%M-%S')"
 reportsFolder=./reports
 reportName=auto-test-$now
 
+#mocha example.js --reporter mochawesome --reporter-options reportDir=$reportsFolder,reportFilename=$reportName,reportTitle="Auto Test $now",inlineAssets=false
 mocha main-test.js --reporter mochawesome --reporter-options reportDir=$reportsFolder,reportFilename=$reportName,reportTitle="Auto Test $now",inlineAssets=false
 
 unamestr=`uname`
