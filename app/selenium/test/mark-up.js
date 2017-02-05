@@ -2,7 +2,7 @@
 
 "use strict";
 
-const Ssm = require('./../data/ssm');
+const Ssm = require('selenium-screen-master');
 const ssm = new Ssm();
 
 const MODES = ssm.MODES;
@@ -80,15 +80,4 @@ describe('Mark-up', function () {
 
     });
 
-
 });
-
-
-
-
-
-
-
-
-
-
