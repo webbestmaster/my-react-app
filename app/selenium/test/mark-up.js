@@ -2,12 +2,14 @@
 
 "use strict";
 
-const MODES = {
-    test: 'test',
-    collect: 'collect',
-};
+const Ssm = require('./../data/ssm');
+const ssm = new Ssm();
 
-const MODE = MODES[process.env.MODE] || MODES.test;
+const MODES = ssm.MODES;
+
+ssm.setPathToReferenceFolder('./ssmRefFolder');
+
+const MODE = MODES[process.env.MODE] || MODES.TEST;
 
 let assert = require('chai').assert;
 
@@ -18,6 +20,7 @@ let WEB_DRIVER_SERVER_URL = 'http://localhost:4444/wd/hub';
 
 const util = require('../data/util');
 
+const resemble = require('node-resemble');
 
 describe('Mark-up', function () {
 
@@ -42,35 +45,33 @@ describe('Mark-up', function () {
 
         browser.get(SERVER_URL);
 
-        let actualImage,
-            expectImage;
-
-        const imageName = 'my-image-name.png';
-        const imageRefPath = './ref/';
-
-        util
-            .takeScreenshotOfElement(browser, browser.findElement(byCss('[href="#/country/DZA"]')))
-            .then(image => {
-                actualImage = image;
-                if (MODE === MODES.test) {
-                    return util
-                        .imageToBase64(imageRefPath + imageName)
-                        .then(image => expectImage = image);
-                } else {
-                    return util
-                        .writeBase64ToFile(imageRefPath + imageName, image);
-                }
+        ssm
+            .compare({
+                browser: browser,
+                element: browser.findElement(byCss('[href="#/country/AUS"]')),
+                image: 'my-image-name.png',
+                mode: MODE
             })
-            .then(() => {
+            .then(comparing => {
 
                 addContext(this, {
-                    title: 'Actual Image',
-                    value: util.createTag('img', ['src', actualImage])
+                    title: 'Actual',
+                    value: util.createTag('img', ['src', comparing.actual])
                 });
 
                 addContext(this, {
-                    title: 'Expect Image',
-                    value: expectImage && util.createTag('img', ['src', expectImage])
+                    title: 'Expect',
+                    value: util.createTag('img', ['src', comparing.expect])
+                });
+
+                addContext(this, {
+                    title: 'Different',
+                    value: util.createTag('img', ['src', comparing.different])
+                });
+
+                addContext(this, {
+                    title: 'Different Info',
+                    value: comparing.info
                 });
 
                 done();
