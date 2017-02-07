@@ -51,7 +51,7 @@
     "redux-devtools-log-monitor": "^1.2.0",
     "redux-thunk": "^2.1.0",
     "sass-loader": "^4.1.1",
-    "selenium-screen-master": "^0.1.2",
+    "selenium-screen-master": "^0.2.4",
     "selenium-webdriver": "^3.0.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
