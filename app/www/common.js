@@ -16,14 +16,34 @@ require('es6-promise-polyfill');
 require('./i/spinner.gif');
 require('./i/spacer.gif');
 require('./i/bg.jpg');
+
+import util from './services/util';
+
 let countryData = require('./data/data.json');
 countryData.forEach(country => {
+
     require('./data/flag-svg/' + country.alpha2.toLowerCase() + '.svg');
-    country.currency && country.currency.forEach( currency => {
+
+    if (!country.currency) {
+        return;
+    }
+
+    country.currency.forEach( currency => {
         currency.image.forEach(image => {
             require('./data/currency/' + currency.abbreviation + '/' + image);
         });
     });
+
+    let countryName = country['name-en'];
+
+    if (!util.getCountryMap(countryName)) {
+        return;
+    }
+
+    countryName = util.toCamelCase(countryName);
+
+    require('./data/map-svg/' + countryName + '.svg');
+
 });
 
 for (let i = 0; i < 6; i += 1) {

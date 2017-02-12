@@ -472,7 +472,7 @@
     ]
   },
   {
-    "name-en": "Åland Islands",
+    "name-en": "Aland Islands",
     "alpha2": "AX",
     "alpha3": "ALA",
     "numericCode": "248",
@@ -844,7 +844,7 @@
     ]
   },
   {
-    "name-en": "Saint Barthélemy",
+    "name-en": "Saint Barthelemy",
     "alpha2": "BL",
     "alpha3": "BLM",
     "numericCode": "652",
@@ -1486,7 +1486,7 @@
     ]
   },
   {
-    "name-en": "Côte d'Ivoire",
+    "name-en": "Ivory Coast",
     "alpha2": "CI",
     "alpha3": "CIV",
     "numericCode": "384",
@@ -1787,7 +1787,7 @@
     ]
   },
   {
-    "name-en": "Cabo Verde",
+    "name-en": "Cape Verde",
     "alpha2": "CV",
     "alpha3": "CPV",
     "numericCode": "132",
@@ -1818,7 +1818,7 @@
     ]
   },
   {
-    "name-en": "Curaçao",
+    "name-en": "Curacao",
     "alpha2": "CW",
     "alpha3": "CUW",
     "numericCode": "531",
@@ -4273,7 +4273,7 @@
     ]
   },
   {
-    "name-en": "Lao People's Democratic Republic",
+    "name-en": "Laos",
     "alpha2": "LA",
     "alpha3": "LAO",
     "numericCode": "418",
@@ -6074,7 +6074,7 @@
     ]
   },
   {
-    "name-en": "Pitcairn",
+    "name-en": "Pitcairn Islands",
     "alpha2": "PN",
     "alpha3": "PCN",
     "numericCode": "612",
@@ -6170,7 +6170,7 @@
     ]
   },
   {
-    "name-en": "Palestine, State of",
+    "name-en": "Palestine",
     "alpha2": "PS",
     "alpha3": "PSE",
     "numericCode": "275",
@@ -6363,7 +6363,7 @@
     ]
   },
   {
-    "name-en": "Réunion",
+    "name-en": "Reunion",
     "alpha2": "RE",
     "alpha3": "REU",
     "numericCode": "638",
@@ -6472,7 +6472,7 @@
     ]
   },
   {
-    "name-en": "Russian Federation",
+    "name-en": "Russia",
     "alpha2": "RU",
     "alpha3": "RUS",
     "numericCode": "643",
@@ -7105,7 +7105,7 @@
     ]
   },
   {
-    "name-en": "Sint Maarten (Dutch part)",
+    "name-en": "Saint Martin (Dutch part)",
     "alpha2": "SX",
     "alpha3": "SXM",
     "numericCode": "534",
@@ -7130,7 +7130,7 @@
     ]
   },
   {
-    "name-en": "Syrian Arab Republic",
+    "name-en": "Syria",
     "alpha2": "SY",
     "alpha3": "SYR",
     "numericCode": "760",
@@ -7428,7 +7428,7 @@
     ]
   },
   {
-    "name-en": "Timor-Leste",
+    "name-en": "East Timor",
     "alpha2": "TL",
     "alpha3": "TLS",
     "numericCode": "626",
@@ -7689,7 +7689,7 @@
     ]
   },
   {
-    "name-en": "Taiwan, Province of China[a]",
+    "name-en": "Taiwan",
     "alpha2": "TW",
     "alpha3": "TWN",
     "numericCode": "158",
@@ -7722,7 +7722,7 @@
     ]
   },
   {
-    "name-en": "Tanzania, United Republic of",
+    "name-en": "Tanzania",
     "alpha2": "TZ",
     "alpha3": "TZA",
     "numericCode": "834",
@@ -7973,7 +7973,7 @@
     ]
   },
   {
-    "name-en": "Holy See",
+    "name-en": "Vatican",
     "alpha2": "VA",
     "alpha3": "VAT",
     "numericCode": "336",
@@ -8068,7 +8068,7 @@
     ]
   },
   {
-    "name-en": "Virgin Islands (British)",
+    "name-en": "British Virgin Islands",
     "alpha2": "VG",
     "alpha3": "VGB",
     "numericCode": "092",
@@ -8131,7 +8131,7 @@
     ]
   },
   {
-    "name-en": "Virgin Islands (U.S.)",
+    "name-en": "U.S. Virgin Islands",
     "alpha2": "VI",
     "alpha3": "VIR",
     "numericCode": "850",
@@ -8194,7 +8194,7 @@
     ]
   },
   {
-    "name-en": "Viet Nam",
+    "name-en": "Vietnam",
     "alpha2": "VN",
     "alpha3": "VNM",
     "numericCode": "704",

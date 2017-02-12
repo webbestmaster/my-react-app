@@ -87,6 +87,27 @@ const util = {
 
     scrollToTop: function () {
         document.body.scrollTop = 0;
+    },
+    toCamelCase: function (str) {
+
+        return str
+            .replace(/\([\s\S]+?\)/, '')
+            .trim()
+            .replace(/\s+/g, ' ')
+            .replace(/\,/g, '_')
+            .split(' ')
+            .map((word, i) => i ? word : word.toLowerCase())
+            .join('');
+
+    },
+    getCountryMap: function(countryName) {
+
+        if (constant.countriesWithoutMap.indexOf(countryName) !== -1) {
+            return false;
+        }
+
+        return require('./../data/map-svg/' + util.toCamelCase(countryName) + '.svg');
+
     }
 
 };

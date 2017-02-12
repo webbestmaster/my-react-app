@@ -24,7 +24,7 @@ export default function countrySearch(state = initialState, action) {
 
         let country = dataSorted.filter(country => {
 
-            if (re.test(country['name-ru'])) {
+            if (re.test(country['name-ru']) || re.test(country['name-en'])) {
                 return true;
             }
 
