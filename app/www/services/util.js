@@ -83,6 +83,10 @@ const util = {
     },
     getFlagsInfo(alpha2) {
         return flagData[alpha2.toLowerCase()];
+    },
+
+    scrollToTop: function () {
+        document.body.scrollTop = 0;
     }
 
 };

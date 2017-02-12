@@ -1,6 +1,8 @@
 import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
 import LoadImage from './../component/LoadImage';
+import {Power2, TimelineLite} from "gsap";
+import util from './../services/util';
 
 const _ = require('lodash');
 
@@ -8,6 +10,36 @@ const data = require('../data/data.json');
 require('../style/country.scss');
 
 export default class Country extends Component {
+
+    constructor() {
+
+        super();
+
+        util.scrollToTop();
+
+        this.attr = {
+            flagTween: null
+        };
+
+    }
+
+    componentDidMount() {
+
+        let flag = this.refs.flag;
+
+        let tl = new TimelineLite();
+
+        this.attr.flagTween = tl;
+
+        tl
+            .set(flag, {rotationX: -90, scale: 0, alpha: 0, transformPerspective: 200, transformOrigin: "center top"})
+            .to(flag, 0.75, {delay: 0.1, rotationX: 0, scale: 1, alpha: 1, ease: Power2.easeOut});
+
+    }
+
+    componentWillUnmount() {
+        this.attr.flagTween.kill();
+    }
 
     render() {
 
@@ -21,7 +53,7 @@ export default class Country extends Component {
             <h1 className="country__header">{countryData['name-ru']}</h1>
 
             <div className="country__currency-info">
-                <img className="country__flag" src={flagPath} />
+                <img ref="flag" className="country__flag" src={flagPath}/>
             </div>
 
             {countryData.currency.map(currency =>
