@@ -14,10 +14,15 @@ export default class Country extends Component {
         let alpha3 = this.props.params.alpha3;
 
         let countryData = _.find(data, {alpha3});
+        let flagPath = require('./../data/flag-svg/' + countryData.alpha2.toLowerCase() + '.svg');
 
         return <div className="country clear-self">
 
             <h1 className="country__header">{countryData['name-ru']}</h1>
+
+            <div className="country__currency-info">
+                <img className="country__flag" src={flagPath} />
+            </div>
 
             {countryData.currency.map(currency =>
                 <div key={currency.abbreviation} className="country__currency-info">

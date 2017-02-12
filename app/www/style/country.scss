@@ -10,12 +10,13 @@
   font-weight: normal;
   color: #ffffff;
   padding: 15px;
+  margin-bottom: 15px;
 }
 
 .country__currency-info {
   clear: both;
   display: block;
-  padding: 15px;
+  padding: 0 15px 15px;
 }
 
 .country__header_2 {
@@ -63,6 +64,16 @@
   float: right;
   margin-right: 8%;
   margin-left: 0;
+}
+
+.country__flag {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 320px;
+  max-width: 100%;
+  border: 1px solid #777;
+  border-radius: 4px;
 }
 
 @media only screen and (max-width: 480px) {
