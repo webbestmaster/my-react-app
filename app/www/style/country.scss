@@ -76,6 +76,12 @@
   border-radius: 4px;
 }
 
+.country__map {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
 @media only screen and (max-width: 480px) {
   .country__currency-image-link {
     float: none;

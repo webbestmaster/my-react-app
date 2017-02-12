@@ -40,9 +40,7 @@ countryData.forEach(country => {
         return;
     }
 
-    countryName = util.toCamelCase(countryName);
-
-    require('./data/map-svg/' + countryName + '.svg');
+    require('./data/map-svg/' + util.toCamelCase(countryName) + '.raw');
 
 });
 

@@ -23,7 +23,7 @@ export default class Country extends Component {
 
     }
 
-    componentDidMount() {
+    tweenFlag() {
 
         let flag = this.refs.flag;
 
@@ -34,6 +34,54 @@ export default class Country extends Component {
         tl
             .set(flag, {rotationX: -90, scale: 0, alpha: 0, transformPerspective: 200, transformOrigin: "center top"})
             .to(flag, 0.75, {delay: 0.1, rotationX: 0, scale: 1, alpha: 1, ease: Power2.easeOut});
+
+    }
+
+    addMap() {
+
+        let alpha3 = this.props.params.alpha3;
+
+        let countryData = _.find(data, {alpha3});
+
+        let tempDiv = document.createElement('div');
+
+        tempDiv.innerHTML = util.getCountryMap(countryData['name-en']);
+
+        let svg = tempDiv.removeChild(tempDiv.querySelector('svg'));
+
+        svg.classList.add('country__map');
+
+        let maxX = -1;
+        let maxY = -1;
+
+        _.each(svg.querySelectorAll('*'), elem => {
+
+            if (!elem.getBBox) {
+                return;
+            }
+
+            let bBox = elem.getBBox();
+
+            maxX = Math.max(maxX, bBox.x + bBox.width);
+            maxY = Math.max(maxY, bBox.y + bBox.height);
+
+        });
+
+        svg.setAttribute('width', maxX);
+        svg.setAttribute('height', maxY);
+        svg.setAttribute('viewBox', [0, 0, maxX, maxY].join(' '));
+
+        this.refs.svgMapWrapper.appendChild(svg);
+
+    }
+
+    componentDidMount() {
+
+        let view = this;
+
+        view.tweenFlag();
+
+        view.addMap();
 
     }
 
@@ -52,7 +100,7 @@ export default class Country extends Component {
 
             <h1 className="country__header">{countryData['name-ru']}</h1>
 
-            <div className="country__currency-info">
+            <div ref="svgMapWrapper" className="country__currency-info">
                 <img ref="flag" className="country__flag" src={flagPath}/>
             </div>
 
@@ -87,7 +135,6 @@ export default class Country extends Component {
     }
 
 }
-
 
 Country.propTypes = {
     params: PropTypes.shape({

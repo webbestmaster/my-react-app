@@ -106,7 +106,7 @@ const util = {
             return false;
         }
 
-        return require('./../data/map-svg/' + util.toCamelCase(countryName) + '.svg');
+        return require('./../data/map-svg/' + util.toCamelCase(countryName) + '.raw');
 
     }
 

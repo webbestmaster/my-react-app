@@ -74,11 +74,11 @@ const webpackConfig = {
             {
                 test: /\.scss$/,
                 loader: ExtractTextPlugin.extract('css!postcss!sass')
+            },
+            {
+                test: /\.raw$/,
+                loader: 'raw-loader'
             }
-            // {
-            //     test: /\.raw\.[\s\S]+?$/,
-            //     loader: "raw"
-            // }
         ]
     },
 
