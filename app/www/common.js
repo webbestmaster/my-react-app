@@ -12,6 +12,8 @@ require('lodash');
 require('openseadragon');
 require('es6-promise-polyfill');
 
+require('./lib/DrawSVGPlugin.min');
+
 // did not find better way, if you know it, please talk to me...
 require('./i/spinner.gif');
 require('./i/spacer.gif');

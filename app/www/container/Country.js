@@ -1,7 +1,7 @@
 import React, {Component, PropTypes} from 'react';
 import {Link} from 'react-router';
 import LoadImage from './../component/LoadImage';
-import {Power2, TimelineLite} from "gsap";
+import {Power2, Back, TimelineLite} from "gsap";
 import util from './../services/util';
 
 const _ = require('lodash');
@@ -18,7 +18,8 @@ export default class Country extends Component {
         util.scrollToTop();
 
         this.attr = {
-            flagTween: null
+            flagTween: null,
+            countryTween: null
         };
 
     }
@@ -33,7 +34,7 @@ export default class Country extends Component {
 
         tl
             .set(flag, {rotationX: -90, scale: 0, alpha: 0, transformPerspective: 200, transformOrigin: "center top"})
-            .to(flag, 0.75, {delay: 0.1, rotationX: 0, scale: 1, alpha: 1, ease: Power2.easeOut});
+            .to(flag, 1, {delay: 0.1, rotationX: 0, scale: 1, alpha: 1, ease: Power2.easeOut});
 
     }
 
@@ -43,9 +44,16 @@ export default class Country extends Component {
 
         let countryData = _.find(data, {alpha3});
 
+        let svgString = util.getCountryMap(countryData['name-en']);
+
+        if (!svgString) {
+            this.refs.svgMapWrapper.querySelector('.country__flag').classList.add('country__flag--single');
+            return;
+        }
+
         let tempDiv = document.createElement('div');
 
-        tempDiv.innerHTML = util.getCountryMap(countryData['name-en']);
+        tempDiv.innerHTML = svgString;
 
         let svg = tempDiv.removeChild(tempDiv.querySelector('svg'));
 
@@ -73,6 +81,17 @@ export default class Country extends Component {
 
         this.refs.svgMapWrapper.appendChild(svg);
 
+        let tl = new TimelineLite();
+
+        let pathList = svg.querySelectorAll('path');
+
+        tl
+            .set(pathList, {strokeLinejoin: 'round', fill: '#fff', drawSVG: '0%', stroke: '#555', strokeWidth: 2})
+            .to(pathList, 2, {delay: 0.1, drawSVG: true})
+            .to(pathList, 0.75, {fill: '#eee', ease: Back.easeOut.config(2)});
+
+        this.attr.countryTween = tl;
+
     }
 
     componentDidMount() {
@@ -87,6 +106,7 @@ export default class Country extends Component {
 
     componentWillUnmount() {
         this.attr.flagTween.kill();
+        this.attr.countryTween && this.attr.countryTween.kill();
     }
 
     render() {
@@ -100,7 +120,7 @@ export default class Country extends Component {
 
             <h1 className="country__header">{countryData['name-ru']}</h1>
 
-            <div ref="svgMapWrapper" className="country__currency-info">
+            <div ref="svgMapWrapper" className="country__currency-info country__currency-info--map-and-country clear-self">
                 <img ref="flag" className="country__flag" src={flagPath}/>
             </div>
 
